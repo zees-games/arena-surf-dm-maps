@@ -1,0 +1,222 @@
+{
+  "owner": "gamemann",
+  "origin": "https://dotgames.org/content",
+  "maps": [
+    {
+      "id": "surf_10x_final",
+      "author": "Wof-",
+      "source": "https://gamebanana.com/mods/121522",
+      "bytes": 2029005
+    },
+    {
+      "id": "surf_10x_reloaded_fixed",
+      "author": "Buck Nasty",
+      "source": "https://gamebanana.com/mods/121524",
+      "bytes": 1298613
+    },
+    {
+      "id": "surf_110b_austinpowers",
+      "author": "TheInvoker",
+      "source": "https://gamebanana.com/mods/121530",
+      "bytes": 4603167
+    },
+    {
+      "id": "surf_29_12_06",
+      "author": "matrix-hetman",
+      "source": "https://gamebanana.com/mods/121540",
+      "bytes": 3211301
+    },
+    {
+      "id": "surf_adverse",
+      "author": "target practice, Archangel",
+      "source": "https://gamebanana.com/mods/137677",
+      "bytes": 3343220
+    },
+    {
+      "id": "surf_akai_final",
+      "author": "akai",
+      "source": "https://gamebanana.com/mods/121606",
+      "bytes": 8070095
+    },
+    {
+      "id": "surf_bathroom_final",
+      "author": "smooth",
+      "source": "https://gamebanana.com/mods/121698",
+      "bytes": 11136507
+    },
+    {
+      "id": "surf_buck_wild",
+      "author": "buck nasty",
+      "source": "https://gamebanana.com/mods/121787",
+      "bytes": 6721047
+    },
+    {
+      "id": "surf_dust2_2008_final",
+      "author": "Matrix Hetman, Karatek\u00e4fer",
+      "source": "https://gamebanana.com/mods/121962",
+      "bytes": 6801091
+    },
+    {
+      "id": "surf_forbidden_ways_2nd",
+      "author": "krusty",
+      "source": "https://gamebanana.com/mods/122075",
+      "bytes": 3255512
+    },
+    {
+      "id": "surf_forbidden_ways_reloaded",
+      "author": "Krusty, sky by Karatek\u00e4fer",
+      "source": "https://gamebanana.com/mods/122076",
+      "bytes": 5845343
+    },
+    {
+      "id": "surf_fruits",
+      "author": "Sangre, Hellraisedsurfer, Robsonfire, Machine, Jaden, Komaokc, Icecreamlock, Shahzam, SKAR, JackTheStripper (copy-mark), Linus",
+      "source": "https://gamebanana.com/mods/122092",
+      "bytes": 14391207
+    },
+    {
+      "id": "surf_grave_reloaded",
+      "author": "xblah",
+      "source": "https://gamebanana.com/mods/122151",
+      "bytes": 4128904
+    },
+    {
+      "id": "surf_greatriver",
+      "author": "Ace Of Spades13",
+      "source": "https://gamebanana.com/mods/122158",
+      "bytes": 1026737
+    },
+    {
+      "id": "surf_greatriver_v4",
+      "author": "BeNnY",
+      "source": "https://gamebanana.com/mods/122202",
+      "bytes": 2419883
+    },
+    {
+      "id": "surf_greatriver_xdre4m",
+      "author": "!Black, with Ace Of Spades13 and Junior",
+      "source": "https://gamebanana.com/mods/122206",
+      "bytes": 1946054
+    },
+    {
+      "id": "surf_japan_ptad",
+      "author": "ptad, monkeydie",
+      "source": "https://gamebanana.com/mods/137687",
+      "bytes": 1556404
+    },
+    {
+      "id": "surf_legends",
+      "author": "SintaxError",
+      "source": "https://gamebanana.com/mods/122424",
+      "bytes": 4026895
+    },
+    {
+      "id": "surf_machine2",
+      "author": "Z-machine",
+      "source": "https://gamebanana.com/mods/122478",
+      "bytes": 825303
+    },
+    {
+      "id": "surf_machine_remix_final",
+      "author": "paper-cut, z-machine(original)",
+      "source": "https://gamebanana.com/mods/122497",
+      "bytes": 1726273
+    },
+    {
+      "id": "surf_mai_remix",
+      "author": "Krusty",
+      "source": "https://gamebanana.com/mods/122505",
+      "bytes": 2122789
+    },
+    {
+      "id": "surf_matrix_v8",
+      "author": "Flippi273",
+      "source": "https://gamebanana.com/mods/122520",
+      "bytes": 1513422
+    },
+    {
+      "id": "surf_ny_advance",
+      "author": "faj",
+      "source": "https://gamebanana.com/mods/122641",
+      "bytes": 7938684
+    },
+    {
+      "id": "surf_ny_bigloop_2008a",
+      "author": "Paper-Cut, FAJ",
+      "source": "https://gamebanana.com/mods/122644",
+      "bytes": 2246613
+    },
+    {
+      "id": "surf_parrot_selector",
+      "author": "ptad",
+      "source": "https://gamebanana.com/mods/122709",
+      "bytes": 8309804
+    },
+    {
+      "id": "surf_pavilion",
+      "author": "Black Sheep",
+      "source": "https://gamebanana.com/mods/122711",
+      "bytes": 5630994
+    },
+    {
+      "id": "surf_pox",
+      "author": "Krusty, Pariah, Karatek\u00e4fer, Korr",
+      "source": "https://gamebanana.com/mods/122741",
+      "bytes": 3940630
+    },
+    {
+      "id": "surf_rebel_resistance_final3",
+      "author": "-)RR(-ArchAngel -)RR(-Lethalis",
+      "source": "https://gamebanana.com/mods/122824",
+      "bytes": 1977691
+    },
+    {
+      "id": "surf_ski_2",
+      "author": "Massive Boredom and Mario",
+      "source": "https://gamebanana.com/mods/122953",
+      "bytes": 1786491
+    },
+    {
+      "id": "surf_ski_2_source",
+      "author": "Korliki ''Angel",
+      "source": "https://gamebanana.com/mods/122956",
+      "bytes": 3378855
+    },
+    {
+      "id": "surf_skyworld",
+      "author": "Goerge",
+      "source": "https://gamebanana.com/mods/122985",
+      "bytes": 602290
+    },
+    {
+      "id": "surf_the_gloaming",
+      "author": "Roosta, Teeth",
+      "source": "https://gamebanana.com/mods/123134",
+      "bytes": 6395827
+    },
+    {
+      "id": "surf_thriller",
+      "author": "buck nasty",
+      "source": "https://gamebanana.com/mods/123141",
+      "bytes": 2132859
+    },
+    {
+      "id": "surf_torque2",
+      "author": "Sangre Nueva",
+      "source": "https://gamebanana.com/mods/123157",
+      "bytes": 12011009
+    },
+    {
+      "id": "surf_velocity",
+      "author": "copy-mark, jack the stripper, sangre, hellraisedsurfer, target practice, jesuswashomeless, skar",
+      "source": "https://gamebanana.com/mods/123224",
+      "bytes": 12147324
+    },
+    {
+      "id": "surf_xiv_v2a",
+      "author": "smooth.nl",
+      "source": "https://gamebanana.com/mods/123284",
+      "bytes": 13340039
+    }
+  ]
+}

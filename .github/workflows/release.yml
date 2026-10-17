@@ -1,0 +1,21 @@
+# Tag this repository (v1.0.0) and every map lands on the release as its own pack zip,
+# which website-city publishes as gamemann/<map id>@<version>. The game imports the
+# maps, so dot-ci checks game-arena out beside them and links maps/ in at its
+# maps/imported, the path the .import markers were written against; see dot-ci's
+# release-maps.yml.
+name: Release
+
+on:
+    push:
+        tags: ['v*']
+    workflow_dispatch:
+
+jobs:
+    release:
+        uses: modcommunity/dot-ci/.github/workflows/release-maps.yml@v1.2.6
+        permissions:
+            contents: write
+        with:
+            game: zees-games/game-arena
+        secrets:
+            DEPS_TOKEN: ${{ secrets.DOT_DEPS_TOKEN }}
