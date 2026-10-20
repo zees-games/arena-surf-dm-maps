@@ -45,6 +45,7 @@ For local development, game-arena's `maps/imported` is a link to this repository
 | `surf_greatriver` | Ace Of Spades13 | https://gamebanana.com/mods/122158 |
 | `surf_greatriver_v4` | BeNnY | https://gamebanana.com/mods/122202 |
 | `surf_greatriver_xdre4m` | !Black, with Ace Of Spades13 and Junior | https://gamebanana.com/mods/122206 |
+| `surf_i_hate_campers` | Snah | https://gamebanana.com/mods/122339 |
 | `surf_japan_ptad` | ptad, monkeydie | https://gamebanana.com/mods/137687 |
 | `surf_legends` | SintaxError | https://gamebanana.com/mods/122424 |
 | `surf_machine2` | Z-machine | https://gamebanana.com/mods/122478 |
@@ -65,3 +66,5 @@ For local development, game-arena's `maps/imported` is a link to this repository
 | `surf_torque2` | Sangre Nueva | https://gamebanana.com/mods/123157 |
 | `surf_velocity` | copy-mark, jack the stripper, sangre, hellraisedsurfer, target practice, jesuswashomeless, skar | https://gamebanana.com/mods/123224 |
 | `surf_xiv_v2a` | smooth.nl | https://gamebanana.com/mods/123284 |
+
+`surf_i_hate_campers` is listed on its page as CC BY-NC-ND 4.0 with redistribution marked "ask"; it is credited to Snah here and on screen, and if Snah or anyone speaking for them wants it removed or credited differently, open an issue and it will be done.
