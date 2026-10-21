@@ -1617,6 +1617,8 @@
   "placed": 9,
   "drawn": 0,
   "stock_models": 9,
+  "stock_standins": 0,
+  "stock_standins_estimated": 0,
   "surfaces": 0,
   "tinted": 0,
   "open_sky_lit": 0
