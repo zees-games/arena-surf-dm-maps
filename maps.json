@@ -51,6 +51,12 @@
       "bytes": 6721047
     },
     {
+      "id": "surf_conflux",
+      "author": "Flux (Fluxified), ported to CS:S by Eblanite",
+      "source": "https://gamebanana.com/mods/414821",
+      "bytes": 11031522
+    },
+    {
       "id": "surf_dust2_2008_final",
       "author": "Matrix Hetman, Karatek\u00e4fer",
       "source": "https://gamebanana.com/mods/121962",
@@ -202,7 +208,7 @@
     },
     {
       "id": "surf_the_flow",
-      "author": "G-Flow, Karatekäfer (skybox), Stavros Xanthis",
+      "author": "G-Flow, Karatek\u00e4fer (skybox), Stavros Xanthis",
       "source": "https://gamebanana.com/mods/137701",
       "bytes": 4504936
     },

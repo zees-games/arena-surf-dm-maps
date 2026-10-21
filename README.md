@@ -25,6 +25,59 @@ For local development, game-arena's `maps/imported` is a link to this repository
 
 **Releasing is a tag**: `git tag v1.x.y && git push --tags`. `.github/workflows/release.yml` calls dot-ci's `release-maps.yml`, which checks game-arena out beside this repository, links `maps/` in, imports, and attaches one `<map>-<version>-pack.zip` per map; the site publishes each as `gamemann/<map>@<version>` and signs it.
 
+## Naming them on a server
+
+A tag publishes the packs; a server offers them when its `cfg/content.yml` names them (dot-server-deploy). The block for game-arena, one line per map in `maps.json`:
+
+```yaml
+games:
+  game-arena:
+    maps:
+      add:
+        - gamemann/surf_10x_final
+        - gamemann/surf_10x_reloaded_fixed
+        - gamemann/surf_110b_austinpowers
+        - gamemann/surf_29_12_06
+        - gamemann/surf_adverse
+        - gamemann/surf_akai_final
+        - gamemann/surf_bathroom_final
+        - gamemann/surf_buck_wild
+        - gamemann/surf_conflux
+        - gamemann/surf_dust2_2008_final
+        - gamemann/surf_forbidden_ways_2nd
+        - gamemann/surf_forbidden_ways_reloaded
+        - gamemann/surf_fruits
+        - gamemann/surf_grave_reloaded
+        - gamemann/surf_greatriver
+        - gamemann/surf_greatriver_v4
+        - gamemann/surf_greatriver_xdre4m
+        - gamemann/surf_i_hate_campers
+        - gamemann/surf_japan_ptad
+        - gamemann/surf_legends
+        - gamemann/surf_machine2
+        - gamemann/surf_machine_remix_final
+        - gamemann/surf_mai_remix
+        - gamemann/surf_matrix_v8
+        - gamemann/surf_ny_advance
+        - gamemann/surf_ny_bigloop_2008a
+        - gamemann/surf_parrot_selector
+        - gamemann/surf_pavilion
+        - gamemann/surf_pox
+        - gamemann/surf_rebel_resistance_final3
+        - gamemann/surf_ski_2
+        - gamemann/surf_ski_2_source
+        - gamemann/surf_skyworld
+        - gamemann/surf_snipers_island
+        - gamemann/surf_the_flow
+        - gamemann/surf_the_gloaming
+        - gamemann/surf_thriller
+        - gamemann/surf_torque2
+        - gamemann/surf_velocity
+        - gamemann/surf_xiv_v2a
+```
+
+A map is fetched the first time the server changes to it. Maps added here after the last tag are not packs until the next tag (`v1.0.2` and later).
+
 ## Credits
 
 | Map | Author | Source |
@@ -37,6 +90,7 @@ For local development, game-arena's `maps/imported` is a link to this repository
 | `surf_akai_final` | akai | https://gamebanana.com/mods/121606 |
 | `surf_bathroom_final` | smooth | https://gamebanana.com/mods/121698 |
 | `surf_buck_wild` | buck nasty | https://gamebanana.com/mods/121787 |
+| `surf_conflux` | Flux (Fluxified), ported to CS:S by Eblanite | https://gamebanana.com/mods/414821 |
 | `surf_dust2_2008_final` | Matrix Hetman, Karatekäfer | https://gamebanana.com/mods/121962 |
 | `surf_forbidden_ways_2nd` | krusty | https://gamebanana.com/mods/122075 |
 | `surf_forbidden_ways_reloaded` | Krusty, sky by Karatekäfer | https://gamebanana.com/mods/122076 |
@@ -74,3 +128,5 @@ For local development, game-arena's `maps/imported` is a link to this repository
 `surf_snipers_island` is listed on its page as CC BY-NC-ND 4.0 with redistribution marked "ask", and the page's text does not forbid sharing or porting (checked 2026-10-20); it is credited to Loller Dan here and on screen, and if Loller Dan or anyone speaking for them wants it removed or credited differently, open an issue and it will be done.
 
 `surf_the_flow` is listed on its page as CC BY-NC-ND 4.0, and the page's text does not forbid sharing or porting (checked 2026-10-20); it is credited to G-Flow here and on screen, and if G-Flow or anyone speaking for them wants it removed or credited differently, open an issue and it will be done.
+
+`surf_conflux` is listed on its page as CC BY-NC-ND 4.0 with redistribution marked "ask", and the page's text does not forbid sharing or porting (checked 2026-10-21; the original map by Flux is https://gamebanana.com/mods/411571, skybox credited there to https://gamebanana.com/textures/5177); it is credited to Flux and to Eblanite, who ported it, here and on screen, and if either or anyone speaking for them wants it removed or credited differently, open an issue and it will be done.
