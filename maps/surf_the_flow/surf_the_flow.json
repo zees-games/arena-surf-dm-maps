@@ -1,0 +1,1381 @@
+{
+ "id": "surf_the_flow",
+ "source": "surf_the_flow.bsp",
+ "units": "genre units (Source units), Godot axes; x metres = x * 0.01905",
+ "tier": 3,
+ "bounds": {
+  "min": [
+   -3564.0,
+   14.0,
+   4264.0
+  ],
+  "max": [
+   4170.0,
+   3926.0,
+   -3577.0
+  ]
+ },
+ "lightmap": {
+  "file": "surf_the_flow_lightmap.png",
+  "width": 1024,
+  "height": 1024
+ },
+ "lighting": {
+  "sun": {
+   "yaw_src": 81.0,
+   "pitch_src": -60.0,
+   "colour": [
+    0.803921568627451,
+    0.9098039215686274,
+    0.996078431372549
+   ],
+   "brightness": 200.0,
+   "ambient_colour": [
+    0.9803921568627451,
+    0.9529411764705882,
+    0.6392156862745098
+   ],
+   "ambient_brightness": 20.0,
+   "spread_degrees": 0.0
+  },
+  "sky_name": "mpa90",
+  "baked_light_count": 0,
+  "sky_faces": {
+   "rt": "sky_rt.png",
+   "bk": "sky_bk.png",
+   "lf": "sky_lf.png",
+   "ft": "sky_ft.png",
+   "up": "sky_up.png",
+   "dn": "sky_dn.png"
+  }
+ },
+ "surfaces": [
+  {
+   "material": "cs_havana/white",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 0,
+   "vertex_count": 372,
+   "index_offset": 14880,
+   "index_count": 957,
+   "colour": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "cs_havana/white",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 18708,
+   "vertex_count": 124,
+   "index_offset": 23668,
+   "index_count": 252,
+   "colour": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "cs_havana/white",
+   "role": "RAMP",
+   "prototype": true,
+   "vertex_offset": 24676,
+   "vertex_count": 277,
+   "index_offset": 35756,
+   "index_count": 633,
+   "colour": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "de_tides/tides_grass_a",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 38288,
+   "vertex_count": 699,
+   "index_offset": 66248,
+   "index_count": 1200,
+   "colour": [
+    0.3127,
+    0.3407,
+    0.2011
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "de_train/train_metalceiling_01",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 71048,
+   "vertex_count": 10,
+   "index_offset": 71448,
+   "index_count": 18,
+   "colour": [
+    0.1455,
+    0.149,
+    0.1582
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "de_train/train_metalceiling_02",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 71520,
+   "vertex_count": 12212,
+   "index_offset": 560000,
+   "index_count": 24696,
+   "colour": [
+    0.1225,
+    0.1104,
+    0.1023
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "de_train/train_metalceiling_02",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 658784,
+   "vertex_count": 189,
+   "index_offset": 666344,
+   "index_count": 288,
+   "colour": [
+    0.1225,
+    0.1104,
+    0.1023
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "de_train/train_metalceiling_02",
+   "role": "RAMP",
+   "prototype": true,
+   "vertex_offset": 667496,
+   "vertex_count": 551,
+   "index_offset": 689536,
+   "index_count": 1077,
+   "colour": [
+    0.1225,
+    0.1104,
+    0.1023
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "dev/dev_water5",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 693844,
+   "vertex_count": 50,
+   "index_offset": 695844,
+   "index_count": 186,
+   "colour": [
+    0.4845,
+    0.4845,
+    0.4845
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "dev/dev_waterbeneath2",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 696588,
+   "vertex_count": 50,
+   "index_offset": 698588,
+   "index_count": 186,
+   "colour": [
+    0.4845,
+    0.4845,
+    0.4845
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "glass/glasswindow020a",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 699332,
+   "vertex_count": 96,
+   "index_offset": 703172,
+   "index_count": 144,
+   "colour": [
+    0.2933,
+    0.48,
+    0.3206
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "metal/metalfloor005a",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 703748,
+   "vertex_count": 24,
+   "index_offset": 704708,
+   "index_count": 36,
+   "colour": [
+    0.2458,
+    0.1895,
+    0.1439
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "metal/metalfloor005a",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 704852,
+   "vertex_count": 8,
+   "index_offset": 705172,
+   "index_count": 12,
+   "colour": [
+    0.2458,
+    0.1895,
+    0.1439
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "metal/metalhull010b",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 705220,
+   "vertex_count": 1034,
+   "index_offset": 746580,
+   "index_count": 1902,
+   "colour": [
+    0.6977,
+    0.7002,
+    0.6889
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "metal/metalhull010b",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 754188,
+   "vertex_count": 412,
+   "index_offset": 770668,
+   "index_count": 702,
+   "colour": [
+    0.6977,
+    0.7002,
+    0.6889
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "metal/metalhull010b",
+   "role": "RAMP",
+   "prototype": true,
+   "vertex_offset": 773476,
+   "vertex_count": 6398,
+   "index_offset": 1029396,
+   "index_count": 15267,
+   "colour": [
+    0.6977,
+    0.7002,
+    0.6889
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "metal/metalhull010c",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 1090464,
+   "vertex_count": 210,
+   "index_offset": 1098864,
+   "index_count": 390,
+   "colour": [
+    0.6188,
+    0.6204,
+    0.6129
+   ],
+   "texture": null,
+   "translucent": false
+  }
+ ],
+ "collision": {
+  "hull_count": 739,
+  "hull_offset": 1100424,
+  "displacement_vertex_offset": 1161976,
+  "displacement_vertex_count": 0,
+  "displacement_index_offset": 1161976,
+  "displacement_index_count": 0,
+  "playerclip_hulls": 0,
+  "prop_hulls": 0
+ },
+ "skybox": null,
+ "static_props": {
+  "placed": 0,
+  "drawn": 0,
+  "stock_models": 0,
+  "stock_standins": 0,
+  "stock_standins_estimated": 0,
+  "surfaces": 0,
+  "tinted": 0,
+  "open_sky_lit": 0
+ },
+ "brush_entities": {
+  "solid": 1,
+  "faces_drawn": 396
+ },
+ "units_per_square": 64.0,
+ "max_slope": 45.57,
+ "spawn": {
+  "origin": [
+   3730.86,
+   2242.45,
+   188.643
+  ],
+  "yaw": 90.0
+ },
+ "spawns": [
+  {
+   "origin": [
+    3730.86,
+    2242.45,
+    188.643
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3790.86,
+    2243.45,
+    188.643
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3909.86,
+    2244.45,
+    188.643
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3849.86,
+    2243.45,
+    188.643
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3909.86,
+    2244.45,
+    280.643
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3849.86,
+    2243.45,
+    280.643
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3730.86,
+    2242.45,
+    280.643
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3790.86,
+    2243.45,
+    280.643
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3909.86,
+    2244.45,
+    377.643
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3849.86,
+    2243.45,
+    377.643
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3730.86,
+    2242.45,
+    377.643
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3790.86,
+    2243.45,
+    377.643
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3909.86,
+    2244.45,
+    480.643
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3849.86,
+    2243.45,
+    480.643
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3730.86,
+    2242.45,
+    480.643
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    3790.86,
+    2243.45,
+    480.643
+   ],
+   "yaw": 90.0
+  },
+  {
+   "origin": [
+    -3105.86,
+    2242.45,
+    480.63
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -3165.86,
+    2243.45,
+    480.63
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -3284.86,
+    2244.45,
+    480.63
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -3224.86,
+    2243.45,
+    480.63
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -3284.86,
+    2244.45,
+    388.63
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -3224.86,
+    2243.45,
+    388.63
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -3105.86,
+    2242.45,
+    388.63
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -3165.86,
+    2243.45,
+    388.63
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -3284.86,
+    2244.45,
+    291.63
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -3224.86,
+    2243.45,
+    291.63
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -3105.86,
+    2242.45,
+    291.63
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -3165.86,
+    2243.45,
+    291.63
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -3284.86,
+    2244.45,
+    188.63
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -3224.86,
+    2243.45,
+    188.63
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -3105.86,
+    2242.45,
+    188.63
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -3165.86,
+    2243.45,
+    188.63
+   ],
+   "yaw": -90.0
+  }
+ ],
+ "min_zone_thickness": 192.0,
+ "zones": [
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    -3554.0,
+    -105.0,
+    -3567.0
+   ],
+   "max": [
+    347.0,
+    87.0,
+    241.0
+   ],
+   "inflated": true,
+   "destination": [
+    -871.0,
+    121.0,
+    -990.0
+   ],
+   "destination_yaw": 233.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    -3554.0,
+    -105.0,
+    241.0
+   ],
+   "max": [
+    347.0,
+    87.0,
+    4254.0
+   ],
+   "inflated": true,
+   "destination": [
+    -893.0,
+    121.0,
+    1477.0
+   ],
+   "destination_yaw": -36.5
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    347.0,
+    -105.0,
+    241.0
+   ],
+   "max": [
+    4160.0,
+    87.0,
+    4254.0
+   ],
+   "inflated": true,
+   "destination": [
+    1530.0,
+    121.0,
+    1549.0
+   ],
+   "destination_yaw": 53.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    347.0,
+    -105.0,
+    -3567.0
+   ],
+   "max": [
+    4160.0,
+    87.0,
+    241.0
+   ],
+   "inflated": true,
+   "destination": [
+    1662.0,
+    121.0,
+    -868.0
+   ],
+   "destination_yaw": 140.5
+  }
+ ],
+ "track_names": {
+  "0": "main"
+ },
+ "respawn_volumes": [
+  {
+   "min": [
+    -3554.0,
+    -241.0,
+    -105.0
+   ],
+   "max": [
+    347.0,
+    3567.0,
+    87.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    -3554.0,
+    -241.0,
+    75.0
+   ],
+   "original_max": [
+    347.0,
+    3567.0,
+    87.0
+   ]
+  },
+  {
+   "min": [
+    -3554.0,
+    -4254.0,
+    -105.0
+   ],
+   "max": [
+    347.0,
+    -241.0,
+    87.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    -3554.0,
+    -4254.0,
+    75.0
+   ],
+   "original_max": [
+    347.0,
+    -241.0,
+    87.0
+   ]
+  },
+  {
+   "min": [
+    347.0,
+    -4254.0,
+    -105.0
+   ],
+   "max": [
+    4160.0,
+    -241.0,
+    87.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    347.0,
+    -4254.0,
+    75.0
+   ],
+   "original_max": [
+    4160.0,
+    -241.0,
+    87.0
+   ]
+  },
+  {
+   "min": [
+    347.0,
+    -241.0,
+    -105.0
+   ],
+   "max": [
+    4160.0,
+    3567.0,
+    87.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "track": 0,
+   "original_min": [
+    347.0,
+    -241.0,
+    75.0
+   ],
+   "original_max": [
+    4160.0,
+    3567.0,
+    87.0
+   ]
+  }
+ ],
+ "mechanics": {
+  "water": [
+   {
+    "min": [
+     -1862.0,
+     91.0,
+     -1964.0
+    ],
+    "max": [
+     2482.0,
+     99.0,
+     2500.0
+    ],
+    "from": "world"
+   }
+  ],
+  "push": [
+   {
+    "min": [
+     186.0,
+     223.0,
+     -43.0
+    ],
+    "max": [
+     610.0,
+     527.0,
+     269.0
+    ],
+    "push": [
+     2000.0,
+     -0.0,
+     -0.0
+    ],
+    "once": false,
+    "filtered": false
+   },
+   {
+    "min": [
+     244.0,
+     223.0,
+     2413.0
+    ],
+    "max": [
+     408.0,
+     396.0,
+     2565.0
+    ],
+    "push": [
+     1000.0,
+     -0.0,
+     -0.0
+    ],
+    "once": false,
+    "filtered": false
+   },
+   {
+    "min": [
+     244.0,
+     90.0,
+     2261.0
+    ],
+    "max": [
+     408.0,
+     262.0,
+     2413.0
+    ],
+    "push": [
+     -1000.0,
+     -0.0,
+     -0.0
+    ],
+    "once": false,
+    "filtered": false
+   },
+   {
+    "min": [
+     244.0,
+     510.0,
+     2811.0
+    ],
+    "max": [
+     408.0,
+     682.0,
+     2942.0
+    ],
+    "push": [
+     -1000.0,
+     -0.0,
+     -0.0
+    ],
+    "once": false,
+    "filtered": false
+   },
+   {
+    "min": [
+     244.0,
+     643.0,
+     2942.0
+    ],
+    "max": [
+     408.0,
+     816.0,
+     3094.0
+    ],
+    "push": [
+     1000.0,
+     -0.0,
+     -0.0
+    ],
+    "once": false,
+    "filtered": false
+   },
+   {
+    "min": [
+     236.0,
+     983.0,
+     3822.0
+    ],
+    "max": [
+     400.0,
+     1156.0,
+     3947.0
+    ],
+    "push": [
+     1000.0,
+     -0.0,
+     -0.0
+    ],
+    "once": false,
+    "filtered": false
+   },
+   {
+    "min": [
+     236.0,
+     850.0,
+     3697.0
+    ],
+    "max": [
+     400.0,
+     1022.0,
+     3822.0
+    ],
+    "push": [
+     -1000.0,
+     -0.0,
+     -0.0
+    ],
+    "once": false,
+    "filtered": false
+   },
+   {
+    "min": [
+     237.0,
+     89.0,
+     -1862.0
+    ],
+    "max": [
+     401.0,
+     261.0,
+     -1710.0
+    ],
+    "push": [
+     1000.0,
+     -0.0,
+     -0.0
+    ],
+    "once": false,
+    "filtered": false
+   },
+   {
+    "min": [
+     237.0,
+     512.0,
+     -2370.0
+    ],
+    "max": [
+     401.0,
+     684.0,
+     -2239.0
+    ],
+    "push": [
+     1000.0,
+     -0.0,
+     -0.0
+    ],
+    "once": false,
+    "filtered": false
+   },
+   {
+    "min": [
+     245.0,
+     836.0,
+     -3195.0
+    ],
+    "max": [
+     409.0,
+     1008.0,
+     -3070.0
+    ],
+    "push": [
+     1000.0,
+     -0.0,
+     -0.0
+    ],
+    "once": false,
+    "filtered": false
+   },
+   {
+    "min": [
+     245.0,
+     969.0,
+     -3320.0
+    ],
+    "max": [
+     409.0,
+     1142.0,
+     -3195.0
+    ],
+    "push": [
+     -1000.0,
+     -0.0,
+     -0.0
+    ],
+    "once": false,
+    "filtered": false
+   },
+   {
+    "min": [
+     237.0,
+     645.0,
+     -2522.0
+    ],
+    "max": [
+     401.0,
+     818.0,
+     -2370.0
+    ],
+    "push": [
+     -1000.0,
+     -0.0,
+     -0.0
+    ],
+    "once": false,
+    "filtered": false
+   },
+   {
+    "min": [
+     237.0,
+     222.0,
+     -2014.0
+    ],
+    "max": [
+     401.0,
+     395.0,
+     -1862.0
+    ],
+    "push": [
+     -1000.0,
+     -0.0,
+     -0.0
+    ],
+    "once": false,
+    "filtered": false
+   },
+   {
+    "min": [
+     10.0,
+     223.0,
+     343.0
+    ],
+    "max": [
+     434.0,
+     527.0,
+     655.0
+    ],
+    "push": [
+     -2000.0,
+     -0.0,
+     -0.0
+    ],
+    "once": false,
+    "filtered": false
+   }
+  ],
+  "gravity": [],
+  "hurt": [],
+  "conveyors": [],
+  "ladders": [],
+  "blocks": []
+ },
+ "push_volumes": [
+  {
+   "min": [
+    186.0,
+    223.0,
+    -43.0
+   ],
+   "max": [
+    610.0,
+    527.0,
+    269.0
+   ],
+   "push": [
+    2000.0,
+    -0.0,
+    -0.0
+   ],
+   "once": false,
+   "filtered": false
+  },
+  {
+   "min": [
+    244.0,
+    223.0,
+    2413.0
+   ],
+   "max": [
+    408.0,
+    396.0,
+    2565.0
+   ],
+   "push": [
+    1000.0,
+    -0.0,
+    -0.0
+   ],
+   "once": false,
+   "filtered": false
+  },
+  {
+   "min": [
+    244.0,
+    90.0,
+    2261.0
+   ],
+   "max": [
+    408.0,
+    262.0,
+    2413.0
+   ],
+   "push": [
+    -1000.0,
+    -0.0,
+    -0.0
+   ],
+   "once": false,
+   "filtered": false
+  },
+  {
+   "min": [
+    244.0,
+    510.0,
+    2811.0
+   ],
+   "max": [
+    408.0,
+    682.0,
+    2942.0
+   ],
+   "push": [
+    -1000.0,
+    -0.0,
+    -0.0
+   ],
+   "once": false,
+   "filtered": false
+  },
+  {
+   "min": [
+    244.0,
+    643.0,
+    2942.0
+   ],
+   "max": [
+    408.0,
+    816.0,
+    3094.0
+   ],
+   "push": [
+    1000.0,
+    -0.0,
+    -0.0
+   ],
+   "once": false,
+   "filtered": false
+  },
+  {
+   "min": [
+    236.0,
+    983.0,
+    3822.0
+   ],
+   "max": [
+    400.0,
+    1156.0,
+    3947.0
+   ],
+   "push": [
+    1000.0,
+    -0.0,
+    -0.0
+   ],
+   "once": false,
+   "filtered": false
+  },
+  {
+   "min": [
+    236.0,
+    850.0,
+    3697.0
+   ],
+   "max": [
+    400.0,
+    1022.0,
+    3822.0
+   ],
+   "push": [
+    -1000.0,
+    -0.0,
+    -0.0
+   ],
+   "once": false,
+   "filtered": false
+  },
+  {
+   "min": [
+    237.0,
+    89.0,
+    -1862.0
+   ],
+   "max": [
+    401.0,
+    261.0,
+    -1710.0
+   ],
+   "push": [
+    1000.0,
+    -0.0,
+    -0.0
+   ],
+   "once": false,
+   "filtered": false
+  },
+  {
+   "min": [
+    237.0,
+    512.0,
+    -2370.0
+   ],
+   "max": [
+    401.0,
+    684.0,
+    -2239.0
+   ],
+   "push": [
+    1000.0,
+    -0.0,
+    -0.0
+   ],
+   "once": false,
+   "filtered": false
+  },
+  {
+   "min": [
+    245.0,
+    836.0,
+    -3195.0
+   ],
+   "max": [
+    409.0,
+    1008.0,
+    -3070.0
+   ],
+   "push": [
+    1000.0,
+    -0.0,
+    -0.0
+   ],
+   "once": false,
+   "filtered": false
+  },
+  {
+   "min": [
+    245.0,
+    969.0,
+    -3320.0
+   ],
+   "max": [
+    409.0,
+    1142.0,
+    -3195.0
+   ],
+   "push": [
+    -1000.0,
+    -0.0,
+    -0.0
+   ],
+   "once": false,
+   "filtered": false
+  },
+  {
+   "min": [
+    237.0,
+    645.0,
+    -2522.0
+   ],
+   "max": [
+    401.0,
+    818.0,
+    -2370.0
+   ],
+   "push": [
+    -1000.0,
+    -0.0,
+    -0.0
+   ],
+   "once": false,
+   "filtered": false
+  },
+  {
+   "min": [
+    237.0,
+    222.0,
+    -2014.0
+   ],
+   "max": [
+    401.0,
+    395.0,
+    -1862.0
+   ],
+   "push": [
+    -1000.0,
+    -0.0,
+    -0.0
+   ],
+   "once": false,
+   "filtered": false
+  },
+  {
+   "min": [
+    10.0,
+    223.0,
+    343.0
+   ],
+   "max": [
+    434.0,
+    527.0,
+    655.0
+   ],
+   "push": [
+    -2000.0,
+    -0.0,
+    -0.0
+   ],
+   "once": false,
+   "filtered": false
+  }
+ ],
+ "trigger_volumes": [],
+ "author": "G-Flow, Karatek\u00e4fer (skybox), Stavros Xanthis",
+ "kind": "arena",
+ "notes": "Credit only, and deliberately no zones: combat surf. Weapons on the floor, teleports back to the spawns, a rotating piece in the middle."
+}

@@ -62,6 +62,7 @@ For local development, game-arena's `maps/imported` is a link to this repository
 | `surf_ski_2_source` | Korliki ''Angel | https://gamebanana.com/mods/122956 |
 | `surf_skyworld` | Goerge | https://gamebanana.com/mods/122985 |
 | `surf_snipers_island` | Loller Dan | https://gamebanana.com/mods/137698 |
+| `surf_the_flow` | G-Flow, Karatekäfer (skybox), Stavros Xanthis | https://gamebanana.com/mods/137701 |
 | `surf_the_gloaming` | Roosta, Teeth | https://gamebanana.com/mods/123134 |
 | `surf_thriller` | buck nasty | https://gamebanana.com/mods/123141 |
 | `surf_torque2` | Sangre Nueva | https://gamebanana.com/mods/123157 |
@@ -71,3 +72,5 @@ For local development, game-arena's `maps/imported` is a link to this repository
 `surf_i_hate_campers` is listed on its page as CC BY-NC-ND 4.0 with redistribution marked "ask"; it is credited to Snah here and on screen, and if Snah or anyone speaking for them wants it removed or credited differently, open an issue and it will be done.
 
 `surf_snipers_island` is listed on its page as CC BY-NC-ND 4.0 with redistribution marked "ask", and the page's text does not forbid sharing or porting (checked 2026-10-20); it is credited to Loller Dan here and on screen, and if Loller Dan or anyone speaking for them wants it removed or credited differently, open an issue and it will be done.
+
+`surf_the_flow` is listed on its page as CC BY-NC-ND 4.0, and the page's text does not forbid sharing or porting (checked 2026-10-20); it is credited to G-Flow here and on screen, and if G-Flow or anyone speaking for them wants it removed or credited differently, open an issue and it will be done.
