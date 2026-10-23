@@ -27,7 +27,7 @@ For local development, game-arena's `maps/imported` is a link to this repository
 
 ## Naming them on a server
 
-A tag publishes the packs; a server offers them when its `cfg/content.yml` names them (dot-server-deploy). The block for game-arena, one line per map in `maps.json`:
+A tag publishes the packs; a server offers them when its `cfg/game/game-arena/server.yml` names them (dot-server-deploy). The block for game-arena, one line per map in `maps.json`:
 
 ```yaml
 games:
