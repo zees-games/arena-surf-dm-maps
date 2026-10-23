@@ -1,0 +1,19 @@
+{
+    "schema": 1,
+    "title": "Surf Dust2 2008 Final",
+    "kinds": [
+        "map"
+    ],
+    "games": [
+        "gamemann/game-arena"
+    ],
+    "entries": [
+        {
+            "kind": "map",
+            "id": "surf_dust2_2008_final",
+            "name": "Surf Dust2 2008 Final",
+            "scene": "surf_dust2_2008_final.json",
+            "map_kind": "arena"
+        }
+    ]
+}

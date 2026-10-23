@@ -1,0 +1,19 @@
+{
+    "schema": 1,
+    "title": "Surf Ny Bigloop 2008a",
+    "kinds": [
+        "map"
+    ],
+    "games": [
+        "gamemann/game-arena"
+    ],
+    "entries": [
+        {
+            "kind": "map",
+            "id": "surf_ny_bigloop_2008a",
+            "name": "Surf Ny Bigloop 2008a",
+            "scene": "surf_ny_bigloop_2008a.json",
+            "map_kind": "arena"
+        }
+    ]
+}

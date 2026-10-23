@@ -1,0 +1,19 @@
+{
+    "schema": 1,
+    "title": "Surf Ski 2 Source",
+    "kinds": [
+        "map"
+    ],
+    "games": [
+        "gamemann/game-arena"
+    ],
+    "entries": [
+        {
+            "kind": "map",
+            "id": "surf_ski_2_source",
+            "name": "Surf Ski 2 Source",
+            "scene": "surf_ski_2_source.json",
+            "map_kind": "arena"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "schema": 1,
+    "title": "Surf Forbidden Ways 2nd",
+    "kinds": [
+        "map"
+    ],
+    "games": [
+        "gamemann/game-arena"
+    ],
+    "entries": [
+        {
+            "kind": "map",
+            "id": "surf_forbidden_ways_2nd",
+            "name": "Surf Forbidden Ways 2nd",
+            "scene": "surf_forbidden_ways_2nd.json",
+            "map_kind": "arena"
+        }
+    ]
+}

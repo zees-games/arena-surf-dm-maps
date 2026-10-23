@@ -1,0 +1,19 @@
+{
+    "schema": 1,
+    "title": "Surf Xiv V2a",
+    "kinds": [
+        "map"
+    ],
+    "games": [
+        "gamemann/game-arena"
+    ],
+    "entries": [
+        {
+            "kind": "map",
+            "id": "surf_xiv_v2a",
+            "name": "Surf Xiv V2a",
+            "scene": "surf_xiv_v2a.json",
+            "map_kind": "arena"
+        }
+    ]
+}

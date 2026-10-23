@@ -1,0 +1,19 @@
+{
+    "schema": 1,
+    "title": "Surf Grave Reloaded",
+    "kinds": [
+        "map"
+    ],
+    "games": [
+        "gamemann/game-arena"
+    ],
+    "entries": [
+        {
+            "kind": "map",
+            "id": "surf_grave_reloaded",
+            "name": "Surf Grave Reloaded",
+            "scene": "surf_grave_reloaded.json",
+            "map_kind": "arena"
+        }
+    ]
+}

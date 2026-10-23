@@ -1,0 +1,19 @@
+{
+    "schema": 1,
+    "title": "Surf Adverse",
+    "kinds": [
+        "map"
+    ],
+    "games": [
+        "gamemann/game-arena"
+    ],
+    "entries": [
+        {
+            "kind": "map",
+            "id": "surf_adverse",
+            "name": "Surf Adverse",
+            "scene": "surf_adverse.json",
+            "map_kind": "arena"
+        }
+    ]
+}

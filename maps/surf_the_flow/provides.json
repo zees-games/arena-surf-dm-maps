@@ -1,0 +1,19 @@
+{
+    "schema": 1,
+    "title": "Surf The Flow",
+    "kinds": [
+        "map"
+    ],
+    "games": [
+        "gamemann/game-arena"
+    ],
+    "entries": [
+        {
+            "kind": "map",
+            "id": "surf_the_flow",
+            "name": "Surf The Flow",
+            "scene": "surf_the_flow.json",
+            "map_kind": "arena"
+        }
+    ]
+}

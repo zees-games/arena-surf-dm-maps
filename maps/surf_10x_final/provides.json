@@ -1,0 +1,19 @@
+{
+    "schema": 1,
+    "title": "Surf 10x Final",
+    "kinds": [
+        "map"
+    ],
+    "games": [
+        "gamemann/game-arena"
+    ],
+    "entries": [
+        {
+            "kind": "map",
+            "id": "surf_10x_final",
+            "name": "Surf 10x Final",
+            "scene": "surf_10x_final.json",
+            "map_kind": "arena"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "schema": 1,
+    "title": "Surf Pavilion",
+    "kinds": [
+        "map"
+    ],
+    "games": [
+        "gamemann/game-arena"
+    ],
+    "entries": [
+        {
+            "kind": "map",
+            "id": "surf_pavilion",
+            "name": "Surf Pavilion",
+            "scene": "surf_pavilion.json",
+            "map_kind": "arena"
+        }
+    ]
+}

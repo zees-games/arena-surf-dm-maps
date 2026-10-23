@@ -1,0 +1,19 @@
+{
+    "schema": 1,
+    "title": "Surf Greatriver",
+    "kinds": [
+        "map"
+    ],
+    "games": [
+        "gamemann/game-arena"
+    ],
+    "entries": [
+        {
+            "kind": "map",
+            "id": "surf_greatriver",
+            "name": "Surf Greatriver",
+            "scene": "surf_greatriver.json",
+            "map_kind": "arena"
+        }
+    ]
+}

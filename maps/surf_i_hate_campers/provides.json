@@ -1,0 +1,19 @@
+{
+    "schema": 1,
+    "title": "Surf I Hate Campers",
+    "kinds": [
+        "map"
+    ],
+    "games": [
+        "gamemann/game-arena"
+    ],
+    "entries": [
+        {
+            "kind": "map",
+            "id": "surf_i_hate_campers",
+            "name": "Surf I Hate Campers",
+            "scene": "surf_i_hate_campers.json",
+            "map_kind": "arena"
+        }
+    ]
+}

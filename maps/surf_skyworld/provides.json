@@ -1,0 +1,19 @@
+{
+    "schema": 1,
+    "title": "Surf Skyworld",
+    "kinds": [
+        "map"
+    ],
+    "games": [
+        "gamemann/game-arena"
+    ],
+    "entries": [
+        {
+            "kind": "map",
+            "id": "surf_skyworld",
+            "name": "Surf Skyworld",
+            "scene": "surf_skyworld.json",
+            "map_kind": "arena"
+        }
+    ]
+}

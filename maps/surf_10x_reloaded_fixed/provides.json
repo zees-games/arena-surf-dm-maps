@@ -1,0 +1,19 @@
+{
+    "schema": 1,
+    "title": "Surf 10x Reloaded Fixed",
+    "kinds": [
+        "map"
+    ],
+    "games": [
+        "gamemann/game-arena"
+    ],
+    "entries": [
+        {
+            "kind": "map",
+            "id": "surf_10x_reloaded_fixed",
+            "name": "Surf 10x Reloaded Fixed",
+            "scene": "surf_10x_reloaded_fixed.json",
+            "map_kind": "arena"
+        }
+    ]
+}

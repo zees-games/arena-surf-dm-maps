@@ -1,0 +1,19 @@
+{
+    "schema": 1,
+    "title": "Surf Rebel Resistance Final3",
+    "kinds": [
+        "map"
+    ],
+    "games": [
+        "gamemann/game-arena"
+    ],
+    "entries": [
+        {
+            "kind": "map",
+            "id": "surf_rebel_resistance_final3",
+            "name": "Surf Rebel Resistance Final3",
+            "scene": "surf_rebel_resistance_final3.json",
+            "map_kind": "arena"
+        }
+    ]
+}

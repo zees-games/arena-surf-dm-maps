@@ -1,0 +1,19 @@
+{
+    "schema": 1,
+    "title": "Surf Fruits",
+    "kinds": [
+        "map"
+    ],
+    "games": [
+        "gamemann/game-arena"
+    ],
+    "entries": [
+        {
+            "kind": "map",
+            "id": "surf_fruits",
+            "name": "Surf Fruits",
+            "scene": "surf_fruits.json",
+            "map_kind": "arena"
+        }
+    ]
+}

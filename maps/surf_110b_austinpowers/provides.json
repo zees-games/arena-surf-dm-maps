@@ -1,0 +1,19 @@
+{
+    "schema": 1,
+    "title": "Surf 110b Austinpowers",
+    "kinds": [
+        "map"
+    ],
+    "games": [
+        "gamemann/game-arena"
+    ],
+    "entries": [
+        {
+            "kind": "map",
+            "id": "surf_110b_austinpowers",
+            "name": "Surf 110b Austinpowers",
+            "scene": "surf_110b_austinpowers.json",
+            "map_kind": "arena"
+        }
+    ]
+}

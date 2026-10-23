@@ -1,0 +1,19 @@
+{
+    "schema": 1,
+    "title": "Surf Thriller",
+    "kinds": [
+        "map"
+    ],
+    "games": [
+        "gamemann/game-arena"
+    ],
+    "entries": [
+        {
+            "kind": "map",
+            "id": "surf_thriller",
+            "name": "Surf Thriller",
+            "scene": "surf_thriller.json",
+            "map_kind": "arena"
+        }
+    ]
+}

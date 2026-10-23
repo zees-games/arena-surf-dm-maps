@@ -1,0 +1,19 @@
+{
+    "schema": 1,
+    "title": "Surf Torque2",
+    "kinds": [
+        "map"
+    ],
+    "games": [
+        "gamemann/game-arena"
+    ],
+    "entries": [
+        {
+            "kind": "map",
+            "id": "surf_torque2",
+            "name": "Surf Torque2",
+            "scene": "surf_torque2.json",
+            "map_kind": "arena"
+        }
+    ]
+}

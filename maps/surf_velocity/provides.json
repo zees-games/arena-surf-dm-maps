@@ -1,0 +1,19 @@
+{
+    "schema": 1,
+    "title": "Surf Velocity",
+    "kinds": [
+        "map"
+    ],
+    "games": [
+        "gamemann/game-arena"
+    ],
+    "entries": [
+        {
+            "kind": "map",
+            "id": "surf_velocity",
+            "name": "Surf Velocity",
+            "scene": "surf_velocity.json",
+            "map_kind": "arena"
+        }
+    ]
+}

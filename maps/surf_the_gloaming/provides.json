@@ -1,0 +1,19 @@
+{
+    "schema": 1,
+    "title": "Surf The Gloaming",
+    "kinds": [
+        "map"
+    ],
+    "games": [
+        "gamemann/game-arena"
+    ],
+    "entries": [
+        {
+            "kind": "map",
+            "id": "surf_the_gloaming",
+            "name": "Surf The Gloaming",
+            "scene": "surf_the_gloaming.json",
+            "map_kind": "arena"
+        }
+    ]
+}

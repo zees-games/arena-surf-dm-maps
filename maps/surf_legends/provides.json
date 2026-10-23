@@ -1,0 +1,19 @@
+{
+    "schema": 1,
+    "title": "Surf Legends",
+    "kinds": [
+        "map"
+    ],
+    "games": [
+        "gamemann/game-arena"
+    ],
+    "entries": [
+        {
+            "kind": "map",
+            "id": "surf_legends",
+            "name": "Surf Legends",
+            "scene": "surf_legends.json",
+            "map_kind": "arena"
+        }
+    ]
+}

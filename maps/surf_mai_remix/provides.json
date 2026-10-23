@@ -1,0 +1,19 @@
+{
+    "schema": 1,
+    "title": "Surf Mai Remix",
+    "kinds": [
+        "map"
+    ],
+    "games": [
+        "gamemann/game-arena"
+    ],
+    "entries": [
+        {
+            "kind": "map",
+            "id": "surf_mai_remix",
+            "name": "Surf Mai Remix",
+            "scene": "surf_mai_remix.json",
+            "map_kind": "arena"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "schema": 1,
+    "title": "Surf Parrot Selector",
+    "kinds": [
+        "map"
+    ],
+    "games": [
+        "gamemann/game-arena"
+    ],
+    "entries": [
+        {
+            "kind": "map",
+            "id": "surf_parrot_selector",
+            "name": "Surf Parrot Selector",
+            "scene": "surf_parrot_selector.json",
+            "map_kind": "arena"
+        }
+    ]
+}

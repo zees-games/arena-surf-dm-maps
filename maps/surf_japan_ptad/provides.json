@@ -1,0 +1,19 @@
+{
+    "schema": 1,
+    "title": "Surf Japan Ptad",
+    "kinds": [
+        "map"
+    ],
+    "games": [
+        "gamemann/game-arena"
+    ],
+    "entries": [
+        {
+            "kind": "map",
+            "id": "surf_japan_ptad",
+            "name": "Surf Japan Ptad",
+            "scene": "surf_japan_ptad.json",
+            "map_kind": "arena"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "schema": 1,
+    "title": "Surf Bathroom Final",
+    "kinds": [
+        "map"
+    ],
+    "games": [
+        "gamemann/game-arena"
+    ],
+    "entries": [
+        {
+            "kind": "map",
+            "id": "surf_bathroom_final",
+            "name": "Surf Bathroom Final",
+            "scene": "surf_bathroom_final.json",
+            "map_kind": "arena"
+        }
+    ]
+}

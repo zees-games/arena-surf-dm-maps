@@ -1,0 +1,19 @@
+{
+    "schema": 1,
+    "title": "Surf Ny Advance",
+    "kinds": [
+        "map"
+    ],
+    "games": [
+        "gamemann/game-arena"
+    ],
+    "entries": [
+        {
+            "kind": "map",
+            "id": "surf_ny_advance",
+            "name": "Surf Ny Advance",
+            "scene": "surf_ny_advance.json",
+            "map_kind": "arena"
+        }
+    ]
+}

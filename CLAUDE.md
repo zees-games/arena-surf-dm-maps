@@ -15,3 +15,5 @@ The combat surf maps game-arena plays, as their own repository. Read `../../CLAU
 **Credits are mandatory**: every map in `maps.json` has an author and a source page, and the README's table says the same.
 
 Plain git, no LFS: the largest file is well under GitHub's 100 MB limit.
+
+**Each map folder carries a `provides.json`, which is what lists that map's pack in the Workshop** (kind `map`, the game it is for, one entry whose `scene` is the map document beside it). `tools/build_provides.py` writes them all and `--check` verifies them; rerun it when a map is added. The pack zip holds the folder's files at its root, so the file ships.
