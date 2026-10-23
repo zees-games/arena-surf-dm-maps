@@ -42,7 +42,6 @@ games:
         - gamemann/surf_akai_final
         - gamemann/surf_bathroom_final
         - gamemann/surf_buck_wild
-        - gamemann/surf_conflux
         - gamemann/surf_dust2_2008_final
         - gamemann/surf_forbidden_ways_2nd
         - gamemann/surf_forbidden_ways_reloaded
@@ -90,7 +89,6 @@ A map is fetched the first time the server changes to it. Maps added here after 
 | `surf_akai_final` | akai | https://gamebanana.com/mods/121606 |
 | `surf_bathroom_final` | smooth | https://gamebanana.com/mods/121698 |
 | `surf_buck_wild` | buck nasty | https://gamebanana.com/mods/121787 |
-| `surf_conflux` | Flux (Fluxified), ported to CS:S by Eblanite | https://gamebanana.com/mods/414821 |
 | `surf_dust2_2008_final` | Matrix Hetman, Karatekäfer | https://gamebanana.com/mods/121962 |
 | `surf_forbidden_ways_2nd` | krusty | https://gamebanana.com/mods/122075 |
 | `surf_forbidden_ways_reloaded` | Krusty, sky by Karatekäfer | https://gamebanana.com/mods/122076 |
@@ -129,4 +127,3 @@ A map is fetched the first time the server changes to it. Maps added here after 
 
 `surf_the_flow` is listed on its page as CC BY-NC-ND 4.0, and the page's text does not forbid sharing or porting (checked 2026-10-20); it is credited to G-Flow here and on screen, and if G-Flow or anyone speaking for them wants it removed or credited differently, open an issue and it will be done.
 
-`surf_conflux` is listed on its page as CC BY-NC-ND 4.0 with redistribution marked "ask", and the page's text does not forbid sharing or porting (checked 2026-10-21; the original map by Flux is https://gamebanana.com/mods/411571, skybox credited there to https://gamebanana.com/textures/5177); it is credited to Flux and to Eblanite, who ported it, here and on screen, and if either or anyone speaking for them wants it removed or credited differently, open an issue and it will be done.

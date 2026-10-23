@@ -17,3 +17,5 @@ The combat surf maps game-arena plays, as their own repository. Read `../../CLAU
 Plain git, no LFS: the largest file is well under GitHub's 100 MB limit.
 
 **Each map folder carries a `provides.json`, which is what lists that map's pack in the Workshop** (kind `map`, the game it is for, one entry whose `scene` is the map document beside it). `tools/build_provides.py` writes them all and `--check` verifies them; rerun it when a map is added. The pack zip holds the folder's files at its root, so the file ships.
+
+**`surf_conflux` was removed in v1.0.4** (CC BY-NC-ND, outside the art rules). Never re-add it; tags v1.0.0 to v1.0.3 still contain it.
