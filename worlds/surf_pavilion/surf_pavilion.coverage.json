@@ -1,0 +1,105 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "surf_pavilion",
+ "sha256": "6256bd99085f6a1c2b705f8a8f13b6e098ae384413546a0720c5ca9ccf5b4f69",
+ "textures": {
+  "looked_up": 79,
+  "drawn": 68,
+  "by_tier": {
+   "addon": 52,
+   "default": 24,
+   "fallback": 3
+  },
+  "free_by_tier": {
+   "addon": 61,
+   "default": 5,
+   "nearest": 2
+  },
+  "nearest_photo": [
+   "cs_havana/tunnelplaster02",
+   "cs_havana/tunnelplaster02d",
+   "de_nuke/nukfloora",
+   "de_nuke/nukmetwallab",
+   "de_prodigy/floor01",
+   "metal/metalpipe006a",
+   "models/props/de_nuke/light_red1_glass_on",
+   "models/props/de_nuke/pipeset_metal02",
+   "models/props_canal/metalcrate001d",
+   "plaster/plasterwall005a",
+   "plaster/plasterwall017a",
+   "plastic/plasticwall002a"
+  ]
+ },
+ "models": {
+  "looked_up": 15,
+  "by_tier": {
+   "default": 14,
+   "fallback": 1
+  }
+ },
+ "sounds": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "classes": {
+  "distinct": 50,
+  "entities": 1726,
+  "by_tier": {
+   "default": 50
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "game_player_equip": [
+    "weapon_knife"
+   ],
+   "point_viewcontrol": [
+    "acceleration",
+    "deceleration"
+   ]
+  }
+ },
+ "links": {
+  "total": 617,
+  "unresolved": 4
+ },
+ "lists": {
+  "textures_unmapped": [
+   "DE_CHATEAU/{CXARROW01",
+   "DE_PRODIGY/FLOOR01",
+   "PLASTIC/PLASTICWALL002A"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [
+   "props/de_nuke/nuclearcontrolbox.mdl"
+  ],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "game_player_equip.weapon_knife",
+   "point_viewcontrol.acceleration",
+   "point_viewcontrol.deceleration"
+  ],
+  "links_unresolved": [
+   "logic_compare.OnEqualTo->heli1_thruster_up",
+   "logic_compare.OnGreaterThan->heli1_thruster_up",
+   "trigger_multiple.OnTrigger->player",
+   "trigger_once.OnTrigger->player"
+  ],
+  "surfaces_opaque": [
+   "models/props/de_nuke/light_red1_glass_on"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 3,
+  "textures_flat": 0,
+  "models_unmapped": 1,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 3,
+  "links_unresolved": 4,
+  "surfaces_opaque": 1
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "surf_ny_bigloop_2008a",
+ "sha256": "fc1ed83f2f8c1228327c413577b80e2c972442e8032682c2daf5655a93238031",
+ "textures": {
+  "looked_up": 8,
+  "drawn": 8,
+  "by_tier": {
+   "addon": 4,
+   "default": 4
+  },
+  "free_by_tier": {
+   "addon": 5,
+   "default": 3
+  },
+  "nearest_photo": [
+   "cs_italy/marketwall01e"
+  ]
+ },
+ "models": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "sounds": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "classes": {
+  "distinct": 17,
+  "entities": 228,
+  "by_tier": {
+   "default": 17
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "weapon_m3": [
+    "ammo"
+   ],
+   "weapon_scout": [
+    "ammo"
+   ],
+   "weapon_tmp": [
+    "ammo"
+   ],
+   "weapon_xm1014": [
+    "ammo"
+   ]
+  }
+ },
+ "links": {
+  "total": 2,
+  "unresolved": 0
+ },
+ "lists": {
+  "textures_unmapped": [],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "weapon_m3.ammo",
+   "weapon_scout.ammo",
+   "weapon_tmp.ammo",
+   "weapon_xm1014.ammo"
+  ],
+  "links_unresolved": [],
+  "surfaces_opaque": []
+ },
+ "counts": {
+  "textures_unmapped": 0,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 4,
+  "links_unresolved": 0,
+  "surfaces_opaque": 0
+ }
+}

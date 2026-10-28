@@ -1,0 +1,145 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "surf_matrix_v8",
+ "sha256": "da9b65917c6635189f1e734ea9d836073b95bc05007c25798aae2335a13f38b9",
+ "textures": {
+  "looked_up": 27,
+  "drawn": 27,
+  "by_tier": {
+   "addon": 11,
+   "default": 14,
+   "fallback": 2
+  },
+  "free_by_tier": {
+   "addon": 15,
+   "default": 8,
+   "nearest": 4
+  },
+  "nearest_photo": [
+   "cs_assault/assault_skybox_building02",
+   "cs_havana/curb04",
+   "cs_italy/boxsides_t01",
+   "custommaterials/matrixcode",
+   "dev/valuesand10",
+   "metal/citadel_metalwall063a",
+   "models/props/de_nuke/light_red1_glass",
+   "models/props_combine/citadel_cable"
+  ]
+ },
+ "models": {
+  "looked_up": 13,
+  "by_tier": {
+   "default": 13
+  }
+ },
+ "sounds": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "classes": {
+  "distinct": 52,
+  "entities": 981,
+  "by_tier": {
+   "default": 52
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "game_player_equip": [
+    "weapon_knife"
+   ],
+   "weapon_ak47": [
+    "ammo"
+   ],
+   "weapon_aug": [
+    "ammo"
+   ],
+   "weapon_awp": [
+    "ammo"
+   ],
+   "weapon_deagle": [
+    "ammo"
+   ],
+   "weapon_elite": [
+    "ammo"
+   ],
+   "weapon_g3sg1": [
+    "ammo"
+   ],
+   "weapon_m249": [
+    "ammo"
+   ],
+   "weapon_m3": [
+    "ammo"
+   ],
+   "weapon_m4a1": [
+    "ammo"
+   ],
+   "weapon_mac10": [
+    "ammo"
+   ],
+   "weapon_mp5navy": [
+    "ammo"
+   ],
+   "weapon_scout": [
+    "ammo"
+   ],
+   "weapon_sg552": [
+    "ammo"
+   ],
+   "weapon_tmp": [
+    "ammo"
+   ]
+  }
+ },
+ "links": {
+  "total": 59,
+  "unresolved": 1
+ },
+ "lists": {
+  "textures_unmapped": [
+   "CS_HAVANA/CURB04",
+   "CUSTOMMATERIALS/MATRIXCODE"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "game_player_equip.weapon_knife",
+   "weapon_ak47.ammo",
+   "weapon_aug.ammo",
+   "weapon_awp.ammo",
+   "weapon_deagle.ammo",
+   "weapon_elite.ammo",
+   "weapon_g3sg1.ammo",
+   "weapon_m249.ammo",
+   "weapon_m3.ammo",
+   "weapon_m4a1.ammo",
+   "weapon_mac10.ammo",
+   "weapon_mp5navy.ammo",
+   "weapon_scout.ammo",
+   "weapon_sg552.ammo",
+   "weapon_tmp.ammo"
+  ],
+  "links_unresolved": [
+   "func_button.OnPressed->Sign"
+  ],
+  "surfaces_opaque": [
+   "models/props/de_nuke/light_red1_glass",
+   "models/props_combine/citadel_cable"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 2,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 15,
+  "links_unresolved": 1,
+  "surfaces_opaque": 2
+ }
+}

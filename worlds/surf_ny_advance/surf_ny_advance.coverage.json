@@ -1,0 +1,82 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "surf_ny_advance",
+ "sha256": "d54736b661e85cc97d192719938b9791b29651ade84a944058729e17bd5e4848",
+ "textures": {
+  "looked_up": 24,
+  "drawn": 24,
+  "by_tier": {
+   "addon": 19,
+   "default": 5
+  },
+  "free_by_tier": {
+   "addon": 19,
+   "default": 5
+  },
+  "nearest_photo": []
+ },
+ "models": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "sounds": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "classes": {
+  "distinct": 29,
+  "entities": 665,
+  "by_tier": {
+   "default": 29
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "game_player_equip": [
+    "ammo_buckshot",
+    "weapon_fiveseven",
+    "weapon_knife",
+    "weapon_m249",
+    "weapon_m3",
+    "weapon_p90"
+   ],
+   "trigger_once": [
+    "wait"
+   ]
+  }
+ },
+ "links": {
+  "total": 120,
+  "unresolved": 0
+ },
+ "lists": {
+  "textures_unmapped": [],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "game_player_equip.ammo_buckshot",
+   "game_player_equip.weapon_fiveseven",
+   "game_player_equip.weapon_knife",
+   "game_player_equip.weapon_m249",
+   "game_player_equip.weapon_m3",
+   "game_player_equip.weapon_p90",
+   "trigger_once.wait"
+  ],
+  "links_unresolved": [],
+  "surfaces_opaque": []
+ },
+ "counts": {
+  "textures_unmapped": 0,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 7,
+  "links_unresolved": 0,
+  "surfaces_opaque": 0
+ }
+}

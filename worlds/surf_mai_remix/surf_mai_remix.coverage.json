@@ -1,0 +1,86 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "surf_mai_remix",
+ "sha256": "f6faca2893c94e38c3c0b298bb14bf7e92572052d636638a86aba42d77204190",
+ "textures": {
+  "looked_up": 24,
+  "drawn": 24,
+  "by_tier": {
+   "addon": 13,
+   "default": 10,
+   "fallback": 1
+  },
+  "free_by_tier": {
+   "addon": 15,
+   "default": 7,
+   "nearest": 2
+  },
+  "nearest_photo": [
+   "brick/brickwall038a",
+   "de_train/train_abombsite_02",
+   "effects/bluelaser1",
+   "halflife/c3a2a_telred1d",
+   "nature/cavewall005a"
+  ]
+ },
+ "models": {
+  "looked_up": 3,
+  "by_tier": {
+   "default": 3
+  }
+ },
+ "sounds": {
+  "looked_up": 1,
+  "by_tier": {
+   "fallback": 1
+  }
+ },
+ "classes": {
+  "distinct": 48,
+  "entities": 272,
+  "by_tier": {
+   "default": 48
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "ambient_generic": [
+    "pitch"
+   ]
+  }
+ },
+ "links": {
+  "total": 25,
+  "unresolved": 0
+ },
+ "lists": {
+  "textures_unmapped": [
+   "NATURE/CAVEWALL005A"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [
+   "bot.stuck1"
+  ],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "ambient_generic.pitch"
+  ],
+  "links_unresolved": [],
+  "surfaces_opaque": [
+   "de_train/train_abombsite_02"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 1,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 1,
+  "classes_unmapped": 0,
+  "keys_unmapped": 1,
+  "links_unresolved": 0,
+  "surfaces_opaque": 1
+ }
+}
