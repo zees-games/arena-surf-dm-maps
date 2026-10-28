@@ -1,0 +1,70 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "surf_the_flow",
+ "sha256": "11889034007e9ef0d337e5a028d87256b97c301ad6ac0ce9f0de1afca31d2e65",
+ "textures": {
+  "looked_up": 11,
+  "drawn": 10,
+  "by_tier": {
+   "addon": 7,
+   "default": 4
+  },
+  "free_by_tier": {
+   "addon": 7,
+   "default": 3
+  },
+  "nearest_photo": []
+ },
+ "models": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "sounds": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "classes": {
+  "distinct": 14,
+  "entities": 82,
+  "by_tier": {
+   "default": 14
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "point_viewcontrol": [
+    "acceleration",
+    "deceleration"
+   ]
+  }
+ },
+ "links": {
+  "total": 0,
+  "unresolved": 0
+ },
+ "lists": {
+  "textures_unmapped": [],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "point_viewcontrol.acceleration",
+   "point_viewcontrol.deceleration"
+  ],
+  "links_unresolved": [],
+  "surfaces_opaque": []
+ },
+ "counts": {
+  "textures_unmapped": 0,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 2,
+  "links_unresolved": 0,
+  "surfaces_opaque": 0
+ }
+}
