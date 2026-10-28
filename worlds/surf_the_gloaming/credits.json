@@ -1,0 +1,269 @@
+{
+ "map": {
+  "author": "Roosta, Teeth",
+  "page": "https://gamebanana.com/mods/123134",
+  "licence": "none stated"
+ },
+ "works": [
+  {
+   "kind": "texture",
+   "name": "pbr_coral_fort_wall_01",
+   "author": "Dimitrios Savva, Rico Cilliers",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/coral_fort_wall_01",
+   "source": "polyhaven",
+   "attribution": false,
+   "uses": 1061
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Concrete042B",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Concrete042B",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 37
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_plastered_wall_04",
+   "author": "Rob Tuytel",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/plastered_wall_04",
+   "source": "polyhaven",
+   "attribution": false,
+   "uses": 3
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_SheetMetal001",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=SheetMetal001",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 39
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Metal028",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Metal028",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 1267
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Ground014",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Ground014",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 13
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_concrete_wall_004",
+   "author": "Dario Barresi, Charlotte Baglioni",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/concrete_wall_004",
+   "source": "polyhaven",
+   "attribution": false,
+   "uses": 6
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_PaintedMetal009",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=PaintedMetal009",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 104
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Wood001",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Wood001",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 262
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_MetalWalkway001",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=MetalWalkway001",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 5
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Metal011",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Metal011",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 5
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Tiles107",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Tiles107",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 4
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Concrete030",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Concrete030",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_MetalPlates007",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=MetalPlates007",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 9
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Snow007C",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Snow007C",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 13
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Wallpaper001A",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Wallpaper001A",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Concrete013",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Concrete013",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "cardboard_box",
+   "author": "Kenney",
+   "licence": "CC0-1.0",
+   "url": "https://kenney.nl/assets/furniture-kit",
+   "source": "Kenney Furniture Kit",
+   "attribution": false,
+   "uses": 6
+  },
+  {
+   "kind": "model",
+   "name": "lib/kenney_food-kit_muffin",
+   "author": "Kenney",
+   "licence": "CC0-1.0",
+   "url": "https://kenney.nl/assets/food-kit",
+   "source": "Kenney Food Kit",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_cement_bag",
+   "author": "PierreB3D",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/cement_bag",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 3
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_cheiridopsis_succulent",
+   "author": "James Ray Cock, Jenelle van Heerden",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/cheiridopsis_succulent",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_industrial_wall_lamp",
+   "author": "Kuutti Siitonen",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/industrial_wall_lamp",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 6
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_ladder_sectioned_01",
+   "author": "MP",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/ladder_sectioned_01",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 5
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_street_lamp_01",
+   "author": "Josh Dean",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/street_lamp_01",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 12
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_wooden_ladder_02",
+   "author": "JN_3DPRINTINGNERD",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/wooden_ladder_02",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 9
+  },
+  {
+   "kind": "sound",
+   "name": "machine",
+   "author": "Kenney",
+   "licence": "CC0-1.0",
+   "url": "https://kenney.nl/assets/sci-fi-sounds",
+   "source": "Kenney Sci-Fi Sounds",
+   "attribution": false,
+   "uses": 8
+  }
+ ]
+}

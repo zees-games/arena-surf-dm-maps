@@ -1,0 +1,59 @@
+{
+ "map": {
+  "author": "Goerge",
+  "page": "https://gamebanana.com/mods/122985",
+  "licence": "none stated"
+ },
+ "works": [
+  {
+   "kind": "texture",
+   "name": "pbr_Rocks023",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Rocks023",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 182
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Marble018",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Marble018",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 9
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Wood080",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Wood080",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 8
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_stone_wall_05",
+   "author": "Charlotte Baglioni",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/stone_wall_05",
+   "source": "polyhaven",
+   "attribution": false,
+   "uses": 50
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Rock060",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Rock060",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 32
+  }
+ ]
+}

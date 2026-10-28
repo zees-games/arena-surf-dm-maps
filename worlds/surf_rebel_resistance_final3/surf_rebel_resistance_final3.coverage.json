@@ -1,0 +1,82 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "surf_rebel_resistance_final3",
+ "sha256": "f2a6d37be27fb7c0209ae19f41413730da90e1ace863193535b88ebe092c35f5",
+ "textures": {
+  "looked_up": 13,
+  "drawn": 13,
+  "by_tier": {
+   "addon": 8,
+   "default": 5
+  },
+  "free_by_tier": {
+   "addon": 8,
+   "default": 5
+  },
+  "nearest_photo": []
+ },
+ "models": {
+  "looked_up": 2,
+  "by_tier": {
+   "default": 2
+  }
+ },
+ "sounds": {
+  "looked_up": 3,
+  "by_tier": {
+   "default": 1,
+   "fallback": 2
+  }
+ },
+ "classes": {
+  "distinct": 49,
+  "entities": 1502,
+  "by_tier": {
+   "default": 49
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "ambient_generic": [
+    "pitch"
+   ],
+   "game_player_equip": [
+    "ammo_50ae",
+    "weapon_knife"
+   ]
+  }
+ },
+ "links": {
+  "total": 68,
+  "unresolved": 0
+ },
+ "lists": {
+  "textures_unmapped": [],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [
+   "hl1/fvox/deactivated.wav",
+   "hl1/fvox/evacuate_area.wav"
+  ],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "ambient_generic.pitch",
+   "game_player_equip.ammo_50ae",
+   "game_player_equip.weapon_knife"
+  ],
+  "links_unresolved": [],
+  "surfaces_opaque": []
+ },
+ "counts": {
+  "textures_unmapped": 0,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 2,
+  "classes_unmapped": 0,
+  "keys_unmapped": 3,
+  "links_unresolved": 0,
+  "surfaces_opaque": 0
+ }
+}

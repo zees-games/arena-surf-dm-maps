@@ -1,0 +1,177 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "surf_the_gloaming",
+ "sha256": "393eea7d52331b3e32c6bb925f31529dec846ff91fa8e3f358d6438ca4f73198",
+ "textures": {
+  "looked_up": 23,
+  "drawn": 23,
+  "by_tier": {
+   "addon": 16,
+   "default": 5,
+   "fallback": 2
+  },
+  "free_by_tier": {
+   "addon": 18,
+   "default": 3,
+   "nearest": 2
+  },
+  "nearest_photo": [
+   "custom/areyouanelephant",
+   "dev/valuesand30",
+   "ground/snow01"
+  ]
+ },
+ "models": {
+  "looked_up": 12,
+  "by_tier": {
+   "default": 12
+  }
+ },
+ "sounds": {
+  "looked_up": 1,
+  "by_tier": {
+   "default": 1
+  }
+ },
+ "classes": {
+  "distinct": 57,
+  "entities": 448,
+  "by_tier": {
+   "default": 57
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "ambient_generic": [
+    "pitch"
+   ],
+   "env_entity_maker": [
+    "density",
+    "lifetime",
+    "particletype"
+   ],
+   "env_hudhint": [
+    "e"
+   ],
+   "func_rot_button": [
+    "",
+    "StartDisabled"
+   ],
+   "game_player_equip": [
+    "weapon_knife",
+    "weapon_scout"
+   ],
+   "info_player_counterterrorist": [
+    "_light",
+    "_lightHDR",
+    "_quadratic_attn"
+   ],
+   "info_player_terrorist": [
+    "_light",
+    "_lightHDR",
+    "_quadratic_attn"
+   ],
+   "point_spotlight": [
+    "name"
+   ],
+   "point_viewcontrol": [
+    "acceleration",
+    "deceleration"
+   ],
+   "prop_dynamic": [
+    "disableselfshadowing",
+    "disablevertexlighting",
+    "ignorenormals",
+    "screenspacefade"
+   ],
+   "trigger_once": [
+    "wait"
+   ],
+   "trigger_teleport": [
+    "name"
+   ],
+   "weapon_ak47": [
+    "ammo"
+   ],
+   "weapon_awp": [
+    "ammo"
+   ],
+   "weapon_deagle": [
+    "ammo"
+   ],
+   "weapon_m3": [
+    "ammo"
+   ],
+   "weapon_m4a1": [
+    "ammo"
+   ],
+   "weapon_ump45": [
+    "ammo"
+   ]
+  }
+ },
+ "links": {
+  "total": 174,
+  "unresolved": 1
+ },
+ "lists": {
+  "textures_unmapped": [
+   "CUSTOM/AREYOUANELEPHANT",
+   "MODELS/EFFECTS/VOL_LIGHT002"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "ambient_generic.pitch",
+   "env_entity_maker.density",
+   "env_entity_maker.lifetime",
+   "env_entity_maker.particletype",
+   "env_hudhint.e",
+   "func_rot_button.",
+   "func_rot_button.StartDisabled",
+   "game_player_equip.weapon_knife",
+   "game_player_equip.weapon_scout",
+   "info_player_counterterrorist._light",
+   "info_player_counterterrorist._lightHDR",
+   "info_player_counterterrorist._quadratic_attn",
+   "info_player_terrorist._light",
+   "info_player_terrorist._lightHDR",
+   "info_player_terrorist._quadratic_attn",
+   "point_spotlight.name",
+   "point_viewcontrol.acceleration",
+   "point_viewcontrol.deceleration",
+   "prop_dynamic.disableselfshadowing",
+   "prop_dynamic.disablevertexlighting",
+   "prop_dynamic.ignorenormals",
+   "prop_dynamic.screenspacefade",
+   "trigger_once.wait",
+   "trigger_teleport.name",
+   "weapon_ak47.ammo",
+   "weapon_awp.ammo",
+   "weapon_deagle.ammo",
+   "weapon_m3.ammo",
+   "weapon_m4a1.ammo",
+   "weapon_ump45.ammo"
+  ],
+  "links_unresolved": [
+   "logic_auto.OnNewGame->gunbutton"
+  ],
+  "surfaces_opaque": [
+   "models/effects/vol_light002"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 2,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 30,
+  "links_unresolved": 1,
+  "surfaces_opaque": 1
+ }
+}

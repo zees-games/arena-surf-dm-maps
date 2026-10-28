@@ -1,0 +1,109 @@
+{
+ "map": {
+  "author": "-)RR(-ArchAngel -)RR(-Lethalis",
+  "page": "https://gamebanana.com/mods/122824",
+  "licence": "none stated"
+ },
+ "works": [
+  {
+   "kind": "texture",
+   "name": "pbr_Tiles007",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Tiles007",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 546
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_rusted_shutter",
+   "author": "Dimitrios Savva",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/rusted_shutter",
+   "source": "polyhaven",
+   "attribution": false,
+   "uses": 12
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_MetalWalkway011",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=MetalWalkway011",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 9
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_SheetMetal001",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=SheetMetal001",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 2807
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_PaintedMetal009",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=PaintedMetal009",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 9
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Ground014",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Ground014",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 12
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Planks004",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Planks004",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 8
+  },
+  {
+   "kind": "model",
+   "name": "lib/kenney_mini-arcade_arcade-machine",
+   "author": "Kenney",
+   "licence": "CC0-1.0",
+   "url": "https://kenney.nl/assets/mini-arcade",
+   "source": "Kenney Mini Arcade",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_bolt_action_rifle_7_62",
+   "author": "Mateusz Sadek",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/bolt_action_rifle_7_62",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 26
+  },
+  {
+   "kind": "sound",
+   "name": "bell",
+   "author": "Kenney",
+   "licence": "CC0-1.0",
+   "url": "https://kenney.nl/assets/impact-sounds",
+   "source": "Kenney Impact Sounds",
+   "attribution": false,
+   "uses": 7
+  }
+ ]
+}

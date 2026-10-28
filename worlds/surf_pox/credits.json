@@ -1,0 +1,79 @@
+{
+ "map": {
+  "author": "Krusty, Pariah, Karatek\u00e4fer, Korr",
+  "page": "https://gamebanana.com/mods/122741",
+  "licence": "none stated"
+ },
+ "works": [
+  {
+   "kind": "texture",
+   "name": "pbr_Metal046B",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Metal046B",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 688
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Tiles011",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Tiles011",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 316
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_CorrugatedSteel001",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=CorrugatedSteel001",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 268
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Ground014",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Ground014",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 164
+  },
+  {
+   "kind": "model",
+   "name": "cardboard_box",
+   "author": "Kenney",
+   "licence": "CC0-1.0",
+   "url": "https://kenney.nl/assets/furniture-kit",
+   "source": "Kenney Furniture Kit",
+   "attribution": false,
+   "uses": 6
+  },
+  {
+   "kind": "model",
+   "name": "lib/own_box_21x3x21_e8e8e0",
+   "author": "TMC (generated for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map",
+   "source": "TMC generated model",
+   "attribution": false,
+   "uses": 7
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_cheiridopsis_succulent",
+   "author": "James Ray Cock, Jenelle van Heerden",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/cheiridopsis_succulent",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 2
+  }
+ ]
+}

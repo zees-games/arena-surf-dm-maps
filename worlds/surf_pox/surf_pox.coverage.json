@@ -1,0 +1,129 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "surf_pox",
+ "sha256": "149f4077a682725849a4f2622ef833d845b9c06f8b0db95a4ea9e55bc20ef802",
+ "textures": {
+  "looked_up": 11,
+  "drawn": 11,
+  "by_tier": {
+   "addon": 1,
+   "default": 6,
+   "fallback": 4
+  },
+  "free_by_tier": {
+   "addon": 4,
+   "default": 5,
+   "nearest": 2
+  },
+  "nearest_photo": [
+   "customs/hellblau_neon",
+   "customs/metal_002",
+   "customs/texblau",
+   "customs/texweiss_1",
+   "customs/weiss_neon"
+  ]
+ },
+ "models": {
+  "looked_up": 6,
+  "by_tier": {
+   "default": 6
+  }
+ },
+ "sounds": {
+  "looked_up": 1,
+  "by_tier": {
+   "fallback": 1
+  }
+ },
+ "classes": {
+  "distinct": 34,
+  "entities": 262,
+  "by_tier": {
+   "default": 34
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "ambient_generic": [
+    "pitch"
+   ],
+   "game_player_equip": [
+    "item_assaultsuit",
+    "item_kevlar",
+    "weapon_knife"
+   ],
+   "point_viewcontrol": [
+    "acceleration",
+    "deceleration"
+   ],
+   "prop_physics_multiplayer": [
+    "parent"
+   ],
+   "weapon_ak47": [
+    "ammo"
+   ],
+   "weapon_awp": [
+    "ammo"
+   ],
+   "weapon_deagle": [
+    "ammo"
+   ],
+   "weapon_hegrenade": [
+    "parent"
+   ],
+   "weapon_m4a1": [
+    "ammo"
+   ],
+   "weapon_mp5navy": [
+    "ammo"
+   ]
+  }
+ },
+ "links": {
+  "total": 38,
+  "unresolved": 0
+ },
+ "lists": {
+  "textures_unmapped": [
+   "CUSTOMS/HELLBLAU_NEON",
+   "CUSTOMS/TEXBLAU",
+   "CUSTOMS/TEXWEISS_1",
+   "CUSTOMS/WEISS_NEON"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [
+   "floodgate_klaxon"
+  ],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "ambient_generic.pitch",
+   "game_player_equip.item_assaultsuit",
+   "game_player_equip.item_kevlar",
+   "game_player_equip.weapon_knife",
+   "point_viewcontrol.acceleration",
+   "point_viewcontrol.deceleration",
+   "prop_physics_multiplayer.parent",
+   "weapon_ak47.ammo",
+   "weapon_awp.ammo",
+   "weapon_deagle.ammo",
+   "weapon_hegrenade.parent",
+   "weapon_m4a1.ammo",
+   "weapon_mp5navy.ammo"
+  ],
+  "links_unresolved": [],
+  "surfaces_opaque": []
+ },
+ "counts": {
+  "textures_unmapped": 4,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 1,
+  "classes_unmapped": 0,
+  "keys_unmapped": 13,
+  "links_unresolved": 0,
+  "surfaces_opaque": 0
+ }
+}

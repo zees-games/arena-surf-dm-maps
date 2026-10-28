@@ -1,0 +1,140 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "surf_ski_2",
+ "sha256": "9baf9f15401522556940740dde72b6493df8c8cda56dfaa68a5156e6fe8d83df",
+ "textures": {
+  "looked_up": 32,
+  "drawn": 31,
+  "by_tier": {
+   "addon": 18,
+   "default": 12,
+   "fallback": 2
+  },
+  "free_by_tier": {
+   "addon": 24,
+   "default": 4,
+   "nearest": 3
+  },
+  "nearest_photo": [
+   "cs_italy/boxsides_t01",
+   "de_nuke/nuke_ceiling_02",
+   "de_nuke/nukmetwallab",
+   "environment maps/pipemetal001a",
+   "environment maps/pipemetal004b",
+   "metal/metaldoor003a",
+   "props/plasticexitsign001b",
+   "props/plasticexitsign002a",
+   "sprites/640hud7"
+  ]
+ },
+ "models": {
+  "looked_up": 15,
+  "by_tier": {
+   "category": 1,
+   "default": 14
+  }
+ },
+ "sounds": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "classes": {
+  "distinct": 28,
+  "entities": 197,
+  "by_tier": {
+   "default": 28
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "func_water": [
+    "",
+    "delay",
+    "locked_sentence",
+    "movedistance",
+    "movesnd",
+    "skin",
+    "startposition",
+    "stopsnd",
+    "unlocked_sentence"
+   ],
+   "point_viewcontrol": [
+    "acceleration",
+    "deceleration"
+   ],
+   "weapon_ak47": [
+    "ammo"
+   ],
+   "weapon_awp": [
+    "ammo"
+   ],
+   "weapon_deagle": [
+    "ammo"
+   ],
+   "weapon_hegrenade": [
+    "ammo"
+   ],
+   "weapon_m4a1": [
+    "ammo"
+   ],
+   "weapon_scout": [
+    "ammo"
+   ],
+   "weapon_tmp": [
+    "ammo"
+   ],
+   "worldspawn": [
+    "MaxRange"
+   ]
+  }
+ },
+ "links": {
+  "total": 15,
+  "unresolved": 0
+ },
+ "lists": {
+  "textures_unmapped": [
+   "PROPS/PLASTICEXITSIGN001B",
+   "PROPS/PLASTICEXITSIGN002A"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "func_water.",
+   "func_water.delay",
+   "func_water.locked_sentence",
+   "func_water.movedistance",
+   "func_water.movesnd",
+   "func_water.skin",
+   "func_water.startposition",
+   "func_water.stopsnd",
+   "func_water.unlocked_sentence",
+   "point_viewcontrol.acceleration",
+   "point_viewcontrol.deceleration",
+   "weapon_ak47.ammo",
+   "weapon_awp.ammo",
+   "weapon_deagle.ammo",
+   "weapon_hegrenade.ammo",
+   "weapon_m4a1.ammo",
+   "weapon_scout.ammo",
+   "weapon_tmp.ammo",
+   "worldspawn.MaxRange"
+  ],
+  "links_unresolved": [],
+  "surfaces_opaque": []
+ },
+ "counts": {
+  "textures_unmapped": 2,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 19,
+  "links_unresolved": 0,
+  "surfaces_opaque": 0
+ }
+}
