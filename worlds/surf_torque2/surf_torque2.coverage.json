@@ -1,0 +1,135 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "surf_torque2",
+ "sha256": "f647e84545c732c03e4bcae3d79285164321ed2c5d7faecf40bccc41e0ec9c02",
+ "textures": {
+  "looked_up": 53,
+  "drawn": 53,
+  "by_tier": {
+   "addon": 24,
+   "default": 28,
+   "fallback": 1
+  },
+  "free_by_tier": {
+   "addon": 37,
+   "default": 11,
+   "nearest": 5
+  },
+  "nearest_photo": [
+   "custom/torque2",
+   "de_chateau/intbrickk",
+   "de_nuke/nukwater_movingplane",
+   "de_nuke/nukwater_movingplane_beneath",
+   "de_train/train_metalceiling_02",
+   "metal/metalfloor003a_black",
+   "metal/metalfloor003a_blue",
+   "metal/metalfloor003a_pink",
+   "metal/metalfloor003a_red",
+   "metal/metalhull010b",
+   "metal/metalwall013a_black",
+   "metal/metalwall013a_white",
+   "metal/metalwall046a",
+   "metal/prodcaution_black",
+   "metal/prodcaution_blue",
+   "metal/prodcaution_pink",
+   "metal/prodcaution_red",
+   "metal/prodcaution_white",
+   "metal/train_metalceiling_02_blue",
+   "metal/train_metalceiling_02_pink",
+   "metal/train_metalceiling_02_red",
+   "metal/train_metalceiling_02_white"
+  ]
+ },
+ "models": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "sounds": {
+  "looked_up": 1,
+  "by_tier": {
+   "default": 1
+  }
+ },
+ "classes": {
+  "distinct": 46,
+  "entities": 1391,
+  "by_tier": {
+   "default": 46
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "ambient_generic": [
+    "pitch"
+   ],
+   "game_player_equip": [
+    "weapon_aug",
+    "weapon_deagle",
+    "weapon_hegrenade",
+    "weapon_knife",
+    "weapon_m3",
+    "weapon_m4a1",
+    "weapon_scout",
+    "weapon_tmp",
+    "weapon_usp"
+   ],
+   "point_viewcontrol": [
+    "acceleration",
+    "deceleration"
+   ],
+   "trigger_once": [
+    "wait"
+   ],
+   "weapon_m3": [
+    "ammo"
+   ],
+   "weapon_scout": [
+    "ammo"
+   ]
+  }
+ },
+ "links": {
+  "total": 160,
+  "unresolved": 0
+ },
+ "lists": {
+  "textures_unmapped": [
+   "CUSTOM/TORQUE2"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "ambient_generic.pitch",
+   "game_player_equip.weapon_aug",
+   "game_player_equip.weapon_deagle",
+   "game_player_equip.weapon_hegrenade",
+   "game_player_equip.weapon_knife",
+   "game_player_equip.weapon_m3",
+   "game_player_equip.weapon_m4a1",
+   "game_player_equip.weapon_scout",
+   "game_player_equip.weapon_tmp",
+   "game_player_equip.weapon_usp",
+   "point_viewcontrol.acceleration",
+   "point_viewcontrol.deceleration",
+   "trigger_once.wait",
+   "weapon_m3.ammo",
+   "weapon_scout.ammo"
+  ],
+  "links_unresolved": [],
+  "surfaces_opaque": []
+ },
+ "counts": {
+  "textures_unmapped": 1,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 15,
+  "links_unresolved": 0,
+  "surfaces_opaque": 0
+ }
+}

@@ -1,0 +1,5 @@
+# Suggested by the converter from commands in surf_velocity's entities.
+# Nothing here is applied. Uncomment a line to set it for this map; a key the game does
+# not whitelist is logged and ignored (docs/map-config.md).
+# mp_buytime: 10
+# mp_roundtime: 10

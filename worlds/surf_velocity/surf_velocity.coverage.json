@@ -1,0 +1,152 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "surf_velocity",
+ "sha256": "7f3b800837242df2ec0d994baf6ab5147b6286fd39d38b4cf5cbb4fa3b8599e5",
+ "textures": {
+  "looked_up": 87,
+  "drawn": 85,
+  "by_tier": {
+   "addon": 43,
+   "default": 36,
+   "fallback": 8
+  },
+  "free_by_tier": {
+   "addon": 60,
+   "default": 22,
+   "nearest": 3
+  },
+  "nearest_photo": [
+   "commune3tp/triangle_final_256x256_v1",
+   "concrete/offflra",
+   "concrete/prodflrb",
+   "cs_assault/assault_police_tape01",
+   "cs_italy/pwtrim2",
+   "custom/creditsvelocity",
+   "custom/jailcircles",
+   "custom/jailmaze",
+   "customtextures/buttonsummary",
+   "de_dust/tilefloor01",
+   "de_piranesi/pi_cobbles",
+   "de_prodigy/tunnelplaster02",
+   "lights/white",
+   "metal/metalwall016a",
+   "metal/metalwall021a",
+   "metal/metalwall032a",
+   "metal/metalwall066a",
+   "models/props_lab/rotato_sheetred",
+   "props/metalcrate004d",
+   "stone/stonestair001a"
+  ]
+ },
+ "models": {
+  "looked_up": 6,
+  "by_tier": {
+   "default": 3,
+   "fallback": 3
+  }
+ },
+ "sounds": {
+  "looked_up": 1,
+  "by_tier": {
+   "fallback": 1
+  }
+ },
+ "classes": {
+  "distinct": 50,
+  "entities": 1261,
+  "by_tier": {
+   "default": 50
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "ambient_generic": [
+    "pitch"
+   ],
+   "game_player_equip": [
+    "weapon_elite",
+    "weapon_knife",
+    "weapon_m249",
+    "weapon_mp5navy",
+    "weapon_p90",
+    "weapon_usp"
+   ],
+   "point_viewcontrol": [
+    "acceleration",
+    "deceleration"
+   ],
+   "weapon_ak47": [
+    "ammo"
+   ],
+   "weapon_awp": [
+    "ammo"
+   ],
+   "weapon_m249": [
+    "ammo"
+   ],
+   "weapon_m4a1": [
+    "ammo"
+   ]
+  }
+ },
+ "links": {
+  "total": 116,
+  "unresolved": 4
+ },
+ "lists": {
+  "textures_unmapped": [
+   "360G/SPRAYLOGO",
+   "COMMUNE3TP/TRIANGLE_FINAL_256X256_V1",
+   "CS_ITALY/PWTRIM2",
+   "CUSTOM/CREDITSVELOCITY",
+   "CUSTOM/JAILCIRCLES",
+   "CUSTOM/JAILMAZE",
+   "CUSTOMTEXTURES/BUTTONSUMMARY",
+   "MODELS/PROPS_LAB/ROTATO_SHEETRED"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [
+   "my model/circlejaillasers.mdl",
+   "my model/circlejailnames1.mdl",
+   "my model/circlejailnames2.mdl"
+  ],
+  "sounds_unmapped": [
+   "vehicles/v8/v8_rev_short_loop1.wav"
+  ],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "ambient_generic.pitch",
+   "game_player_equip.weapon_elite",
+   "game_player_equip.weapon_knife",
+   "game_player_equip.weapon_m249",
+   "game_player_equip.weapon_mp5navy",
+   "game_player_equip.weapon_p90",
+   "game_player_equip.weapon_usp",
+   "point_viewcontrol.acceleration",
+   "point_viewcontrol.deceleration",
+   "weapon_ak47.ammo",
+   "weapon_awp.ammo",
+   "weapon_m249.ammo",
+   "weapon_m4a1.ammo"
+  ],
+  "links_unresolved": [
+   "func_button.OnPressed->Car.Camera",
+   "game_ui.PlayerOff->Car.Camera",
+   "logic_auto.OnMapSpawn->Car.Camera",
+   "trigger_multiple.OnStartTouch->trapspike"
+  ],
+  "surfaces_opaque": []
+ },
+ "counts": {
+  "textures_unmapped": 8,
+  "textures_flat": 0,
+  "models_unmapped": 3,
+  "sounds_unmapped": 1,
+  "classes_unmapped": 0,
+  "keys_unmapped": 13,
+  "links_unresolved": 4,
+  "surfaces_opaque": 0
+ }
+}

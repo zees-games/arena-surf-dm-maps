@@ -1,0 +1,118 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "surf_snipers_island",
+ "sha256": "98b93f6d7d27119ad60d978bd4dc952618cf9ef1b951181e15f6325115d62d5a",
+ "textures": {
+  "looked_up": 12,
+  "drawn": 15,
+  "by_tier": {
+   "addon": 10,
+   "default": 2
+  },
+  "free_by_tier": {
+   "addon": 12,
+   "default": 2,
+   "nearest": 1
+  },
+  "nearest_photo": [
+   "nature/blendgrassgravel001a",
+   "nature/blendsandgrass008a"
+  ]
+ },
+ "models": {
+  "looked_up": 6,
+  "by_tier": {
+   "default": 6
+  }
+ },
+ "sounds": {
+  "looked_up": 2,
+  "by_tier": {
+   "default": 2
+  }
+ },
+ "classes": {
+  "distinct": 25,
+  "entities": 166,
+  "by_tier": {
+   "default": 25
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "ambient_generic": [
+    "pitch"
+   ],
+   "game_player_equip": [
+    "weapon_knife",
+    "weapon_scout"
+   ],
+   "weapon_ak47": [
+    "ammo"
+   ],
+   "weapon_aug": [
+    "ammo"
+   ],
+   "weapon_awp": [
+    "ammo"
+   ],
+   "weapon_famas": [
+    "ammo"
+   ],
+   "weapon_galil": [
+    "ammo"
+   ],
+   "weapon_m3": [
+    "ammo"
+   ],
+   "weapon_m4a1": [
+    "ammo"
+   ],
+   "weapon_sg550": [
+    "ammo"
+   ],
+   "weapon_sg552": [
+    "ammo"
+   ]
+  }
+ },
+ "links": {
+  "total": 4,
+  "unresolved": 0
+ },
+ "lists": {
+  "textures_unmapped": [],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "ambient_generic.pitch",
+   "game_player_equip.weapon_knife",
+   "game_player_equip.weapon_scout",
+   "weapon_ak47.ammo",
+   "weapon_aug.ammo",
+   "weapon_awp.ammo",
+   "weapon_famas.ammo",
+   "weapon_galil.ammo",
+   "weapon_m3.ammo",
+   "weapon_m4a1.ammo",
+   "weapon_sg550.ammo",
+   "weapon_sg552.ammo"
+  ],
+  "links_unresolved": [],
+  "surfaces_opaque": []
+ },
+ "counts": {
+  "textures_unmapped": 0,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 12,
+  "links_unresolved": 0,
+  "surfaces_opaque": 0
+ }
+}

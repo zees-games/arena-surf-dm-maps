@@ -1,0 +1,125 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "surf_thriller",
+ "sha256": "cb0d4ffaaf48234f94b859ee08c37aa0c14518fbdbbb189f1dcf24e58e8f1a27",
+ "textures": {
+  "looked_up": 29,
+  "drawn": 19,
+  "by_tier": {
+   "addon": 14,
+   "default": 14,
+   "fallback": 1
+  },
+  "free_by_tier": {
+   "addon": 15,
+   "default": 4
+  },
+  "nearest_photo": [
+   "models/combine_citadel/combine_citadel001"
+  ]
+ },
+ "models": {
+  "looked_up": 2,
+  "by_tier": {
+   "default": 2
+  }
+ },
+ "sounds": {
+  "looked_up": 1,
+  "by_tier": {
+   "fallback": 1
+  }
+ },
+ "classes": {
+  "distinct": 30,
+  "entities": 247,
+  "by_tier": {
+   "default": 30
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "ambient_generic": [
+    "pitch"
+   ],
+   "func_button": [
+    "no_decomp"
+   ],
+   "game_player_equip": [
+    "ammo_45acp",
+    "ammo_9mm",
+    "weapon_knife",
+    "weapon_tmp",
+    "weapon_usp"
+   ],
+   "logic_branch": [
+    "no_decomp"
+   ],
+   "logic_relay": [
+    "no_decomp"
+   ],
+   "weapon_ak47": [
+    "ammo"
+   ],
+   "weapon_awp": [
+    "ammo"
+   ],
+   "weapon_m249": [
+    "ammo"
+   ],
+   "weapon_m4a1": [
+    "ammo"
+   ]
+  }
+ },
+ "links": {
+  "total": 87,
+  "unresolved": 3
+ },
+ "lists": {
+  "textures_unmapped": [
+   "MODELS/COMBINE_CITADEL/COMBINE_CITADEL001"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [
+   "hl1/fvox/evacuate_area.wav"
+  ],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "ambient_generic.pitch",
+   "func_button.no_decomp",
+   "game_player_equip.ammo_45acp",
+   "game_player_equip.ammo_9mm",
+   "game_player_equip.weapon_knife",
+   "game_player_equip.weapon_tmp",
+   "game_player_equip.weapon_usp",
+   "logic_branch.no_decomp",
+   "logic_relay.no_decomp",
+   "weapon_ak47.ammo",
+   "weapon_awp.ammo",
+   "weapon_m249.ammo",
+   "weapon_m4a1.ammo"
+  ],
+  "links_unresolved": [
+   "math_counter.OnHitMax->tmp_light_ct",
+   "math_counter.OnHitMax->usp_light_ct",
+   "math_counter.OnHitMax->usp_light_t"
+  ],
+  "surfaces_opaque": [
+   "metal/mildoor001"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 1,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 1,
+  "classes_unmapped": 0,
+  "keys_unmapped": 13,
+  "links_unresolved": 3,
+  "surfaces_opaque": 1
+ }
+}
