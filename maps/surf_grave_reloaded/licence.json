@@ -1,0 +1,23 @@
+[
+  {
+    "paths": [
+      ""
+    ],
+    "licence": "MIT",
+    "author": "TMC",
+    "url": "https://github.com/zees-games/arena-surf-dm-maps",
+    "title": "arena-surf-dm-maps (original content)"
+  },
+  {
+    "paths": [
+      "surf_grave_reloaded",
+      "textures/"
+    ],
+    "licence": "none stated",
+    "exception": "credited-community-map",
+    "title": "Surf Grave Reloaded",
+    "author": "xblah",
+    "source_url": "https://gamebanana.com/mods/122151",
+    "removal_contact": "https://github.com/zees-games/arena-surf-dm-maps/issues"
+  }
+]

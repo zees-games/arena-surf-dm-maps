@@ -1,0 +1,23 @@
+[
+  {
+    "paths": [
+      ""
+    ],
+    "licence": "MIT",
+    "author": "TMC",
+    "url": "https://github.com/zees-games/arena-surf-dm-maps",
+    "title": "arena-surf-dm-maps (original content)"
+  },
+  {
+    "paths": [
+      "surf_matrix_v8",
+      "textures/"
+    ],
+    "licence": "none stated",
+    "exception": "credited-community-map",
+    "title": "Surf Matrix V8",
+    "author": "Flippi273",
+    "source_url": "https://gamebanana.com/mods/122520",
+    "removal_contact": "https://github.com/zees-games/arena-surf-dm-maps/issues"
+  }
+]

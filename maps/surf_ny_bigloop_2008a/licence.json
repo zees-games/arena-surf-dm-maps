@@ -1,0 +1,23 @@
+[
+  {
+    "paths": [
+      ""
+    ],
+    "licence": "MIT",
+    "author": "TMC",
+    "url": "https://github.com/zees-games/arena-surf-dm-maps",
+    "title": "arena-surf-dm-maps (original content)"
+  },
+  {
+    "paths": [
+      "surf_ny_bigloop_2008a",
+      "textures/"
+    ],
+    "licence": "none stated",
+    "exception": "credited-community-map",
+    "title": "Surf Ny Bigloop 2008a",
+    "author": "Paper-Cut, FAJ",
+    "source_url": "https://gamebanana.com/mods/122644",
+    "removal_contact": "https://github.com/zees-games/arena-surf-dm-maps/issues"
+  }
+]

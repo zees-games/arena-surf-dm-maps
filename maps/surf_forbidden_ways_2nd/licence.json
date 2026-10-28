@@ -1,0 +1,23 @@
+[
+  {
+    "paths": [
+      ""
+    ],
+    "licence": "MIT",
+    "author": "TMC",
+    "url": "https://github.com/zees-games/arena-surf-dm-maps",
+    "title": "arena-surf-dm-maps (original content)"
+  },
+  {
+    "paths": [
+      "surf_forbidden_ways_2nd",
+      "textures/"
+    ],
+    "licence": "none stated",
+    "exception": "credited-community-map",
+    "title": "Surf Forbidden Ways 2nd",
+    "author": "krusty",
+    "source_url": "https://gamebanana.com/mods/122075",
+    "removal_contact": "https://github.com/zees-games/arena-surf-dm-maps/issues"
+  }
+]

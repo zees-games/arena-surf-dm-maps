@@ -1,0 +1,23 @@
+[
+  {
+    "paths": [
+      ""
+    ],
+    "licence": "MIT",
+    "author": "TMC",
+    "url": "https://github.com/zees-games/arena-surf-dm-maps",
+    "title": "arena-surf-dm-maps (original content)"
+  },
+  {
+    "paths": [
+      "surf_110b_austinpowers",
+      "textures/"
+    ],
+    "licence": "none stated",
+    "exception": "credited-community-map",
+    "title": "Surf 110b Austinpowers",
+    "author": "TheInvoker",
+    "source_url": "https://gamebanana.com/mods/121530",
+    "removal_contact": "https://github.com/zees-games/arena-surf-dm-maps/issues"
+  }
+]

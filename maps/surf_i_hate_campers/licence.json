@@ -1,0 +1,23 @@
+[
+  {
+    "paths": [
+      ""
+    ],
+    "licence": "MIT",
+    "author": "TMC",
+    "url": "https://github.com/zees-games/arena-surf-dm-maps",
+    "title": "arena-surf-dm-maps (original content)"
+  },
+  {
+    "paths": [
+      "surf_i_hate_campers",
+      "textures/"
+    ],
+    "licence": "CC-BY-NC-ND-4.0",
+    "exception": "credited-community-map",
+    "title": "Surf I Hate Campers",
+    "author": "Snah",
+    "source_url": "https://gamebanana.com/mods/122339",
+    "removal_contact": "https://github.com/zees-games/arena-surf-dm-maps/issues"
+  }
+]
