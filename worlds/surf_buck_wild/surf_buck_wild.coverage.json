@@ -1,0 +1,184 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "surf_buck_wild",
+ "sha256": "1a4a9150afd3da7b34a3704eea7919fe79c81787f346f57f2bd541f901013213",
+ "textures": {
+  "looked_up": 69,
+  "drawn": 59,
+  "by_tier": {
+   "addon": 23,
+   "default": 26,
+   "fallback": 20
+  },
+  "free_by_tier": {
+   "addon": 31,
+   "default": 25,
+   "nearest": 3
+  },
+  "nearest_photo": [
+   "bucknasty/bullseye",
+   "de_cbble/grassfloor01",
+   "de_dust/stonewall02a",
+   "de_dust/tilefloor01",
+   "effects/tp_eyefx/tpeye",
+   "models/combine_citadel/combine_citadel001",
+   "models/props_combine/stasisfield_beam"
+  ]
+ },
+ "models": {
+  "looked_up": 6,
+  "by_tier": {
+   "default": 4,
+   "fallback": 2
+  }
+ },
+ "sounds": {
+  "looked_up": 1,
+  "by_tier": {
+   "default": 1
+  }
+ },
+ "classes": {
+  "distinct": 56,
+  "entities": 694,
+  "by_tier": {
+   "default": 56
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "ambient_generic": [
+    "pitch"
+   ],
+   "func_button": [
+    "no_decomp"
+   ],
+   "func_rot_button": [
+    "StartDisabled"
+   ],
+   "logic_branch": [
+    "no_decomp"
+   ],
+   "logic_relay": [
+    "no_decomp"
+   ],
+   "point_viewcontrol": [
+    "acceleration",
+    "deceleration"
+   ],
+   "weapon_ak47": [
+    "ammo"
+   ],
+   "weapon_aug": [
+    "ammo"
+   ],
+   "weapon_awp": [
+    "ammo"
+   ],
+   "weapon_m249": [
+    "ammo"
+   ],
+   "weapon_m3": [
+    "ammo"
+   ],
+   "weapon_m4a1": [
+    "ammo"
+   ],
+   "weapon_mp5navy": [
+    "ammo"
+   ],
+   "weapon_p90": [
+    "ammo"
+   ],
+   "weapon_scout": [
+    "ammo"
+   ],
+   "weapon_sg552": [
+    "ammo"
+   ],
+   "weapon_xm1014": [
+    "ammo"
+   ]
+  }
+ },
+ "links": {
+  "total": 82,
+  "unresolved": 3
+ },
+ "lists": {
+  "textures_unmapped": [
+   "BUCKNASTY/10XRVMF",
+   "BUCKNASTY/AB_SPACEDN",
+   "BUCKNASTY/AB_SPACELF",
+   "BUCKNASTY/AB_SPACERT",
+   "BUCKNASTY/AB_SPACEUP",
+   "BUCKNASTY/AMPEVMF2",
+   "BUCKNASTY/AMPVMF",
+   "BUCKNASTY/B-WVMF",
+   "BUCKNASTY/BUCKNASTY",
+   "BUCKNASTY/BULLSEYE",
+   "BUCKNASTY/DROUGHTVMF",
+   "BUCKNASTY/GAJ",
+   "BUCKNASTY/INSANITYVMF",
+   "BUCKNASTY/NOCTURNALVMF",
+   "BUCKNASTY/RIVER_FLOW",
+   "BUCKNASTY/SPACEDOUTVMF",
+   "BUCKNASTY/THRILLER2VMF",
+   "BUCKNASTY/THRILLERVMF",
+   "MODELS/COMBINE_CITADEL/COMBINE_CITADEL001",
+   "MODELS/PROPS_COMBINE/STASISFIELD_BEAM"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [
+   "props/de_dust/dustteeth_5.mdl",
+   "props_combine/breentp_rings.mdl"
+  ],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "ambient_generic.pitch",
+   "func_button.no_decomp",
+   "func_rot_button.StartDisabled",
+   "logic_branch.no_decomp",
+   "logic_relay.no_decomp",
+   "point_viewcontrol.acceleration",
+   "point_viewcontrol.deceleration",
+   "weapon_ak47.ammo",
+   "weapon_aug.ammo",
+   "weapon_awp.ammo",
+   "weapon_m249.ammo",
+   "weapon_m3.ammo",
+   "weapon_m4a1.ammo",
+   "weapon_mp5navy.ammo",
+   "weapon_p90.ammo",
+   "weapon_scout.ammo",
+   "weapon_sg552.ammo",
+   "weapon_xm1014.ammo"
+  ],
+  "links_unresolved": [
+   "func_button.OnPressed->stage02_admin_door",
+   "logic_branch.OnTrue->stage02_ct_door",
+   "prop_dynamic.OnUser1->stage02_ct_door"
+  ],
+  "surfaces_opaque": [
+   "bucknasty/ab_spacedn",
+   "bucknasty/ab_spacelf",
+   "bucknasty/ab_spacert",
+   "bucknasty/ab_spaceup",
+   "bucknasty/bullseye",
+   "models/props_combine/stasisfield_beam"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 20,
+  "textures_flat": 0,
+  "models_unmapped": 2,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 18,
+  "links_unresolved": 3,
+  "surfaces_opaque": 6
+ }
+}

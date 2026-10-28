@@ -1,0 +1,146 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "surf_dust2_2008_final",
+ "sha256": "83a7b483e280bb1c524f686af55c01c5223dee64bb9db75ce854a49ecc3d900c",
+ "textures": {
+  "looked_up": 61,
+  "drawn": 61,
+  "by_tier": {
+   "addon": 10,
+   "default": 47,
+   "fallback": 4
+  },
+  "free_by_tier": {
+   "addon": 27,
+   "default": 4,
+   "nearest": 30
+  },
+  "nearest_photo": [
+   "cs_italy/marketwall04",
+   "cs_italy/marketwall04b",
+   "de_dust/door04",
+   "de_dust/door05",
+   "de_dust/door10",
+   "de_dust/groundsand_blend",
+   "de_dust/residbwall03",
+   "de_dust/residbwall03a",
+   "de_dust/residbwall03b",
+   "de_dust/residbwall04b",
+   "de_dust/residwall01",
+   "de_dust/residwall01a",
+   "de_dust/residwall01b",
+   "de_dust/residwall06",
+   "de_dust/residwall06a",
+   "de_dust/residwall06b",
+   "de_dust/sandwlldoor2",
+   "de_dust/sitebwall01",
+   "de_dust/sitebwall01a",
+   "de_dust/sitebwall01b",
+   "de_dust/sitebwall05",
+   "de_dust/sitebwall05a",
+   "de_dust/sitebwall05c",
+   "de_dust/sitebwall10",
+   "de_dust/sitebwall10a",
+   "de_dust/sitebwall10b",
+   "de_dust/sitebwall11",
+   "de_dust/sitebwall11a",
+   "de_dust/sitebwall12",
+   "de_dust/sitebwall12a",
+   "de_dust/sitebwall12b",
+   "de_dust/stonestep02",
+   "de_dust/stonewall02a",
+   "de_dust/stonewall02b",
+   "de_dust/templewall02a",
+   "de_dust/templewall04",
+   "de_dust/templewall04b",
+   "de_dust/tilefloor01",
+   "textury/floor",
+   "textury/sand",
+   "textury/zz12",
+   "textury/zz13",
+   "textury/zz14"
+  ]
+ },
+ "models": {
+  "looked_up": 38,
+  "by_tier": {
+   "default": 37,
+   "fallback": 1
+  }
+ },
+ "sounds": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "classes": {
+  "distinct": 33,
+  "entities": 300,
+  "by_tier": {
+   "default": 33
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "game_player_equip": [
+    "weapon_deagle",
+    "weapon_knife"
+   ],
+   "weapon_ak47": [
+    "ammo"
+   ],
+   "weapon_aug": [
+    "ammo"
+   ],
+   "weapon_awp": [
+    "ammo"
+   ],
+   "weapon_m4a1": [
+    "ammo"
+   ],
+   "weapon_scout": [
+    "ammo"
+   ]
+  }
+ },
+ "links": {
+  "total": 16,
+  "unresolved": 0
+ },
+ "lists": {
+  "textures_unmapped": [
+   "TEXTURY/FLOOR",
+   "TEXTURY/ZZ12",
+   "TEXTURY/ZZ13",
+   "TEXTURY/ZZ14"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [
+   "props/de_dust/du_dome_d2b.mdl"
+  ],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "game_player_equip.weapon_deagle",
+   "game_player_equip.weapon_knife",
+   "weapon_ak47.ammo",
+   "weapon_aug.ammo",
+   "weapon_awp.ammo",
+   "weapon_m4a1.ammo",
+   "weapon_scout.ammo"
+  ],
+  "links_unresolved": [],
+  "surfaces_opaque": []
+ },
+ "counts": {
+  "textures_unmapped": 4,
+  "textures_flat": 0,
+  "models_unmapped": 1,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 7,
+  "links_unresolved": 0,
+  "surfaces_opaque": 0
+ }
+}

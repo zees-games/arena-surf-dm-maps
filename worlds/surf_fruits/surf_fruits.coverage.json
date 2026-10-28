@@ -1,0 +1,170 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "surf_fruits",
+ "sha256": "57af7c798d791d9126da39f47d033d2d3b372cafbea2987e57fb97316f7efb8d",
+ "textures": {
+  "looked_up": 131,
+  "drawn": 131,
+  "by_tier": {
+   "addon": 67,
+   "default": 40,
+   "fallback": 24
+  },
+  "free_by_tier": {
+   "addon": 83,
+   "default": 29,
+   "nearest": 19
+  },
+  "nearest_photo": [
+   "360g/kiwi",
+   "color/golden yellow",
+   "color/green yellow",
+   "cs_havana/floor02",
+   "cs_italy/cellarwall01",
+   "cs_italy/orange",
+   "cs_italy/pipe_wall5_1",
+   "custom/banana",
+   "custom/lemon",
+   "custom/lemonsliced",
+   "custom/lime",
+   "custom/limesliced",
+   "custom_fruit/cherry_grad",
+   "customs/fruitcredits2",
+   "customs/fr\u00fcchte/jackfrucht",
+   "customs/orange",
+   "de_dust/rockwall_blend",
+   "de_prodigy/tunnelplaster02",
+   "de_train/blendgraveldirt001a",
+   "de_train/train_bombsite_arrow_01",
+   "de_train/train_bombsite_arrow_02",
+   "halflife/+0~white",
+   "icecreamlock/colorddgreen",
+   "icecreamlock/colordred",
+   "icecreamlock/rainbow1",
+   "metal/metalfloor001a",
+   "metal/metalwall058a",
+   "metal/metalwall082a",
+   "metal/metalwall102a",
+   "models/debug/debugwhite",
+   "models/props/de_nuke/pipeset_metal",
+   "nature/blenddirtgrass001b",
+   "reflex_pseudo/mat_dark",
+   "stone/stonewall013a",
+   "surf_fruit/groen",
+   "surf_fruits section - strawberries/strawb tex2",
+   "tile/tilebreak001c"
+  ]
+ },
+ "models": {
+  "looked_up": 17,
+  "by_tier": {
+   "default": 17
+  }
+ },
+ "sounds": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "classes": {
+  "distinct": 42,
+  "entities": 1138,
+  "by_tier": {
+   "default": 42
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "game_player_equip": [
+    "weapon_ak47",
+    "weapon_aug",
+    "weapon_deagle",
+    "weapon_flashbang",
+    "weapon_hegrenade",
+    "weapon_knife",
+    "weapon_p90",
+    "weapon_smokegrenade",
+    "weapon_tmp"
+   ],
+   "point_viewcontrol": [
+    "acceleration",
+    "deceleration"
+   ],
+   "weapon_awp": [
+    "ammo"
+   ],
+   "weapon_deagle": [
+    "ammo"
+   ]
+  }
+ },
+ "links": {
+  "total": 58,
+  "unresolved": 0
+ },
+ "lists": {
+  "textures_unmapped": [
+   "360G/KIWI",
+   "COLOR/GOLDEN YELLOW",
+   "COLOR/GREEN YELLOW",
+   "CS_HAVANA/FLOOR02",
+   "CS_ITALY/ORANGE",
+   "CUSTOM/BANANA",
+   "CUSTOM/LEMON",
+   "CUSTOM/LEMONSLICED",
+   "CUSTOM/LIME",
+   "CUSTOM/LIMESLICED",
+   "CUSTOMS/FRUITCREDITS2",
+   "CUSTOMS/FR\u00dcCHTE/JACKFRUCHT",
+   "CUSTOMS/LOGOS/SPRAYLOGO",
+   "CUSTOMS/ORANGE",
+   "CUSTOMS/ORANGE2",
+   "CUSTOM_FRUIT/CHERRY_GRAD",
+   "ICECREAMLOCK/COLORDDGREEN",
+   "ICECREAMLOCK/COLORDRED",
+   "ICECREAMLOCK/PINEAPPLE",
+   "ICECREAMLOCK/RAINBOW1",
+   "MODELS/DEBUG/DEBUGWHITE",
+   "REFLEX_PSEUDO/MAT_DARK",
+   "SURF_FRUIT/GROEN",
+   "SURF_FRUITS SECTION - STRAWBERRIES/STRAWB TEX2"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "game_player_equip.weapon_ak47",
+   "game_player_equip.weapon_aug",
+   "game_player_equip.weapon_deagle",
+   "game_player_equip.weapon_flashbang",
+   "game_player_equip.weapon_hegrenade",
+   "game_player_equip.weapon_knife",
+   "game_player_equip.weapon_p90",
+   "game_player_equip.weapon_smokegrenade",
+   "game_player_equip.weapon_tmp",
+   "point_viewcontrol.acceleration",
+   "point_viewcontrol.deceleration",
+   "weapon_awp.ammo",
+   "weapon_deagle.ammo"
+  ],
+  "links_unresolved": [],
+  "surfaces_opaque": [
+   "custom_fruit/cherry_grad",
+   "de_train/train_bombsite_arrow_01",
+   "de_train/train_bombsite_arrow_02",
+   "surf_fruits section - strawberries/strawb tex2"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 24,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 13,
+  "links_unresolved": 0,
+  "surfaces_opaque": 4
+ }
+}

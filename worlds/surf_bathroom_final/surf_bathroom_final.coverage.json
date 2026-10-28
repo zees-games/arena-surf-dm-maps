@@ -1,0 +1,220 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "surf_bathroom_final",
+ "sha256": "f3f249b3f8fbfe400c05195bf0adf4149d2af3990848b14deca436c55e735cac",
+ "textures": {
+  "looked_up": 87,
+  "drawn": 87,
+  "by_tier": {
+   "addon": 25,
+   "default": 26,
+   "fallback": 36
+  },
+  "free_by_tier": {
+   "addon": 42,
+   "default": 15,
+   "nearest": 30
+  },
+  "nearest_photo": [
+   "brick/brickwall038a",
+   "building_template/building_template002j",
+   "building_template/building_template004f",
+   "building_template/building_template011g",
+   "building_template/building_template011i",
+   "building_template/building_template014k",
+   "building_template/building_template015a",
+   "building_template/building_template015i",
+   "de_train/train_bombsite_arrow_01",
+   "dev/dev_blendmeasure2",
+   "dev/dev_measurecolorscale01",
+   "halflife/+aexit",
+   "metal/metalroof008a_cheap",
+   "props/cardboardbox001a",
+   "props/cardboardbox001c",
+   "smooth/rubber",
+   "surf_bathroom/blowdryer_logo",
+   "surf_bathroom/horseshampoo",
+   "surf_bathroom/info",
+   "surf_bathroom/laxative_1",
+   "surf_bathroom/metal2",
+   "surf_bathroom/soap",
+   "surf_bathroom/spongeyellow",
+   "surf_bathroom/surf_bathroom_alzheimer",
+   "surf_bathroom/surf_bathroom_bfcafe",
+   "surf_bathroom/surf_bathroom_bible",
+   "surf_bathroom/surf_bathroom_creme",
+   "surf_bathroom/surf_bathroom_duck",
+   "surf_bathroom/surf_bathroom_frontmag",
+   "surf_bathroom/surf_bathroom_golfmag",
+   "surf_bathroom/surf_bathroom_grandparents",
+   "surf_bathroom/surf_bathroom_green_door",
+   "surf_bathroom/surf_bathroom_horsemag",
+   "surf_bathroom/surf_bathroom_ironmanmag",
+   "surf_bathroom/surf_bathroom_jetfatmag",
+   "surf_bathroom/surf_bathroom_kungfumag",
+   "surf_bathroom/surf_bathroom_marble2",
+   "surf_bathroom/surf_bathroom_paper",
+   "surf_bathroom/surf_bathroom_spongebob",
+   "surf_bathroom/surf_bathroom_stress",
+   "surf_bathroom/surf_bathroom_toiletpaper",
+   "surf_bathroom/surf_bathroom_towel",
+   "surf_bathroom/surf_bathroom_towel_blue",
+   "surf_bathroom/surf_bathroom_towel_yellow",
+   "surf_bathroom/tiles_blue",
+   "surf_bathroom/tiles_brown",
+   "surf_bathroom/viagra1",
+   "surf_bathroom/wetawded"
+  ]
+ },
+ "models": {
+  "looked_up": 10,
+  "by_tier": {
+   "default": 10
+  }
+ },
+ "sounds": {
+  "looked_up": 3,
+  "by_tier": {
+   "default": 2,
+   "fallback": 1
+  }
+ },
+ "classes": {
+  "distinct": 48,
+  "entities": 448,
+  "by_tier": {
+   "default": 48
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "ambient_generic": [
+    "pitch"
+   ],
+   "func_door_rotating": [
+    "message"
+   ],
+   "func_rot_button": [
+    "StartDisabled"
+   ],
+   "game_player_equip": [
+    "item_assaultsuit",
+    "weapon_ak47",
+    "weapon_deagle",
+    "weapon_famas",
+    "weapon_hegrenade",
+    "weapon_knife",
+    "weapon_m249",
+    "weapon_m3",
+    "weapon_m4a1",
+    "weapon_mp5navy",
+    "weapon_sg552"
+   ],
+   "light": [
+    "no_decomp"
+   ],
+   "trigger_once": [
+    "wait"
+   ],
+   "weapon_awp": [
+    "ammo"
+   ],
+   "weapon_scout": [
+    "ammo"
+   ],
+   "worldspawn": [
+    "no_decomp"
+   ]
+  }
+ },
+ "links": {
+  "total": 100,
+  "unresolved": 1
+ },
+ "lists": {
+  "textures_unmapped": [
+   "PROPS/CARDBOARDBOX001A",
+   "PROPS/CARDBOARDBOX001C",
+   "SMOOTH/RIVER_FLOW",
+   "SMOOTH/RUBBER",
+   "SURF_BATHROOM/AKRON",
+   "SURF_BATHROOM/BLOWDRYER_LOGO",
+   "SURF_BATHROOM/HORSESHAMPOO",
+   "SURF_BATHROOM/INFO",
+   "SURF_BATHROOM/LAXATIVE_1",
+   "SURF_BATHROOM/MANLYSHAMPOO",
+   "SURF_BATHROOM/MAPMADEBYSMOOTH",
+   "SURF_BATHROOM/SOAP",
+   "SURF_BATHROOM/SOLIDSURF",
+   "SURF_BATHROOM/SPONGEYELLOW",
+   "SURF_BATHROOM/SURF_BATHROOM_ALZHEIMER",
+   "SURF_BATHROOM/SURF_BATHROOM_BEER",
+   "SURF_BATHROOM/SURF_BATHROOM_BFCAFE",
+   "SURF_BATHROOM/SURF_BATHROOM_BIBLE",
+   "SURF_BATHROOM/SURF_BATHROOM_CREME",
+   "SURF_BATHROOM/SURF_BATHROOM_DUCK",
+   "SURF_BATHROOM/SURF_BATHROOM_DUCK_TRANSPARENT",
+   "SURF_BATHROOM/SURF_BATHROOM_FRONTMAG",
+   "SURF_BATHROOM/SURF_BATHROOM_GOLFMAG",
+   "SURF_BATHROOM/SURF_BATHROOM_GRANDPARENTS",
+   "SURF_BATHROOM/SURF_BATHROOM_HORSEMAG",
+   "SURF_BATHROOM/SURF_BATHROOM_JETFATMAG",
+   "SURF_BATHROOM/SURF_BATHROOM_KUNGFUMAG",
+   "SURF_BATHROOM/SURF_BATHROOM_PAPER",
+   "SURF_BATHROOM/SURF_BATHROOM_SPONGEBOB",
+   "SURF_BATHROOM/SURF_BATHROOM_STRESS",
+   "SURF_BATHROOM/SURF_BATHROOM_TOILETPAPER",
+   "SURF_BATHROOM/SURF_BATHROOM_TOWEL",
+   "SURF_BATHROOM/SURF_BATHROOM_TOWEL_BLUE",
+   "SURF_BATHROOM/SURF_BATHROOM_TOWEL_YELLOW",
+   "SURF_BATHROOM/VIAGRA1",
+   "SURF_BATHROOM/WETAWDED"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [
+   "ambient/office/coinslot1.wav"
+  ],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "ambient_generic.pitch",
+   "func_door_rotating.message",
+   "func_rot_button.StartDisabled",
+   "game_player_equip.item_assaultsuit",
+   "game_player_equip.weapon_ak47",
+   "game_player_equip.weapon_deagle",
+   "game_player_equip.weapon_famas",
+   "game_player_equip.weapon_hegrenade",
+   "game_player_equip.weapon_knife",
+   "game_player_equip.weapon_m249",
+   "game_player_equip.weapon_m3",
+   "game_player_equip.weapon_m4a1",
+   "game_player_equip.weapon_mp5navy",
+   "game_player_equip.weapon_sg552",
+   "light.no_decomp",
+   "trigger_once.wait",
+   "weapon_awp.ammo",
+   "weapon_scout.ammo",
+   "worldspawn.no_decomp"
+  ],
+  "links_unresolved": [
+   "trigger_multiple.OnTrigger->player_equip_defuser"
+  ],
+  "surfaces_opaque": [
+   "de_train/train_bombsite_arrow_01",
+   "surf_bathroom/surf_bathroom_duck"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 36,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 1,
+  "classes_unmapped": 0,
+  "keys_unmapped": 19,
+  "links_unresolved": 1,
+  "surfaces_opaque": 2
+ }
+}
