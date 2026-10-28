@@ -1,0 +1,93 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "surf_machine2",
+ "sha256": "f49ed87e0d65db73d085b0116237e9f4eff9dcb6c7bf81da936dfae2561f0e9a",
+ "textures": {
+  "looked_up": 51,
+  "drawn": 51,
+  "by_tier": {
+   "addon": 29,
+   "default": 21,
+   "fallback": 1
+  },
+  "free_by_tier": {
+   "addon": 38,
+   "default": 8,
+   "nearest": 5
+  },
+  "nearest_photo": [
+   "brick/brickwall031a",
+   "brick/brickwall038a",
+   "cs_italy/plasterwall02",
+   "de_dust/residbwall02",
+   "de_nuke/nukfloora",
+   "de_nuke/nukmetwallab",
+   "de_train/blendgraveldirt001a",
+   "halflife/c3a2a_telred1d",
+   "metal/metalroof008a_cheap",
+   "metal/metalwall070a",
+   "nature/blendmilground004_2",
+   "sprites/greenglow1",
+   "sprites/redglow1"
+  ]
+ },
+ "models": {
+  "looked_up": 5,
+  "by_tier": {
+   "category": 1,
+   "default": 4
+  }
+ },
+ "sounds": {
+  "looked_up": 1,
+  "by_tier": {
+   "default": 1
+  }
+ },
+ "classes": {
+  "distinct": 54,
+  "entities": 349,
+  "by_tier": {
+   "default": 54
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "ambient_generic": [
+    "pitch"
+   ]
+  }
+ },
+ "links": {
+  "total": 104,
+  "unresolved": 0
+ },
+ "lists": {
+  "textures_unmapped": [
+   "DE_CHATEAU/{CXARROW01"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "ambient_generic.pitch"
+  ],
+  "links_unresolved": [],
+  "surfaces_opaque": [
+   "models/props_c17/frostedglass_01a_dx60"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 1,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 1,
+  "links_unresolved": 0,
+  "surfaces_opaque": 1
+ }
+}

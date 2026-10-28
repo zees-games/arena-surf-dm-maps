@@ -1,0 +1,153 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "surf_machine_remix_final",
+ "sha256": "a72414176e0ffeb9743e66f6fd7992c0c1702f221eaf9f57fba0b9b169b328a0",
+ "textures": {
+  "looked_up": 22,
+  "drawn": 22,
+  "by_tier": {
+   "addon": 11,
+   "default": 10,
+   "fallback": 1
+  },
+  "free_by_tier": {
+   "addon": 14,
+   "default": 8
+  },
+  "nearest_photo": [
+   "building_template/building_template022a",
+   "building_template/building_trainstation_template001e",
+   "models/props_combine/portalball001_sheet"
+  ]
+ },
+ "models": {
+  "looked_up": 5,
+  "by_tier": {
+   "default": 5
+  }
+ },
+ "sounds": {
+  "looked_up": 1,
+  "by_tier": {
+   "default": 1
+  }
+ },
+ "classes": {
+  "distinct": 53,
+  "entities": 489,
+  "by_tier": {
+   "default": 53
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "ambient_generic": [
+    "pitch"
+   ],
+   "weapon_ak47": [
+    "ammo"
+   ],
+   "weapon_aug": [
+    "ammo"
+   ],
+   "weapon_awp": [
+    "ammo"
+   ],
+   "weapon_deagle": [
+    "ammo"
+   ],
+   "weapon_fiveseven": [
+    "ammo"
+   ],
+   "weapon_hegrenade": [
+    "ammo"
+   ],
+   "weapon_m249": [
+    "ammo"
+   ],
+   "weapon_m3": [
+    "ammo"
+   ],
+   "weapon_m4a1": [
+    "ammo"
+   ],
+   "weapon_mac10": [
+    "ammo"
+   ],
+   "weapon_mp5navy": [
+    "ammo"
+   ],
+   "weapon_p90": [
+    "ammo"
+   ],
+   "weapon_scout": [
+    "ammo"
+   ],
+   "weapon_sg550": [
+    "ammo"
+   ],
+   "weapon_sg552": [
+    "ammo"
+   ],
+   "weapon_tmp": [
+    "ammo"
+   ],
+   "weapon_ump45": [
+    "ammo"
+   ],
+   "weapon_xm1014": [
+    "ammo"
+   ]
+  }
+ },
+ "links": {
+  "total": 31,
+  "unresolved": 0
+ },
+ "lists": {
+  "textures_unmapped": [
+   "MODELS/PROPS_COMBINE/PORTALBALL001_SHEET"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "ambient_generic.pitch",
+   "weapon_ak47.ammo",
+   "weapon_aug.ammo",
+   "weapon_awp.ammo",
+   "weapon_deagle.ammo",
+   "weapon_fiveseven.ammo",
+   "weapon_hegrenade.ammo",
+   "weapon_m249.ammo",
+   "weapon_m3.ammo",
+   "weapon_m4a1.ammo",
+   "weapon_mac10.ammo",
+   "weapon_mp5navy.ammo",
+   "weapon_p90.ammo",
+   "weapon_scout.ammo",
+   "weapon_sg550.ammo",
+   "weapon_sg552.ammo",
+   "weapon_tmp.ammo",
+   "weapon_ump45.ammo",
+   "weapon_xm1014.ammo"
+  ],
+  "links_unresolved": [],
+  "surfaces_opaque": [
+   "models/props_combine/portalball001_sheet"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 1,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 19,
+  "links_unresolved": 0,
+  "surfaces_opaque": 1
+ }
+}

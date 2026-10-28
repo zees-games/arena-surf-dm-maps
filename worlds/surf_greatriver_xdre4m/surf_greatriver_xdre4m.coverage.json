@@ -1,0 +1,151 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "surf_greatriver_xdre4m",
+ "sha256": "30b2cb32de63fb4c398a17699fe51ce4e1a8dc1947972d3630f965bbf56379f2",
+ "textures": {
+  "looked_up": 21,
+  "drawn": 20,
+  "by_tier": {
+   "addon": 8,
+   "default": 13
+  },
+  "free_by_tier": {
+   "addon": 12,
+   "default": 6,
+   "nearest": 2
+  },
+  "nearest_photo": [
+   "building_template/courtyard_template001a",
+   "cs_havana/dirtfloor006a",
+   "cs_italy/plasterwall02",
+   "de_train/blendgraveldirt001a",
+   "effects/tp_eyefx/tpeye3",
+   "sprites/combineball_glow_black_1",
+   "stone/stonewall014b"
+  ]
+ },
+ "models": {
+  "looked_up": 3,
+  "by_tier": {
+   "default": 3
+  }
+ },
+ "sounds": {
+  "looked_up": 2,
+  "by_tier": {
+   "default": 2
+  }
+ },
+ "classes": {
+  "distinct": 57,
+  "entities": 455,
+  "by_tier": {
+   "default": 57
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "ambient_generic": [
+    "pitch"
+   ],
+   "point_viewcontrol": [
+    "acceleration",
+    "deceleration"
+   ],
+   "weapon_ak47": [
+    "ammo"
+   ],
+   "weapon_awp": [
+    "ammo"
+   ],
+   "weapon_deagle": [
+    "ammo"
+   ],
+   "weapon_elite": [
+    "ammo"
+   ],
+   "weapon_fiveseven": [
+    "ammo"
+   ],
+   "weapon_galil": [
+    "ammo"
+   ],
+   "weapon_m249": [
+    "ammo"
+   ],
+   "weapon_m3": [
+    "ammo"
+   ],
+   "weapon_m4a1": [
+    "ammo"
+   ],
+   "weapon_mac10": [
+    "ammo"
+   ],
+   "weapon_mp5navy": [
+    "ammo"
+   ],
+   "weapon_p228": [
+    "ammo"
+   ],
+   "weapon_p90": [
+    "ammo"
+   ],
+   "weapon_scout": [
+    "ammo"
+   ],
+   "weapon_sg552": [
+    "ammo"
+   ],
+   "weapon_tmp": [
+    "ammo"
+   ]
+  }
+ },
+ "links": {
+  "total": 97,
+  "unresolved": 0
+ },
+ "lists": {
+  "textures_unmapped": [],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "ambient_generic.pitch",
+   "point_viewcontrol.acceleration",
+   "point_viewcontrol.deceleration",
+   "weapon_ak47.ammo",
+   "weapon_awp.ammo",
+   "weapon_deagle.ammo",
+   "weapon_elite.ammo",
+   "weapon_fiveseven.ammo",
+   "weapon_galil.ammo",
+   "weapon_m249.ammo",
+   "weapon_m3.ammo",
+   "weapon_m4a1.ammo",
+   "weapon_mac10.ammo",
+   "weapon_mp5navy.ammo",
+   "weapon_p228.ammo",
+   "weapon_p90.ammo",
+   "weapon_scout.ammo",
+   "weapon_sg552.ammo",
+   "weapon_tmp.ammo"
+  ],
+  "links_unresolved": [],
+  "surfaces_opaque": []
+ },
+ "counts": {
+  "textures_unmapped": 0,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 19,
+  "links_unresolved": 0,
+  "surfaces_opaque": 0
+ }
+}

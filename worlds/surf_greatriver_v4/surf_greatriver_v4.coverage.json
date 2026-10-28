@@ -1,0 +1,256 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "surf_greatriver_v4",
+ "sha256": "d46215e76c17d6751f3266a04a13185c952544f42e176c45b46ee8ff95dfbe1a",
+ "textures": {
+  "looked_up": 61,
+  "drawn": 61,
+  "by_tier": {
+   "addon": 8,
+   "default": 6,
+   "fallback": 47
+  },
+  "free_by_tier": {
+   "addon": 39,
+   "default": 3,
+   "nearest": 19
+  },
+  "nearest_photo": [
+   "cs_havana/dirtfloor006a",
+   "dev/dev_measureladder01",
+   "gr_v4/v4_hof_greatestriver",
+   "gr_v4/v4_hof_greatriver",
+   "gr_v4/v4_hof_hof",
+   "gr_v4/v4_hof_v2",
+   "gr_v4/v4_hof_v3",
+   "gr_v4/v4_kp_#",
+   "gr_v4/v4_kp_0",
+   "gr_v4/v4_kp_1",
+   "gr_v4/v4_kp_2",
+   "gr_v4/v4_kp_3",
+   "gr_v4/v4_kp_4",
+   "gr_v4/v4_kp_5",
+   "gr_v4/v4_kp_6",
+   "gr_v4/v4_kp_7",
+   "gr_v4/v4_kp_8",
+   "gr_v4/v4_kp_9",
+   "gr_v4/v4_kp_star",
+   "gr_v4/v4_mapbybenny",
+   "gr_v4/v4_padytoexit",
+   "gr_v4/v4_sponsor_fragfest",
+   "gr_v4/v4_wep_228",
+   "gr_v4/v4_wep_ak47",
+   "gr_v4/v4_wep_aug",
+   "gr_v4/v4_wep_awp",
+   "gr_v4/v4_wep_bomb",
+   "gr_v4/v4_wep_deagle",
+   "gr_v4/v4_wep_defuser",
+   "gr_v4/v4_wep_elite",
+   "gr_v4/v4_wep_famas",
+   "gr_v4/v4_wep_fiveseven",
+   "gr_v4/v4_wep_galil",
+   "gr_v4/v4_wep_glock",
+   "gr_v4/v4_wep_kevlar",
+   "gr_v4/v4_wep_m249",
+   "gr_v4/v4_wep_m3",
+   "gr_v4/v4_wep_m4a1",
+   "gr_v4/v4_wep_mac10",
+   "gr_v4/v4_wep_mp5",
+   "gr_v4/v4_wep_nades",
+   "gr_v4/v4_wep_nvgs",
+   "gr_v4/v4_wep_p90",
+   "gr_v4/v4_wep_scout",
+   "gr_v4/v4_wep_sg552",
+   "gr_v4/v4_wep_tmp",
+   "gr_v4/v4_wep_ump",
+   "gr_v4/v4_wep_usp",
+   "gr_v4/v4_wep_xm1014",
+   "nature/rockwall009b"
+  ]
+ },
+ "models": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "sounds": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "classes": {
+  "distinct": 57,
+  "entities": 468,
+  "by_tier": {
+   "default": 57
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "weapon_ak47": [
+    "ammo"
+   ],
+   "weapon_aug": [
+    "ammo"
+   ],
+   "weapon_awp": [
+    "ammo"
+   ],
+   "weapon_deagle": [
+    "ammo"
+   ],
+   "weapon_elite": [
+    "ammo"
+   ],
+   "weapon_famas": [
+    "ammo"
+   ],
+   "weapon_fiveseven": [
+    "ammo"
+   ],
+   "weapon_galil": [
+    "ammo"
+   ],
+   "weapon_glock": [
+    "ammo"
+   ],
+   "weapon_m249": [
+    "ammo"
+   ],
+   "weapon_m3": [
+    "ammo"
+   ],
+   "weapon_m4a1": [
+    "ammo"
+   ],
+   "weapon_mac10": [
+    "ammo"
+   ],
+   "weapon_mp5navy": [
+    "ammo"
+   ],
+   "weapon_p228": [
+    "ammo"
+   ],
+   "weapon_p90": [
+    "ammo"
+   ],
+   "weapon_scout": [
+    "ammo"
+   ],
+   "weapon_sg552": [
+    "ammo"
+   ],
+   "weapon_tmp": [
+    "ammo"
+   ],
+   "weapon_ump45": [
+    "ammo"
+   ],
+   "weapon_usp": [
+    "ammo"
+   ],
+   "weapon_xm1014": [
+    "ammo"
+   ]
+  }
+ },
+ "links": {
+  "total": 155,
+  "unresolved": 2
+ },
+ "lists": {
+  "textures_unmapped": [
+   "GR_V4/V4_HOF_GREATESTRIVER",
+   "GR_V4/V4_HOF_GREATRIVER",
+   "GR_V4/V4_HOF_HOF",
+   "GR_V4/V4_HOF_V2",
+   "GR_V4/V4_HOF_V3",
+   "GR_V4/V4_KP_#",
+   "GR_V4/V4_KP_0",
+   "GR_V4/V4_KP_1",
+   "GR_V4/V4_KP_2",
+   "GR_V4/V4_KP_3",
+   "GR_V4/V4_KP_4",
+   "GR_V4/V4_KP_5",
+   "GR_V4/V4_KP_6",
+   "GR_V4/V4_KP_7",
+   "GR_V4/V4_KP_8",
+   "GR_V4/V4_KP_9",
+   "GR_V4/V4_KP_STAR",
+   "GR_V4/V4_MAPBYBENNY",
+   "GR_V4/V4_PADYTOEXIT",
+   "GR_V4/V4_SPONSOR_FRAGFEST",
+   "GR_V4/V4_WEP_228",
+   "GR_V4/V4_WEP_AK47",
+   "GR_V4/V4_WEP_AUG",
+   "GR_V4/V4_WEP_AWP",
+   "GR_V4/V4_WEP_BOMB",
+   "GR_V4/V4_WEP_DEAGLE",
+   "GR_V4/V4_WEP_DEFUSER",
+   "GR_V4/V4_WEP_ELITE",
+   "GR_V4/V4_WEP_FAMAS",
+   "GR_V4/V4_WEP_FIVESEVEN",
+   "GR_V4/V4_WEP_GALIL",
+   "GR_V4/V4_WEP_GLOCK",
+   "GR_V4/V4_WEP_KEVLAR",
+   "GR_V4/V4_WEP_M249",
+   "GR_V4/V4_WEP_M3",
+   "GR_V4/V4_WEP_M4A1",
+   "GR_V4/V4_WEP_MAC10",
+   "GR_V4/V4_WEP_MP5",
+   "GR_V4/V4_WEP_NADES",
+   "GR_V4/V4_WEP_NVGS",
+   "GR_V4/V4_WEP_P90",
+   "GR_V4/V4_WEP_SCOUT",
+   "GR_V4/V4_WEP_SG552",
+   "GR_V4/V4_WEP_TMP",
+   "GR_V4/V4_WEP_UMP",
+   "GR_V4/V4_WEP_USP",
+   "GR_V4/V4_WEP_XM1014"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "weapon_ak47.ammo",
+   "weapon_aug.ammo",
+   "weapon_awp.ammo",
+   "weapon_deagle.ammo",
+   "weapon_elite.ammo",
+   "weapon_famas.ammo",
+   "weapon_fiveseven.ammo",
+   "weapon_galil.ammo",
+   "weapon_glock.ammo",
+   "weapon_m249.ammo",
+   "weapon_m3.ammo",
+   "weapon_m4a1.ammo",
+   "weapon_mac10.ammo",
+   "weapon_mp5navy.ammo",
+   "weapon_p228.ammo",
+   "weapon_p90.ammo",
+   "weapon_scout.ammo",
+   "weapon_sg552.ammo",
+   "weapon_tmp.ammo",
+   "weapon_ump45.ammo",
+   "weapon_usp.ammo",
+   "weapon_xm1014.ammo"
+  ],
+  "links_unresolved": [
+   "func_button.OnPressed->Red_button_Sprite1",
+   "func_button.OnPressed->Red_button_Sprite2"
+  ],
+  "surfaces_opaque": []
+ },
+ "counts": {
+  "textures_unmapped": 47,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 22,
+  "links_unresolved": 2,
+  "surfaces_opaque": 0
+ }
+}

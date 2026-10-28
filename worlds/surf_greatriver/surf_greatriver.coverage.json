@@ -1,0 +1,76 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "surf_greatriver",
+ "sha256": "f3ed3db2c21fef14d043bd4a133d81451b9b3df64675db8764db328ac68750b6",
+ "textures": {
+  "looked_up": 27,
+  "drawn": 27,
+  "by_tier": {
+   "addon": 11,
+   "default": 15,
+   "fallback": 1
+  },
+  "free_by_tier": {
+   "addon": 15,
+   "default": 9,
+   "nearest": 3
+  },
+  "nearest_photo": [
+   "brick/brickwall019a",
+   "building_template/building_trainstation_template001a",
+   "dev/dev_measureladder01",
+   "nature/blendsandsand008a",
+   "nature/cavewall005a",
+   "nature/mudfloor005a",
+   "nature/rockwall009b"
+  ]
+ },
+ "models": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "sounds": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "classes": {
+  "distinct": 23,
+  "entities": 217,
+  "by_tier": {
+   "default": 23
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {}
+ },
+ "links": {
+  "total": 12,
+  "unresolved": 0
+ },
+ "lists": {
+  "textures_unmapped": [
+   "NATURE/CAVEWALL005A"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [],
+  "links_unresolved": [],
+  "surfaces_opaque": [
+   "building_template/building_trainstation_template001a"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 1,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 0,
+  "links_unresolved": 0,
+  "surfaces_opaque": 1
+ }
+}
