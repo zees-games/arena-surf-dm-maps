@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_skyworld",
-      "textures/"
+      "textures/",
+      "worlds/surf_skyworld/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

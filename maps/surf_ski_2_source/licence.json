@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_ski_2_source",
-      "textures/"
+      "textures/",
+      "worlds/surf_ski_2_source/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

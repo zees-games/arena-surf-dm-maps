@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_pox",
-      "textures/"
+      "textures/",
+      "worlds/surf_pox/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

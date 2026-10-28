@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_matrix_v8",
-      "textures/"
+      "textures/",
+      "worlds/surf_matrix_v8/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

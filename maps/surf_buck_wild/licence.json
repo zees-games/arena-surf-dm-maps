@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_buck_wild",
-      "textures/"
+      "textures/",
+      "worlds/surf_buck_wild/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_machine2",
-      "textures/"
+      "textures/",
+      "worlds/surf_machine2/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

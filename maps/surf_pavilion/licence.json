@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_pavilion",
-      "textures/"
+      "textures/",
+      "worlds/surf_pavilion/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

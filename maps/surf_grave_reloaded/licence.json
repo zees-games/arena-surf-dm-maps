@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_grave_reloaded",
-      "textures/"
+      "textures/",
+      "worlds/surf_grave_reloaded/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

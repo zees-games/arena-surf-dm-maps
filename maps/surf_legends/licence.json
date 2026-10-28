@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_legends",
-      "textures/"
+      "textures/",
+      "worlds/surf_legends/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

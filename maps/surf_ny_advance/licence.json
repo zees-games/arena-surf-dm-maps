@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_ny_advance",
-      "textures/"
+      "textures/",
+      "worlds/surf_ny_advance/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

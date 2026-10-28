@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_29_12_06",
-      "textures/"
+      "textures/",
+      "worlds/surf_29_12_06/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

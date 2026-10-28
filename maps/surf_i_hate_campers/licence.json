@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_i_hate_campers",
-      "textures/"
+      "textures/",
+      "worlds/surf_i_hate_campers/"
     ],
     "licence": "CC-BY-NC-ND-4.0",
     "exception": "credited-community-map",

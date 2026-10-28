@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_fruits",
-      "textures/"
+      "textures/",
+      "worlds/surf_fruits/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

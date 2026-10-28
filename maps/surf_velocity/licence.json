@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_velocity",
-      "textures/"
+      "textures/",
+      "worlds/surf_velocity/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

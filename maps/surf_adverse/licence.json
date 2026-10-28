@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_adverse",
-      "textures/"
+      "textures/",
+      "worlds/surf_adverse/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_torque2",
-      "textures/"
+      "textures/",
+      "worlds/surf_torque2/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

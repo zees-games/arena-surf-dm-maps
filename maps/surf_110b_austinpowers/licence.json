@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_110b_austinpowers",
-      "textures/"
+      "textures/",
+      "worlds/surf_110b_austinpowers/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

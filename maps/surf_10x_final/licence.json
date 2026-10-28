@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_10x_final",
-      "textures/"
+      "textures/",
+      "worlds/surf_10x_final/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

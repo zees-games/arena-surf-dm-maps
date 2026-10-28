@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_rebel_resistance_final3",
-      "textures/"
+      "textures/",
+      "worlds/surf_rebel_resistance_final3/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

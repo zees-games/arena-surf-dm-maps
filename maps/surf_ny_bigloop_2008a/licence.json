@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_ny_bigloop_2008a",
-      "textures/"
+      "textures/",
+      "worlds/surf_ny_bigloop_2008a/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_snipers_island",
-      "textures/"
+      "textures/",
+      "worlds/surf_snipers_island/"
     ],
     "licence": "CC-BY-NC-ND-4.0",
     "exception": "credited-community-map",

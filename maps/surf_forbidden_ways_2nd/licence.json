@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_forbidden_ways_2nd",
-      "textures/"
+      "textures/",
+      "worlds/surf_forbidden_ways_2nd/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_the_flow",
-      "textures/"
+      "textures/",
+      "worlds/surf_the_flow/"
     ],
     "licence": "CC-BY-NC-ND-4.0",
     "exception": "credited-community-map",

@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_thriller",
-      "textures/"
+      "textures/",
+      "worlds/surf_thriller/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

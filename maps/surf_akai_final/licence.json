@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_akai_final",
-      "textures/"
+      "textures/",
+      "worlds/surf_akai_final/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_greatriver_v4",
-      "textures/"
+      "textures/",
+      "worlds/surf_greatriver_v4/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_japan_ptad",
-      "textures/"
+      "textures/",
+      "worlds/surf_japan_ptad/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

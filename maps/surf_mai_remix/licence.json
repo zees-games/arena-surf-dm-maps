@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_mai_remix",
-      "textures/"
+      "textures/",
+      "worlds/surf_mai_remix/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

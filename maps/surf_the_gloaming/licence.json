@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_the_gloaming",
-      "textures/"
+      "textures/",
+      "worlds/surf_the_gloaming/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

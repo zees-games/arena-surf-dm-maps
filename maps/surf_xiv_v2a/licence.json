@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_xiv_v2a",
-      "textures/"
+      "textures/",
+      "worlds/surf_xiv_v2a/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

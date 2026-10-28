@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_parrot_selector",
-      "textures/"
+      "textures/",
+      "worlds/surf_parrot_selector/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",
