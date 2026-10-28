@@ -1,0 +1,144 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "surf_10x_reloaded_fixed",
+ "sha256": "9d289a00f7dba3a900ca4589b674cf86d8bf46dd4e26653fbc5eb5172b155df8",
+ "textures": {
+  "looked_up": 35,
+  "drawn": 35,
+  "by_tier": {
+   "addon": 14,
+   "default": 20,
+   "fallback": 1
+  },
+  "free_by_tier": {
+   "addon": 23,
+   "default": 8,
+   "nearest": 4
+  },
+  "nearest_photo": [
+   "building_template/building_template024a",
+   "concrete/offflrc",
+   "cs_havana/furniturewooddrawers001b",
+   "de_piranesi/castle02",
+   "de_piranesi/pi_cobbles",
+   "environment maps/pipemetal001a",
+   "metal/citadel_metalwall063a_cheap",
+   "nature/dirtwall001a",
+   "nature/snowfloor003a",
+   "plaster/plasterwall012a",
+   "plaster/plasterwall023a",
+   "test_speakers/floor04",
+   "vehicle/metaltrain002d"
+  ]
+ },
+ "models": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "sounds": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "classes": {
+  "distinct": 37,
+  "entities": 324,
+  "by_tier": {
+   "default": 37
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "func_monitor": [
+    "blockdamage",
+    "movedir",
+    "movedistance",
+    "startposition"
+   ],
+   "weapon_ak47": [
+    "ammo"
+   ],
+   "weapon_awp": [
+    "ammo"
+   ],
+   "weapon_deagle": [
+    "ammo"
+   ],
+   "weapon_elite": [
+    "ammo"
+   ],
+   "weapon_g3sg1": [
+    "ammo"
+   ],
+   "weapon_galil": [
+    "ammo"
+   ],
+   "weapon_m249": [
+    "ammo"
+   ],
+   "weapon_m4a1": [
+    "ammo"
+   ],
+   "weapon_mp5navy": [
+    "ammo"
+   ],
+   "weapon_p90": [
+    "ammo"
+   ],
+   "weapon_scout": [
+    "ammo"
+   ],
+   "weapon_sg550": [
+    "ammo"
+   ],
+   "weapon_tmp": [
+    "ammo"
+   ]
+  }
+ },
+ "links": {
+  "total": 2,
+  "unresolved": 0
+ },
+ "lists": {
+  "textures_unmapped": [
+   "BUCKNASTY/BUCKNASTY"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "func_monitor.blockdamage",
+   "func_monitor.movedir",
+   "func_monitor.movedistance",
+   "func_monitor.startposition",
+   "weapon_ak47.ammo",
+   "weapon_awp.ammo",
+   "weapon_deagle.ammo",
+   "weapon_elite.ammo",
+   "weapon_g3sg1.ammo",
+   "weapon_galil.ammo",
+   "weapon_m249.ammo",
+   "weapon_m4a1.ammo",
+   "weapon_mp5navy.ammo",
+   "weapon_p90.ammo",
+   "weapon_scout.ammo",
+   "weapon_sg550.ammo",
+   "weapon_tmp.ammo"
+  ],
+  "links_unresolved": [],
+  "surfaces_opaque": []
+ },
+ "counts": {
+  "textures_unmapped": 1,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 17,
+  "links_unresolved": 0,
+  "surfaces_opaque": 0
+ }
+}

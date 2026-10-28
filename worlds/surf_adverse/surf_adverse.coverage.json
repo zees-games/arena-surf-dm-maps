@@ -1,0 +1,127 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "surf_adverse",
+ "sha256": "f4a51959267ba75263f05837622931824ad8a086f3d343ea6d748149268d568d",
+ "textures": {
+  "looked_up": 22,
+  "drawn": 22,
+  "by_tier": {
+   "addon": 18,
+   "default": 3,
+   "fallback": 1
+  },
+  "free_by_tier": {
+   "addon": 19,
+   "default": 3
+  },
+  "nearest_photo": [
+   "tp/triangle_final_256x256_v1"
+  ]
+ },
+ "models": {
+  "looked_up": 3,
+  "by_tier": {
+   "default": 3
+  }
+ },
+ "sounds": {
+  "looked_up": 2,
+  "by_tier": {
+   "default": 2
+  }
+ },
+ "classes": {
+  "distinct": 40,
+  "entities": 523,
+  "by_tier": {
+   "default": 40
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "ambient_generic": [
+    "pitch"
+   ],
+   "game_player_equip": [
+    "ammo",
+    "weapon_deagle",
+    "weapon_knife"
+   ],
+   "point_viewcontrol": [
+    "acceleration",
+    "deceleration"
+   ],
+   "weapon_ak47": [
+    "ammo"
+   ],
+   "weapon_aug": [
+    "ammo"
+   ],
+   "weapon_awp": [
+    "ammo"
+   ],
+   "weapon_m249": [
+    "ammo"
+   ],
+   "weapon_m3": [
+    "ammo"
+   ],
+   "weapon_m4a1": [
+    "ammo"
+   ],
+   "weapon_mp5navy": [
+    "ammo"
+   ],
+   "weapon_p90": [
+    "ammo"
+   ],
+   "weapon_scout": [
+    "ammo"
+   ]
+  }
+ },
+ "links": {
+  "total": 435,
+  "unresolved": 0
+ },
+ "lists": {
+  "textures_unmapped": [
+   "TP/TRIANGLE_FINAL_256X256_V1"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "ambient_generic.pitch",
+   "game_player_equip.ammo",
+   "game_player_equip.weapon_deagle",
+   "game_player_equip.weapon_knife",
+   "point_viewcontrol.acceleration",
+   "point_viewcontrol.deceleration",
+   "weapon_ak47.ammo",
+   "weapon_aug.ammo",
+   "weapon_awp.ammo",
+   "weapon_m249.ammo",
+   "weapon_m3.ammo",
+   "weapon_m4a1.ammo",
+   "weapon_mp5navy.ammo",
+   "weapon_p90.ammo",
+   "weapon_scout.ammo"
+  ],
+  "links_unresolved": [],
+  "surfaces_opaque": []
+ },
+ "counts": {
+  "textures_unmapped": 1,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 15,
+  "links_unresolved": 0,
+  "surfaces_opaque": 0
+ }
+}

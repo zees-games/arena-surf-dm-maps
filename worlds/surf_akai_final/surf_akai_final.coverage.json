@@ -1,0 +1,133 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "surf_akai_final",
+ "sha256": "b5938c011dce9e0acee703530b297d07c990691d3a12f039541e45da918365f7",
+ "textures": {
+  "looked_up": 18,
+  "drawn": 18,
+  "by_tier": {
+   "addon": 4,
+   "default": 14
+  },
+  "free_by_tier": {
+   "addon": 6,
+   "default": 3,
+   "nearest": 9
+  },
+  "nearest_photo": [
+   "dev/dev_measurebarrel",
+   "dev/dev_measurecomputer01",
+   "dev/dev_measurecrate03",
+   "dev/dev_measuredoor01",
+   "dev/dev_measurehall01",
+   "dev/dev_measureladder01",
+   "dev/dev_measurerails01",
+   "dev/dev_measureswitch01",
+   "dev/dev_measureswitch02",
+   "dev/dev_measureswitch03",
+   "dev/dev_measurewall01d"
+  ]
+ },
+ "models": {
+  "looked_up": 8,
+  "by_tier": {
+   "default": 8
+  }
+ },
+ "sounds": {
+  "looked_up": 1,
+  "by_tier": {
+   "fallback": 1
+  }
+ },
+ "classes": {
+  "distinct": 49,
+  "entities": 425,
+  "by_tier": {
+   "default": 49
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "ambient_generic": [
+    "pitch"
+   ],
+   "game_player_equip": [
+    "ammo_338mag",
+    "ammo_50ae",
+    "ammo_556mm",
+    "ammo_556mm_box",
+    "ammo_57mm",
+    "ammo_762mm",
+    "ammo_9mm",
+    "ammo_buckshot",
+    "item_assaultsuit",
+    "item_kevlar",
+    "weapon_ak47",
+    "weapon_awp",
+    "weapon_deagle",
+    "weapon_elite",
+    "weapon_knife",
+    "weapon_m249",
+    "weapon_m3",
+    "weapon_m4a1",
+    "weapon_p90"
+   ],
+   "point_viewcontrol": [
+    "acceleration",
+    "deceleration"
+   ]
+  }
+ },
+ "links": {
+  "total": 164,
+  "unresolved": 0
+ },
+ "lists": {
+  "textures_unmapped": [],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [
+   "floodgate_klaxon"
+  ],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "ambient_generic.pitch",
+   "game_player_equip.ammo_338mag",
+   "game_player_equip.ammo_50ae",
+   "game_player_equip.ammo_556mm",
+   "game_player_equip.ammo_556mm_box",
+   "game_player_equip.ammo_57mm",
+   "game_player_equip.ammo_762mm",
+   "game_player_equip.ammo_9mm",
+   "game_player_equip.ammo_buckshot",
+   "game_player_equip.item_assaultsuit",
+   "game_player_equip.item_kevlar",
+   "game_player_equip.weapon_ak47",
+   "game_player_equip.weapon_awp",
+   "game_player_equip.weapon_deagle",
+   "game_player_equip.weapon_elite",
+   "game_player_equip.weapon_knife",
+   "game_player_equip.weapon_m249",
+   "game_player_equip.weapon_m3",
+   "game_player_equip.weapon_m4a1",
+   "game_player_equip.weapon_p90",
+   "point_viewcontrol.acceleration",
+   "point_viewcontrol.deceleration"
+  ],
+  "links_unresolved": [],
+  "surfaces_opaque": []
+ },
+ "counts": {
+  "textures_unmapped": 0,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 1,
+  "classes_unmapped": 0,
+  "keys_unmapped": 22,
+  "links_unresolved": 0,
+  "surfaces_opaque": 0
+ }
+}

@@ -1,0 +1,6 @@
+# Suggested by the converter from commands in surf_adverse's entities.
+# Nothing here is applied. Uncomment a line to set it for this map; a key the game does
+# not whitelist is logged and ignored (docs/map-config.md).
+# ma_ban: "STEAM_0:0:15586376 10"
+# net_maxfilesize: 30
+# sm_addban: "STEAM_0:0:15586376 10"

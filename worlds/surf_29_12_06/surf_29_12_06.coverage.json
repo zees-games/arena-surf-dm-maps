@@ -1,0 +1,113 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "surf_29_12_06",
+ "sha256": "d18242f27cef669cb6bc5b5ff6b41a461712cc83112b486ac9f12a1b38d68d58",
+ "textures": {
+  "looked_up": 11,
+  "drawn": 11,
+  "by_tier": {
+   "addon": 6,
+   "default": 5
+  },
+  "free_by_tier": {
+   "addon": 8,
+   "default": 3
+  },
+  "nearest_photo": [
+   "stone/stonewall013a",
+   "stone/stonewall024a"
+  ]
+ },
+ "models": {
+  "looked_up": 10,
+  "by_tier": {
+   "default": 10
+  }
+ },
+ "sounds": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "classes": {
+  "distinct": 26,
+  "entities": 203,
+  "by_tier": {
+   "default": 26
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "game_player_equip": [
+    "weapon_knife"
+   ],
+   "weapon_ak47": [
+    "ammo"
+   ],
+   "weapon_aug": [
+    "ammo"
+   ],
+   "weapon_awp": [
+    "ammo"
+   ],
+   "weapon_deagle": [
+    "ammo"
+   ],
+   "weapon_elite": [
+    "ammo"
+   ],
+   "weapon_g3sg1": [
+    "ammo"
+   ],
+   "weapon_m4a1": [
+    "ammo"
+   ],
+   "weapon_scout": [
+    "ammo"
+   ],
+   "weapon_sg550": [
+    "ammo"
+   ],
+   "weapon_sg552": [
+    "ammo"
+   ]
+  }
+ },
+ "links": {
+  "total": 17,
+  "unresolved": 0
+ },
+ "lists": {
+  "textures_unmapped": [],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "game_player_equip.weapon_knife",
+   "weapon_ak47.ammo",
+   "weapon_aug.ammo",
+   "weapon_awp.ammo",
+   "weapon_deagle.ammo",
+   "weapon_elite.ammo",
+   "weapon_g3sg1.ammo",
+   "weapon_m4a1.ammo",
+   "weapon_scout.ammo",
+   "weapon_sg550.ammo",
+   "weapon_sg552.ammo"
+  ],
+  "links_unresolved": [],
+  "surfaces_opaque": []
+ },
+ "counts": {
+  "textures_unmapped": 0,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 11,
+  "links_unresolved": 0,
+  "surfaces_opaque": 0
+ }
+}

@@ -1,0 +1,112 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "surf_10x_final",
+ "sha256": "8bdc37c7e420d942dfe8347e8e13d17f3f588aca5212c7b50c323cebf066bd38",
+ "textures": {
+  "looked_up": 70,
+  "drawn": 69,
+  "by_tier": {
+   "addon": 30,
+   "default": 36,
+   "fallback": 4
+  },
+  "free_by_tier": {
+   "addon": 50,
+   "default": 7,
+   "nearest": 12
+  },
+  "nearest_photo": [
+   "building_template/building_template024a",
+   "de_chateau/wllc",
+   "de_dust/marketwall03a",
+   "de_piranesi/pi_cobbles",
+   "dev/dev_measureladder01",
+   "dev/value90",
+   "dev/valuesand80",
+   "effects/tp_eyefx/tpeye",
+   "effects/tp_eyefx/tpeye3",
+   "environment maps/pipemetal001a",
+   "halflife/c3a2a_telred1d",
+   "metal/awning001a",
+   "metal/citadel_metalwall101b",
+   "models/props/cs_assault/light_shop2_off",
+   "models/props/cs_assault/pylon",
+   "models/props_animated_breakable/smokestack/brick_chimney01",
+   "models/props_c17/chairfab01",
+   "models/props_c17/door01a_skin12",
+   "models/props_c17/furniturefabric003a",
+   "models/props_c17/furniturewooddrawers001a",
+   "models/props_c17/metalladder001",
+   "models/props_c17/metalladder002",
+   "models/props_canal/canal_bridge_railing_01c",
+   "models/props_combine/portalball001_sheet",
+   "nature/dirtfloor003a",
+   "nature/dirtwall001a",
+   "plaster/plasterceiling003a",
+   "plaster/plasterwall012a",
+   "plaster/plasterwall023a",
+   "test_speakers/floor04",
+   "tile/tilewall006c",
+   "vehicle/metaltrain002d",
+   "vehicle/metaltrainglass001a"
+  ]
+ },
+ "models": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "sounds": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "classes": {
+  "distinct": 29,
+  "entities": 238,
+  "by_tier": {
+   "default": 29
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "func_door": [
+    "message"
+   ]
+  }
+ },
+ "links": {
+  "total": 1,
+  "unresolved": 0
+ },
+ "lists": {
+  "textures_unmapped": [
+   "MODELS/PROPS/CS_ASSAULT/LIGHT_SHOP2_OFF",
+   "MODELS/PROPS/CS_ASSAULT/PYLON",
+   "MODELS/PROPS_CANAL/CANAL_BRIDGE_RAILING_01C",
+   "MODELS/PROPS_COMBINE/PORTALBALL001_SHEET"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "func_door.message"
+  ],
+  "links_unresolved": [],
+  "surfaces_opaque": [
+   "models/props_combine/portalball001_sheet",
+   "vehicle/metaltrainglass001a"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 4,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 1,
+  "links_unresolved": 0,
+  "surfaces_opaque": 2
+ }
+}

@@ -1,0 +1,205 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "surf_110b_austinpowers",
+ "sha256": "23d2c56976882579d1814e6d291f724f2136313c198f26046f9aada92d790efc",
+ "textures": {
+  "looked_up": 53,
+  "drawn": 53,
+  "by_tier": {
+   "addon": 8,
+   "default": 14,
+   "fallback": 31
+  },
+  "free_by_tier": {
+   "addon": 25,
+   "default": 8,
+   "nearest": 20
+  },
+  "nearest_photo": [
+   "austinpowerstex/1",
+   "austinpowerstex/2",
+   "austinpowerstex/3",
+   "austinpowerstex/4",
+   "austinpowerstex/5",
+   "austinpowerstex/6",
+   "austinpowerstex/7",
+   "austinpowerstex/8",
+   "austinpowerstex/9",
+   "austinpowerstex/austinwallmat3",
+   "austinpowerstex/campersheaven",
+   "austinpowerstex/clear",
+   "austinpowerstex/corrugatediron",
+   "austinpowerstex/crate",
+   "austinpowerstex/drevil",
+   "austinpowerstex/fatbastard",
+   "austinpowerstex/frau",
+   "austinpowerstex/goldmember",
+   "austinpowerstex/goldmemberposter",
+   "austinpowerstex/henchmansstash",
+   "austinpowerstex/jailbalcony",
+   "austinpowerstex/madeby",
+   "austinpowerstex/mi5quartermaster",
+   "austinpowerstex/minime",
+   "austinpowerstex/mrbigglesworth",
+   "austinpowerstex/no2",
+   "austinpowerstex/scott",
+   "austinpowerstex/securityinactive",
+   "austinpowerstex/start",
+   "austinpowerstex/top",
+   "austinpowerstex/topsecretlair",
+   "austinpowerstex/walltex1",
+   "building_template/courtyard_template001a",
+   "de_piranesi/walltrim01",
+   "nature/mudfloor005a",
+   "nippertextures/westwood/nm_gas_floor1",
+   "nippertextures/westwood/nmww_wall1"
+  ]
+ },
+ "models": {
+  "looked_up": 9,
+  "by_tier": {
+   "default": 8,
+   "fallback": 1
+  }
+ },
+ "sounds": {
+  "looked_up": 5,
+  "by_tier": {
+   "fallback": 5
+  }
+ },
+ "classes": {
+  "distinct": 51,
+  "entities": 731,
+  "by_tier": {
+   "default": 51
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "ambient_generic": [
+    "pitch"
+   ],
+   "game_player_equip": [
+    "Ammo_45acp",
+    "ammo_338mag",
+    "ammo_45acp",
+    "ammo_50ae",
+    "ammo_556mm",
+    "ammo_57mm",
+    "ammo_762mm",
+    "ammo_9mm",
+    "ammo_buckshot",
+    "weapon_deagle",
+    "weapon_elite",
+    "weapon_fiveseven",
+    "weapon_usp"
+   ],
+   "weapon_ak47": [
+    "ammo"
+   ],
+   "weapon_aug": [
+    "ammo"
+   ],
+   "weapon_m4a1": [
+    "ammo"
+   ],
+   "weapon_mp5navy": [
+    "ammo"
+   ],
+   "weapon_sg552": [
+    "ammo"
+   ],
+   "weapon_tmp": [
+    "ammo"
+   ]
+  }
+ },
+ "links": {
+  "total": 160,
+  "unresolved": 0
+ },
+ "lists": {
+  "textures_unmapped": [
+   "AUSTINPOWERSTEX/1",
+   "AUSTINPOWERSTEX/2",
+   "AUSTINPOWERSTEX/3",
+   "AUSTINPOWERSTEX/4",
+   "AUSTINPOWERSTEX/5",
+   "AUSTINPOWERSTEX/6",
+   "AUSTINPOWERSTEX/7",
+   "AUSTINPOWERSTEX/8",
+   "AUSTINPOWERSTEX/9",
+   "AUSTINPOWERSTEX/AUSTINWALLMAT3",
+   "AUSTINPOWERSTEX/CAMPERSHEAVEN",
+   "AUSTINPOWERSTEX/CLEAR",
+   "AUSTINPOWERSTEX/CRATE",
+   "AUSTINPOWERSTEX/DREVIL",
+   "AUSTINPOWERSTEX/FATBASTARD",
+   "AUSTINPOWERSTEX/FRAU",
+   "AUSTINPOWERSTEX/GOLDMEMBER",
+   "AUSTINPOWERSTEX/GOLDMEMBERPOSTER",
+   "AUSTINPOWERSTEX/HENCHMANSSTASH",
+   "AUSTINPOWERSTEX/JAILBALCONY",
+   "AUSTINPOWERSTEX/MADEBY",
+   "AUSTINPOWERSTEX/MI5QUARTERMASTER",
+   "AUSTINPOWERSTEX/MINIME",
+   "AUSTINPOWERSTEX/MRBIGGLESWORTH",
+   "AUSTINPOWERSTEX/NO2",
+   "AUSTINPOWERSTEX/SCOTT",
+   "AUSTINPOWERSTEX/SECURITYINACTIVE",
+   "AUSTINPOWERSTEX/START",
+   "AUSTINPOWERSTEX/TOP",
+   "AUSTINPOWERSTEX/TOPSECRETLAIR",
+   "AUSTINPOWERSTEX/WALLTEX1"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [
+   "props_wasteland/prison_padlock001a.mdl"
+  ],
+  "sounds_unmapped": [
+   "austin/deadlist.wav",
+   "austin/death.wav",
+   "austin/dipping.wav",
+   "austin/failure.wav",
+   "austin/sharks.wav"
+  ],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "ambient_generic.pitch",
+   "game_player_equip.Ammo_45acp",
+   "game_player_equip.ammo_338mag",
+   "game_player_equip.ammo_45acp",
+   "game_player_equip.ammo_50ae",
+   "game_player_equip.ammo_556mm",
+   "game_player_equip.ammo_57mm",
+   "game_player_equip.ammo_762mm",
+   "game_player_equip.ammo_9mm",
+   "game_player_equip.ammo_buckshot",
+   "game_player_equip.weapon_deagle",
+   "game_player_equip.weapon_elite",
+   "game_player_equip.weapon_fiveseven",
+   "game_player_equip.weapon_usp",
+   "weapon_ak47.ammo",
+   "weapon_aug.ammo",
+   "weapon_m4a1.ammo",
+   "weapon_mp5navy.ammo",
+   "weapon_sg552.ammo",
+   "weapon_tmp.ammo"
+  ],
+  "links_unresolved": [],
+  "surfaces_opaque": []
+ },
+ "counts": {
+  "textures_unmapped": 31,
+  "textures_flat": 0,
+  "models_unmapped": 1,
+  "sounds_unmapped": 5,
+  "classes_unmapped": 0,
+  "keys_unmapped": 20,
+  "links_unresolved": 0,
+  "surfaces_opaque": 0
+ }
+}
