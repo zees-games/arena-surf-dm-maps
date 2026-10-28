@@ -1,0 +1,99 @@
+{
+ "map": {
+  "author": "SintaxError",
+  "page": "https://gamebanana.com/mods/122424",
+  "licence": "none stated (GameBanana)"
+ },
+ "works": [
+  {
+   "kind": "texture",
+   "name": "pbr_rustic_stone_wall_02",
+   "author": "Amal Kumar",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/rustic_stone_wall_02",
+   "source": "polyhaven",
+   "attribution": false,
+   "uses": 3282
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Metal058C",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Metal058C",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 13
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_PavingStones065",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=PavingStones065",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 1153
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_road_damaged_2",
+   "author": "Dimitrios Savva",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/road_damaged_2",
+   "source": "polyhaven",
+   "attribution": false,
+   "uses": 70
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_PaintedMetal004",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=PaintedMetal004",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 140
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_rusty_corrugated_iron",
+   "author": "Charlotte Baglioni",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/rusty_corrugated_iron",
+   "source": "polyhaven",
+   "attribution": false,
+   "uses": 4
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_grass_medium_02",
+   "author": "Rico Cilliers",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/grass_medium_02",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 6
+  },
+  {
+   "kind": "sound",
+   "name": "amb_wind",
+   "author": "TMC (dot-audio authors)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-audio",
+   "source": "dot-audio stock ambience (synthesised)",
+   "attribution": false,
+   "uses": 7
+  },
+  {
+   "kind": "sound",
+   "name": "machine",
+   "author": "Kenney",
+   "licence": "CC0-1.0",
+   "url": "https://kenney.nl/assets/sci-fi-sounds",
+   "source": "Kenney Sci-Fi Sounds",
+   "attribution": false,
+   "uses": 3
+  }
+ ]
+}

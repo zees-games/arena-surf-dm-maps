@@ -1,0 +1,138 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "surf_grave_reloaded",
+ "sha256": "793a4545fcb4450e9a93cbe3fb4194825ae5a1a5b5333ce78f822e141ce8de60",
+ "textures": {
+  "looked_up": 52,
+  "drawn": 52,
+  "by_tier": {
+   "addon": 25,
+   "default": 24,
+   "fallback": 3
+  },
+  "free_by_tier": {
+   "addon": 31,
+   "default": 12,
+   "nearest": 9
+  },
+  "nearest_photo": [
+   "de_cbble/cratesm01a",
+   "de_cbble/cratesm01c",
+   "de_cbble/outwall01a",
+   "de_cbble/outwall01b",
+   "de_cbble/outwall01bmoss",
+   "de_cbble/outwall02b",
+   "de_cbble/outwall02d",
+   "de_cbble/rooftile02",
+   "de_cbble/wallinterior01",
+   "de_cbble/wallinterior01a",
+   "de_cbble/wallinterior01b",
+   "de_nuke/nukblenddirtgrassb",
+   "de_piranesi/stairoutdoor02",
+   "metal/citadel_metalwall063a",
+   "nature/rockfloor006a",
+   "wood/milwall015"
+  ]
+ },
+ "models": {
+  "looked_up": 4,
+  "by_tier": {
+   "default": 3,
+   "fallback": 1
+  }
+ },
+ "sounds": {
+  "looked_up": 1,
+  "by_tier": {
+   "default": 1
+  }
+ },
+ "classes": {
+  "distinct": 35,
+  "entities": 418,
+  "by_tier": {
+   "default": 35
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "ambient_generic": [
+    "pitch"
+   ],
+   "weapon_ak47": [
+    "ammo"
+   ],
+   "weapon_aug": [
+    "ammo"
+   ],
+   "weapon_awp": [
+    "ammo"
+   ],
+   "weapon_elite": [
+    "ammo"
+   ],
+   "weapon_g3sg1": [
+    "ammo"
+   ],
+   "weapon_m249": [
+    "ammo"
+   ],
+   "weapon_m3": [
+    "ammo"
+   ],
+   "weapon_m4a1": [
+    "ammo"
+   ],
+   "weapon_scout": [
+    "ammo"
+   ],
+   "weapon_sg552": [
+    "ammo"
+   ]
+  }
+ },
+ "links": {
+  "total": 4,
+  "unresolved": 0
+ },
+ "lists": {
+  "textures_unmapped": [
+   "DE_CBBLE/WALLINTERIOR01",
+   "DE_CBBLE/WALLINTERIOR01A",
+   "DE_CBBLE/WALLINTERIOR01B"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [
+   "props/de_cbble/cb_wndsng16.mdl"
+  ],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "ambient_generic.pitch",
+   "weapon_ak47.ammo",
+   "weapon_aug.ammo",
+   "weapon_awp.ammo",
+   "weapon_elite.ammo",
+   "weapon_g3sg1.ammo",
+   "weapon_m249.ammo",
+   "weapon_m3.ammo",
+   "weapon_m4a1.ammo",
+   "weapon_scout.ammo",
+   "weapon_sg552.ammo"
+  ],
+  "links_unresolved": [],
+  "surfaces_opaque": []
+ },
+ "counts": {
+  "textures_unmapped": 3,
+  "textures_flat": 0,
+  "models_unmapped": 1,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 11,
+  "links_unresolved": 0,
+  "surfaces_opaque": 0
+ }
+}

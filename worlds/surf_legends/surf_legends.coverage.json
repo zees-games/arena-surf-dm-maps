@@ -1,0 +1,129 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "surf_legends",
+ "sha256": "3e64540e9bd7d1d3d8b91f6daa2b52cde8a3daec236fb30413c15f61a068cf35",
+ "textures": {
+  "looked_up": 12,
+  "drawn": 11,
+  "by_tier": {
+   "addon": 1,
+   "default": 10,
+   "fallback": 1
+  },
+  "free_by_tier": {
+   "addon": 3,
+   "default": 5,
+   "nearest": 3
+  },
+  "nearest_photo": [
+   "de_aztec/road01_cheap",
+   "de_aztec/stonework01c",
+   "de_train/train_bombsite_arrow_01",
+   "happysky/happysky",
+   "models/props/de_nuke/light_red1_glass"
+  ]
+ },
+ "models": {
+  "looked_up": 1,
+  "by_tier": {
+   "default": 1
+  }
+ },
+ "sounds": {
+  "looked_up": 2,
+  "by_tier": {
+   "default": 2
+  }
+ },
+ "classes": {
+  "distinct": 53,
+  "entities": 378,
+  "by_tier": {
+   "default": 53
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "ambient_generic": [
+    "pitch"
+   ],
+   "func_door_rotating": [
+    "message"
+   ],
+   "game_player_equip": [
+    "ammo_338mag",
+    "ammo_357sig",
+    "ammo_45acp",
+    "ammo_50ae",
+    "ammo_556mm",
+    "ammo_556mm_box",
+    "ammo_57mm",
+    "ammo_762mm",
+    "ammo_9mm",
+    "ammo_buckshot",
+    "weapon_knife"
+   ],
+   "infodecal": [
+    "BasisNormal",
+    "BasisOrigin",
+    "BasisU",
+    "BasisV"
+   ],
+   "point_viewcontrol": [
+    "acceleration",
+    "deceleration"
+   ]
+  }
+ },
+ "links": {
+  "total": 83,
+  "unresolved": 0
+ },
+ "lists": {
+  "textures_unmapped": [
+   "HAPPYSKY/HAPPYSKY"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "ambient_generic.pitch",
+   "func_door_rotating.message",
+   "game_player_equip.ammo_338mag",
+   "game_player_equip.ammo_357sig",
+   "game_player_equip.ammo_45acp",
+   "game_player_equip.ammo_50ae",
+   "game_player_equip.ammo_556mm",
+   "game_player_equip.ammo_556mm_box",
+   "game_player_equip.ammo_57mm",
+   "game_player_equip.ammo_762mm",
+   "game_player_equip.ammo_9mm",
+   "game_player_equip.ammo_buckshot",
+   "game_player_equip.weapon_knife",
+   "infodecal.BasisNormal",
+   "infodecal.BasisOrigin",
+   "infodecal.BasisU",
+   "infodecal.BasisV",
+   "point_viewcontrol.acceleration",
+   "point_viewcontrol.deceleration"
+  ],
+  "links_unresolved": [],
+  "surfaces_opaque": [
+   "de_train/train_bombsite_arrow_01",
+   "models/props/de_nuke/light_red1_glass"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 1,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 19,
+  "links_unresolved": 0,
+  "surfaces_opaque": 2
+ }
+}
