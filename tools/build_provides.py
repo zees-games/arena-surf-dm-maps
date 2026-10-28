@@ -27,4 +27,4 @@ else:
     sys.exit("build_provides: dot-map was not found. Clone it beside this repository or set DOTMAP_PATH.")
 import build_provides  # noqa: E402
 
-sys.exit(build_provides.run(ROOT, GAMES, pack="each", skip=SKIP, map_kind=map_kind))
+sys.exit(build_provides.run(ROOT, GAMES, pack="each", skip=SKIP, map_kind=map_kind, worlds=True))
