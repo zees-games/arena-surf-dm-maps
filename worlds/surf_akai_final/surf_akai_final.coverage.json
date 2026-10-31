@@ -118,6 +118,10 @@
    "point_viewcontrol.deceleration"
   ],
   "links_unresolved": [],
+  "inputs_unimplemented": [
+   "ai_changetarget.Activate",
+   "game_player_equip.Use"
+  ],
   "surfaces_opaque": []
  },
  "counts": {
@@ -128,6 +132,7 @@
   "classes_unmapped": 0,
   "keys_unmapped": 22,
   "links_unresolved": 0,
+  "inputs_unimplemented": 2,
   "surfaces_opaque": 0
  }
 }

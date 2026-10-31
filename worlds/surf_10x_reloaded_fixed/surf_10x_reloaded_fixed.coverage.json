@@ -129,6 +129,7 @@
    "weapon_tmp.ammo"
   ],
   "links_unresolved": [],
+  "inputs_unimplemented": [],
   "surfaces_opaque": []
  },
  "counts": {
@@ -139,6 +140,7 @@
   "classes_unmapped": 0,
   "keys_unmapped": 17,
   "links_unresolved": 0,
+  "inputs_unimplemented": 0,
   "surfaces_opaque": 0
  }
 }
