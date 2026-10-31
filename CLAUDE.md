@@ -4,7 +4,7 @@ The combat surf maps game-arena plays, as their own repository. Read `../../CLAU
 
 **Split out of g2gfast-maps on 2026-10-17.** These are the maps whose manifest says `"kind": "arena"`. game-g2gfast never played them (it kept them out of its rotation), and game-arena no longer comes with them: a server names them in dot-server-deploy's `cfg/content.yml`.
 
-**Each map is its own signed pack, `gamemann/<map id>`, never one pack for all of them.** game-arena's `ArenaMaps.adopt_delivered` and `ArenaMapSession._mount_delivered` take one `<owner>/<id>@<version>` per map and mount a directory holding `<id>.json` directly. The pack ids are the ones these maps had in g2gfast-maps, so nothing that names them changes.
+**Each map is its own signed pack, `gamemann/arena-surf-dm-maps-<map id>` (the manifest id stays `<map id>`), never one pack for all of them.** game-arena's `ArenaMaps.adopt_delivered` and `ArenaMapSession._mount_delivered` take one `<owner>/<id>@<version>` per map and mount a directory holding `<id>.json` directly. Published at the repo version, so a server names `gamemann/arena-surf-dm-maps-<map id>`.
 
 **`maps/` is linked at game-arena's `maps/imported`** (`# bootstrap-link: arena-surf-dm-maps/maps` in its `.gitignore`), the path the `.import` markers were written against. Never move them to another path in the game without re-importing.
 
