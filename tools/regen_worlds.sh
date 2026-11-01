@@ -3,7 +3,7 @@
 #   [SRC=dir] tools/regen_worlds.sh [map ids...]   default: every maps/<id> with a source .bsp; writes worlds/<id>/<id>.*
 HERE="$(cd "$(dirname "$0")" && pwd)"; ROOT="$HERE/.."
 SRC="${SRC:-$HOME/godot/inspirations/g2gfast}"
-BSP="${DOTBSP_PATH:-$HERE/../../dot-map/tools/bsp}/bsp.py"
+BSP="${DOTBSP_PATH:-$HERE/../../dot-map-convert}/bsp.py"
 ids=("$@"); [ ${#ids[@]} -eq 0 ] && ids=($(ls "$ROOT/maps"))
 rc=0
 for m in "${ids[@]}"; do
