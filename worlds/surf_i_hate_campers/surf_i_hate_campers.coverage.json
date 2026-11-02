@@ -1,0 +1,79 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "surf_i_hate_campers",
+ "sha256": "10c85759543cc5ed548d0c807c2aaa416f10be0ec6a288e68daf877a00308708",
+ "textures": {
+  "looked_up": 20,
+  "drawn": 21,
+  "by_tier": {
+   "addon": 11,
+   "default": 9
+  },
+  "free_by_tier": {
+   "addon": 15,
+   "default": 4,
+   "nearest": 2
+  },
+  "nearest_photo": [
+   "ground/snow01",
+   "models/props/cs_office/snowmana",
+   "nature/blendgrassdirt001a",
+   "props/hazardstrip001a",
+   "stone/marblefloor001d"
+  ]
+ },
+ "models": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "sounds": {
+  "looked_up": 1,
+  "by_tier": {
+   "default": 1
+  }
+ },
+ "classes": {
+  "distinct": 17,
+  "entities": 243,
+  "by_tier": {
+   "default": 17
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "ambient_generic": [
+    "pitch"
+   ]
+  }
+ },
+ "links": {
+  "total": 10,
+  "unresolved": 0
+ },
+ "lists": {
+  "textures_unmapped": [],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "ambient_generic.pitch"
+  ],
+  "links_unresolved": [],
+  "inputs_unimplemented": [],
+  "surfaces_opaque": []
+ },
+ "counts": {
+  "textures_unmapped": 0,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 1,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 0,
+  "surfaces_opaque": 0
+ }
+}

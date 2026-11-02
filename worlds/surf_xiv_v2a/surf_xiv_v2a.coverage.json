@@ -1,0 +1,302 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "surf_xiv_v2a",
+ "sha256": "7e8fd59c5f83081e3c0d7f35207a4946fdab499722e3de9e7b7751fbfcab85d1",
+ "textures": {
+  "looked_up": 127,
+  "drawn": 134,
+  "by_tier": {
+   "addon": 60,
+   "default": 48,
+   "fallback": 19
+  },
+  "free_by_tier": {
+   "addon": 86,
+   "default": 16,
+   "nearest": 32
+  },
+  "nearest_photo": [
+   "brick/brickwall056a",
+   "collab/bigloop_thumb",
+   "collab/blockfort_thumb",
+   "collab/eternal_thumb",
+   "collab/factory_thumb",
+   "collab/fourcorners_thumb",
+   "collab/fourcornersinfo",
+   "collab/greatcanal_thumb",
+   "collab/halfpipe_thumb",
+   "collab/infoscreen",
+   "collab/jungle_thumb",
+   "collab/knifearena_thumb",
+   "collab/leet_thumb",
+   "collab/participants",
+   "collab/rebel_thumb",
+   "collab/rebelmetalunlit",
+   "collab/rebelmetalunlit2",
+   "collab/rocket_thumb",
+   "collab/scoutzknivez_thumb",
+   "collab/slide_thumb",
+   "concrete/prodflrd",
+   "cs_havana/rockwall011f",
+   "cs_italy/tileroof01trim",
+   "de_aztec/azstatc",
+   "de_aztec/trim64b",
+   "de_chateau/rockf_blend",
+   "de_dust/pi_rust",
+   "de_dust/picrate2",
+   "de_nuke/nukmetwallab",
+   "de_nuke/nukmetwalli",
+   "de_piranesi/castle01",
+   "de_piranesi/castle01a",
+   "de_piranesi/marblefloor10",
+   "de_piranesi/marblefloor13",
+   "de_piranesi/pi_archt64b",
+   "de_piranesi/pi_bigbrk",
+   "de_piranesi/pi_cobbles",
+   "de_piranesi/pi_grnmetal",
+   "de_tides/blend_concrete_dirt",
+   "de_train/blendgrassdirt001a",
+   "de_train/train_bombsite_arrow_01",
+   "environment maps/pipemetal001a",
+   "metal/metalpipe001b",
+   "metal/metalwall016a",
+   "metal/metalwall065a",
+   "metal/metalwall066a",
+   "nature/blendcliffdirt001a",
+   "nature/blendcliffgrass001a",
+   "nature/blenddirtgrass008b_lowfriction",
+   "nature/blendrockdirt002a",
+   "nature/blendrocksgrass006a",
+   "nature/blendsandsand008b_antlion",
+   "nature/grassfloor002a",
+   "nature/rockwall010c",
+   "props/carpetfloor003a",
+   "smooth/metal_smooth",
+   "smooth/rubber",
+   "sprites/bluelaser1",
+   "stone/stonewall014a"
+  ]
+ },
+ "models": {
+  "looked_up": 13,
+  "by_tier": {
+   "default": 13
+  }
+ },
+ "sounds": {
+  "looked_up": 1,
+  "by_tier": {
+   "default": 1
+  }
+ },
+ "classes": {
+  "distinct": 62,
+  "entities": 1200,
+  "by_tier": {
+   "default": 62
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "ambient_generic": [
+    "pitch"
+   ],
+   "game_player_equip": [
+    "ammo_338mag",
+    "ammo_357sig",
+    "ammo_45acp",
+    "ammo_50AE",
+    "ammo_556mm",
+    "ammo_556mm_box",
+    "ammo_57mm",
+    "ammo_762mm",
+    "ammo_9mm",
+    "ammo_buckshot",
+    "item_assaultsuit",
+    "item_nvgs",
+    "weapon_ak47",
+    "weapon_aug",
+    "weapon_awp",
+    "weapon_deagle",
+    "weapon_elite",
+    "weapon_g3sg1",
+    "weapon_glock",
+    "weapon_hegrenade",
+    "weapon_knife",
+    "weapon_m3",
+    "weapon_m4a1",
+    "weapon_p228",
+    "weapon_scout",
+    "weapon_sg552",
+    "weapon_usp"
+   ],
+   "trigger_multiple": [
+    "weapon_knife"
+   ],
+   "trigger_once": [
+    "wait"
+   ],
+   "weapon_ak47": [
+    "ammo"
+   ],
+   "weapon_aug": [
+    "ammo"
+   ],
+   "weapon_awp": [
+    "ammo"
+   ],
+   "weapon_famas": [
+    "ammo"
+   ],
+   "weapon_galil": [
+    "ammo"
+   ],
+   "weapon_m249": [
+    "ammo"
+   ],
+   "weapon_m3": [
+    "ammo"
+   ],
+   "weapon_m4a1": [
+    "ammo"
+   ],
+   "weapon_mp5navy": [
+    "ammo"
+   ],
+   "weapon_p90": [
+    "ammo"
+   ],
+   "weapon_scout": [
+    "ammo"
+   ],
+   "weapon_sg552": [
+    "ammo"
+   ],
+   "weapon_ump45": [
+    "ammo"
+   ],
+   "weapon_xm1014": [
+    "ammo"
+   ],
+   "worldspawn": [
+    "no_decomp"
+   ]
+  }
+ },
+ "links": {
+  "total": 1177,
+  "unresolved": 10
+ },
+ "lists": {
+  "textures_unmapped": [
+   "COLLAB/BIGLOOP_THUMB",
+   "COLLAB/BLOCKFORT_THUMB",
+   "COLLAB/ETERNAL_THUMB",
+   "COLLAB/FACTORY_THUMB",
+   "COLLAB/FOURCORNERSINFO",
+   "COLLAB/FOURCORNERS_THUMB",
+   "COLLAB/GREATCANAL_THUMB",
+   "COLLAB/HALFPIPE_THUMB",
+   "COLLAB/INFOSCREEN",
+   "COLLAB/JUNGLE_THUMB",
+   "COLLAB/KNIFEARENA_THUMB",
+   "COLLAB/LEET_THUMB",
+   "COLLAB/PARTICIPANTS",
+   "COLLAB/REBEL_THUMB",
+   "COLLAB/SCOUTZKNIVEZ_THUMB",
+   "COLLAB/SLIDE_THUMB",
+   "DE_CHATEAU/{CXARROW01",
+   "SMOOTH/RIVER_FLOW",
+   "SMOOTH/RUBBER"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "ambient_generic.pitch",
+   "game_player_equip.ammo_338mag",
+   "game_player_equip.ammo_357sig",
+   "game_player_equip.ammo_45acp",
+   "game_player_equip.ammo_50AE",
+   "game_player_equip.ammo_556mm",
+   "game_player_equip.ammo_556mm_box",
+   "game_player_equip.ammo_57mm",
+   "game_player_equip.ammo_762mm",
+   "game_player_equip.ammo_9mm",
+   "game_player_equip.ammo_buckshot",
+   "game_player_equip.item_assaultsuit",
+   "game_player_equip.item_nvgs",
+   "game_player_equip.weapon_ak47",
+   "game_player_equip.weapon_aug",
+   "game_player_equip.weapon_awp",
+   "game_player_equip.weapon_deagle",
+   "game_player_equip.weapon_elite",
+   "game_player_equip.weapon_g3sg1",
+   "game_player_equip.weapon_glock",
+   "game_player_equip.weapon_hegrenade",
+   "game_player_equip.weapon_knife",
+   "game_player_equip.weapon_m3",
+   "game_player_equip.weapon_m4a1",
+   "game_player_equip.weapon_p228",
+   "game_player_equip.weapon_scout",
+   "game_player_equip.weapon_sg552",
+   "game_player_equip.weapon_usp",
+   "trigger_multiple.weapon_knife",
+   "trigger_once.wait",
+   "weapon_ak47.ammo",
+   "weapon_aug.ammo",
+   "weapon_awp.ammo",
+   "weapon_famas.ammo",
+   "weapon_galil.ammo",
+   "weapon_m249.ammo",
+   "weapon_m3.ammo",
+   "weapon_m4a1.ammo",
+   "weapon_mp5navy.ammo",
+   "weapon_p90.ammo",
+   "weapon_scout.ammo",
+   "weapon_sg552.ammo",
+   "weapon_ump45.ammo",
+   "weapon_xm1014.ammo",
+   "worldspawn.no_decomp"
+  ],
+  "links_unresolved": [
+   "func_rot_button.OnPressed->player",
+   "logic_auto.OnMapSpawn->island_1_indicator",
+   "logic_auto.OnMapSpawn->island_2_indicator",
+   "logic_auto.OnMapSpawn->island_3_indicator",
+   "logic_auto.OnMapSpawn->island_4_indicator",
+   "trigger_hurt.OnHurt->rebel_score",
+   "trigger_multiple.OnTrigger->player_equip_knife",
+   "trigger_once.OnStartTouch->steve_pit_killer_1",
+   "trigger_once.OnStartTouch->steve_pit_killer_2",
+   "trigger_teleport.OnStartTouch->fade_eternal"
+  ],
+  "inputs_unimplemented": [
+   "filter_activator_team.TestActivator",
+   "func_conveyor.SetSpeed",
+   "func_rot_button.Press",
+   "game_player_equip.Use",
+   "trigger_hurt.SetParent"
+  ],
+  "surfaces_opaque": [
+   "collab/fourcornersinfo",
+   "collab/infoscreen",
+   "collab/participants",
+   "de_train/train_bombsite_arrow_01"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 19,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 45,
+  "links_unresolved": 10,
+  "inputs_unimplemented": 5,
+  "surfaces_opaque": 4
+ }
+}

@@ -13,7 +13,7 @@ for m in "${ids[@]}"; do
 for e in json.load(open(sys.argv[1])):
     if e.get("author") and e.get("source_url"): print(e["author"].replace(" ","_"), e["source_url"]); break' "$ROOT/maps/$m/licence.json")
     python3 -I "$BSP" store "$f" --game arena --author "${author//_/ }" --page "$page" --licence "none stated" --no-share-check "2026-10-28: credited with removal on request" > /dev/null 2>&1
-    key="arena/$(basename "$f" .bsp)"
+    key="arena/$(basename "$f" .bsp | tr A-Z a-z)"
     mkdir -p "$ROOT/worlds/$m"
     heavy -- timeout 1800 python3 -I "$BSP" regen "$key" --out "$ROOT/worlds/$m/$m" --pbr-store "$ROOT/pbr-library" --model-store "$ROOT/model-library" > "${TMPDIR:-/tmp}/regen-$m.log" 2>&1 < /dev/null
     r=$?; [ $r -ne 0 ] && rc=1
