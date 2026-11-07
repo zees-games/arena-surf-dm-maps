@@ -990,7 +990,13 @@
     -1896.0,
     -6060.0
    ],
-   "inflated": true
+   "inflated": true,
+   "destination": [
+    156.0,
+    -1908.0,
+    988.0
+   ],
+   "destination_yaw": -90.0
   },
   {
    "kind": "RESPAWN",
@@ -1005,7 +1011,13 @@
     -1896.0,
     -6060.0
    ],
-   "inflated": true
+   "inflated": true,
+   "destination": [
+    2524.0,
+    652.0,
+    3412.0
+   ],
+   "destination_yaw": -90.0
   },
   {
    "kind": "RESPAWN",
@@ -1020,7 +1032,13 @@
     -936.0,
     2608.0
    ],
-   "inflated": true
+   "inflated": true,
+   "destination": [
+    2340.0,
+    652.0,
+    3412.0
+   ],
+   "destination_yaw": -90.0
   },
   {
    "kind": "RESPAWN",
@@ -1035,7 +1053,13 @@
     -936.0,
     2720.0
    ],
-   "inflated": true
+   "inflated": true,
+   "destination": [
+    2524.0,
+    652.0,
+    3412.0
+   ],
+   "destination_yaw": -90.0
   },
   {
    "kind": "RESPAWN",
@@ -1050,52 +1074,13 @@
     -936.0,
     2832.0
    ],
-   "inflated": true
-  },
-  {
-   "kind": "RESPAWN",
-   "track": 0,
-   "min": [
-    2428.0,
-    532.0,
-    3316.0
+   "inflated": true,
+   "destination": [
+    156.0,
+    -1908.0,
+    988.0
    ],
-   "max": [
-    2620.0,
-    724.0,
-    3508.0
-   ],
-   "inflated": true
-  },
-  {
-   "kind": "RESPAWN",
-   "track": 0,
-   "min": [
-    2244.0,
-    532.0,
-    3316.0
-   ],
-   "max": [
-    2436.0,
-    724.0,
-    3508.0
-   ],
-   "inflated": true
-  },
-  {
-   "kind": "RESPAWN",
-   "track": 0,
-   "min": [
-    60.0,
-    -2080.0,
-    892.0
-   ],
-   "max": [
-    252.0,
-    -1888.0,
-    1084.0
-   ],
-   "inflated": true
+   "destination_yaw": -90.0
   },
   {
    "kind": "RESPAWN",
@@ -1110,22 +1095,13 @@
     -1896.0,
     1100.0
    ],
-   "inflated": true
-  },
-  {
-   "kind": "RESPAWN",
-   "track": 0,
-   "min": [
-    -2812.0,
-    532.0,
-    2528.0
+   "inflated": true,
+   "destination": [
+    -2716.0,
+    652.0,
+    2624.0
    ],
-   "max": [
-    -2620.0,
-    724.0,
-    2720.0
-   ],
-   "inflated": true
+   "destination_yaw": -90.0
   },
   {
    "kind": "RESPAWN",
@@ -1140,7 +1116,13 @@
     -1896.0,
     -6060.0
    ],
-   "inflated": true
+   "inflated": true,
+   "destination": [
+    2340.0,
+    652.0,
+    3412.0
+   ],
+   "destination_yaw": -90.0
   }
  ],
  "track_names": {
@@ -1289,90 +1271,6 @@
   },
   {
    "min": [
-    2428.0,
-    -3508.0,
-    532.0
-   ],
-   "max": [
-    2620.0,
-    -3316.0,
-    724.0
-   ],
-   "inflated": true,
-   "hung": false,
-   "cleared": false,
-   "trimmed": false,
-   "stood": false,
-   "track": 0,
-   "original_min": [
-    2496.0,
-    -3440.0,
-    584.0
-   ],
-   "original_max": [
-    2552.0,
-    -3384.0,
-    672.0
-   ]
-  },
-  {
-   "min": [
-    2244.0,
-    -3508.0,
-    532.0
-   ],
-   "max": [
-    2436.0,
-    -3316.0,
-    724.0
-   ],
-   "inflated": true,
-   "hung": false,
-   "cleared": false,
-   "trimmed": false,
-   "stood": false,
-   "track": 0,
-   "original_min": [
-    2312.0,
-    -3440.0,
-    584.0
-   ],
-   "original_max": [
-    2368.0,
-    -3384.0,
-    672.0
-   ]
-  },
-  {
-   "min": [
-    60.0,
-    -1084.0,
-    -2080.0
-   ],
-   "max": [
-    252.0,
-    -892.0,
-    -1888.0
-   ],
-   "inflated": true,
-   "hung": true,
-   "cleared": false,
-   "trimmed": false,
-   "stood": false,
-   "track": 0,
-   "original_min": [
-    128.0,
-    -1016.0,
-    -1976.0
-   ],
-   "original_max": [
-    184.0,
-    -960.0,
-    -1888.0
-   ]
-  },
-  {
-   "min": [
     -56.0,
     -1100.0,
     -2088.0
@@ -1397,34 +1295,6 @@
     72.0,
     -1000.0,
     -1896.0
-   ]
-  },
-  {
-   "min": [
-    -2812.0,
-    -2720.0,
-    532.0
-   ],
-   "max": [
-    -2620.0,
-    -2528.0,
-    724.0
-   ],
-   "inflated": true,
-   "hung": false,
-   "cleared": false,
-   "trimmed": false,
-   "stood": false,
-   "track": 0,
-   "original_min": [
-    -2744.0,
-    -2652.0,
-    584.0
-   ],
-   "original_max": [
-    -2688.0,
-    -2596.0,
-    672.0
    ]
   },
   {
@@ -1794,6 +1664,184 @@
  },
  "push_volumes": [],
  "trigger_volumes": [],
+ "train_movers": [
+  {
+   "name": "crusher_1",
+   "model": "*21",
+   "origin": [
+    546.0,
+    11326.0,
+    -1360.0
+   ],
+   "min": [
+    -100.00978088378906,
+    -272.00830078125,
+    -272.0
+   ],
+   "max": [
+    32.0,
+    272.0033874511719,
+    272.00250244140625
+   ],
+   "speed": 300.0,
+   "start_speed": 1000.0,
+   "damage": 200.0,
+   "solid": true,
+   "loop": true,
+   "path": [
+    {
+     "name": "1_2",
+     "origin": [
+      512.0,
+      10704.0,
+      -1360.0
+     ],
+     "speed": 1000.0
+    },
+    {
+     "name": "1_1",
+     "origin": [
+      512.0,
+      11360.0,
+      -1360.0
+     ],
+     "speed": 300.0
+    }
+   ]
+  },
+  {
+   "name": "crusher_2",
+   "model": "*22",
+   "origin": [
+    546.0,
+    10050.0,
+    -1360.0
+   ],
+   "min": [
+    -100.00978088378906,
+    -272.00830078125,
+    -272.0
+   ],
+   "max": [
+    32.0,
+    272.0033874511719,
+    272.00250244140625
+   ],
+   "speed": 300.0,
+   "start_speed": 1000.0,
+   "damage": 200.0,
+   "solid": true,
+   "loop": true,
+   "path": [
+    {
+     "name": "2_2",
+     "origin": [
+      512.0,
+      10672.0,
+      -1360.0
+     ],
+     "speed": 1000.0
+    },
+    {
+     "name": "2_1",
+     "origin": [
+      512.0,
+      10016.0,
+      -1360.0
+     ],
+     "speed": 300.0
+    }
+   ]
+  },
+  {
+   "name": "crusher_2",
+   "model": "*23",
+   "origin": [
+    3416.0,
+    10672.0,
+    -1998.0
+   ],
+   "min": [
+    -100.01342010498047,
+    -272.0009460449219,
+    -272.007080078125
+   ],
+   "max": [
+    32.0,
+    272.0,
+    272.00103759765625
+   ],
+   "speed": 300.0,
+   "start_speed": 1000.0,
+   "damage": 200.0,
+   "solid": true,
+   "loop": true,
+   "path": [
+    {
+     "name": "c2_2",
+     "origin": [
+      3382.0,
+      10672.0,
+      -1376.0
+     ],
+     "speed": 1000.0
+    },
+    {
+     "name": "c2_1",
+     "origin": [
+      3382.0,
+      10672.0,
+      -2032.0
+     ],
+     "speed": 300.0
+    }
+   ]
+  },
+  {
+   "name": "crusher_1",
+   "model": "*24",
+   "origin": [
+    3416.0,
+    10672.0,
+    -722.0
+   ],
+   "min": [
+    -100.01342010498047,
+    -272.0009460449219,
+    -272.007080078125
+   ],
+   "max": [
+    32.0,
+    272.0,
+    272.00103759765625
+   ],
+   "speed": 300.0,
+   "start_speed": 1000.0,
+   "damage": 200.0,
+   "solid": true,
+   "loop": true,
+   "path": [
+    {
+     "name": "c1_2",
+     "origin": [
+      3382.0,
+      10672.0,
+      -1344.0
+     ],
+     "speed": 1000.0
+    },
+    {
+     "name": "c1_1",
+     "origin": [
+      3382.0,
+      10672.0,
+      -688.0
+     ],
+     "speed": 300.0
+    }
+   ]
+  }
+ ],
  "author": "Snah",
  "kind": "arena",
  "notes": "Credit only, and deliberately no zones: a combat surf map with no finish. Two buyzones, two bomb sites, eleven trigger_teleports aimed at t_spawn, ct_spawn, b_site and top (the destinations are trigger_teleport brushes, not info_teleport_destination), four hurt volumes and four crusher tracktrains (not run here)."
