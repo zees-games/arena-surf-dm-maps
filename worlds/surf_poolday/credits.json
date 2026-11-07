@@ -1,0 +1,279 @@
+{
+ "map": {
+  "author": "iceeater",
+  "page": "https://gamebanana.com/mods/122736",
+  "licence": "none stated"
+ },
+ "works": [
+  {
+   "kind": "texture",
+   "name": "pbr_granite_tile_04",
+   "author": "Amal Kumar",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/granite_tile_04",
+   "source": "polyhaven",
+   "attribution": false,
+   "uses": 18
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Wood033",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Wood033",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 44
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_rock_tile_floor",
+   "author": "Charlotte Baglioni",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/rock_tile_floor",
+   "source": "polyhaven",
+   "attribution": false,
+   "uses": 106
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_DiamondPlate008D",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=DiamondPlate008D",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 17
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_rocks_ground_04",
+   "author": "Rob Tuytel",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/rocks_ground_04",
+   "source": "polyhaven",
+   "attribution": false,
+   "uses": 53
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Gravel021",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Gravel021",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 9
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_PaintedPlaster006",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=PaintedPlaster006",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 20
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Tiles120",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Tiles120",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 110
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_floor_tiles_02",
+   "author": "Rob Tuytel",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/floor_tiles_02",
+   "source": "polyhaven",
+   "attribution": false,
+   "uses": 54
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Metal053C",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Metal053C",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 18
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_RoofingTiles013A",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=RoofingTiles013A",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 10
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_MetalPlates012",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=MetalPlates012",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 10
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Fabric079",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Fabric079",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 24
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Carpet001",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Carpet001",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 4
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Bricks067",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Bricks067",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 56
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_long_white_tiles",
+   "author": "Jenelle van Heerden, Sergej Majboroda",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/long_white_tiles",
+   "source": "polyhaven",
+   "attribution": false,
+   "uses": 44
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_WoodFloor056",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=WoodFloor056",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 18
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_plastered_wall_04",
+   "author": "Rob Tuytel",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/plastered_wall_04",
+   "source": "polyhaven",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_concrete_pavement",
+   "author": "Charlotte Baglioni",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/concrete_pavement",
+   "source": "polyhaven",
+   "attribution": false,
+   "uses": 15
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_stone_tiles",
+   "author": "Christopher Melani",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/stone_tiles",
+   "source": "polyhaven",
+   "attribution": false,
+   "uses": 3
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Wood011",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Wood011",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Wallpaper001A",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Wallpaper001A",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_industrial_pipe_lamp",
+   "author": "Mateusz Sadek",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/industrial_pipe_lamp",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 9
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_street_lamp_01",
+   "author": "Josh Dean",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/street_lamp_01",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 7
+  },
+  {
+   "kind": "model",
+   "name": "lib/sf_coconut_tree_d14194",
+   "author": "sujirour",
+   "licence": "CC-BY-4.0",
+   "url": "https://sketchfab.com/3d-models/none-d141941578044b0f861ca83b36d4c411",
+   "source": "Sketchfab",
+   "attribution": true,
+   "uses": 7
+  },
+  {
+   "kind": "model",
+   "name": "lib/sf_oil_drum_61b602",
+   "author": "kubassa",
+   "licence": "CC-BY-4.0",
+   "url": "https://sketchfab.com/3d-models/none-61b602b7e959408f9c6c5bf6392bc4b7",
+   "source": "Sketchfab",
+   "attribution": true,
+   "uses": 4
+  },
+  {
+   "kind": "sound",
+   "name": "bell",
+   "author": "Kenney",
+   "licence": "CC0-1.0",
+   "url": "https://kenney.nl/assets/impact-sounds",
+   "source": "Kenney Impact Sounds",
+   "attribution": false,
+   "uses": 1
+  }
+ ]
+}

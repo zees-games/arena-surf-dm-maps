@@ -1,0 +1,19 @@
+{
+    "schema": 1,
+    "title": "Surf Mai Redone Final2",
+    "kinds": [
+        "map"
+    ],
+    "games": [
+        "gamemann/game-arena"
+    ],
+    "entries": [
+        {
+            "kind": "map",
+            "id": "surf_mai_redone_final2",
+            "name": "Surf Mai Redone Final2",
+            "scene": "surf_mai_redone_final2.json",
+            "map_kind": "arena"
+        }
+    ]
+}

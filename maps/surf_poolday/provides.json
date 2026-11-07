@@ -1,0 +1,19 @@
+{
+    "schema": 1,
+    "title": "Surf Poolday",
+    "kinds": [
+        "map"
+    ],
+    "games": [
+        "gamemann/game-arena"
+    ],
+    "entries": [
+        {
+            "kind": "map",
+            "id": "surf_poolday",
+            "name": "Surf Poolday",
+            "scene": "surf_poolday.json",
+            "map_kind": "arena"
+        }
+    ]
+}

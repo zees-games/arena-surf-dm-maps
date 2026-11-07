@@ -1,0 +1,19 @@
+{
+    "schema": 1,
+    "title": "Surf Ny Exploder Prime",
+    "kinds": [
+        "map"
+    ],
+    "games": [
+        "gamemann/game-arena"
+    ],
+    "entries": [
+        {
+            "kind": "map",
+            "id": "surf_ny_exploder_prime",
+            "name": "Surf Ny Exploder Prime",
+            "scene": "surf_ny_exploder_prime.json",
+            "map_kind": "arena"
+        }
+    ]
+}

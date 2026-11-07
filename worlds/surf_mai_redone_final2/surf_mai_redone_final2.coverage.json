@@ -1,0 +1,119 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "surf_mai_redone_final2",
+ "sha256": "206ad9f0c0b8ff24da25a78c16418538fc19d81424e8d149c22d939b8aa0500a",
+ "textures": {
+  "looked_up": 31,
+  "drawn": 29,
+  "by_tier": {
+   "addon": 20,
+   "default": 10,
+   "fallback": 1
+  },
+  "free_by_tier": {
+   "addon": 23,
+   "default": 6
+  },
+  "nearest_photo": [
+   "de_train/train_bombsite_arrow_02",
+   "effects/bluelaser1",
+   "effects/tp_eyefx/tpeye",
+   "sprites/strider_bluebeam",
+   "wood/offdesktop"
+  ]
+ },
+ "models": {
+  "looked_up": 14,
+  "by_tier": {
+   "category": 1,
+   "default": 13
+  }
+ },
+ "sounds": {
+  "looked_up": 6,
+  "by_tier": {
+   "default": 4,
+   "fallback": 2
+  }
+ },
+ "classes": {
+  "distinct": 71,
+  "entities": 789,
+  "by_tier": {
+   "default": 71
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "ambient_generic": [
+    "pitch"
+   ],
+   "point_viewcontrol": [
+    "acceleration",
+    "deceleration"
+   ],
+   "trigger_once": [
+    "wait"
+   ],
+   "weapon_awp": [
+    "ammo"
+   ],
+   "weapon_deagle": [
+    "ammo"
+   ],
+   "weapon_xm1014": [
+    "ammo"
+   ]
+  }
+ },
+ "links": {
+  "total": 143,
+  "unresolved": 0
+ },
+ "lists": {
+  "textures_unmapped": [
+   "CUSTOMS/MAI_REDONE_CREDITS"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [
+   "bot.stuck1",
+   "items/ammopickup.wav"
+  ],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "ambient_generic.pitch",
+   "point_viewcontrol.acceleration",
+   "point_viewcontrol.deceleration",
+   "trigger_once.wait",
+   "weapon_awp.ammo",
+   "weapon_deagle.ammo",
+   "weapon_xm1014.ammo"
+  ],
+  "links_unresolved": [],
+  "inputs_unimplemented": [
+   "env_entity_maker.ForceSpawn",
+   "env_hudhint.ShowHudHint",
+   "item_kevlar.ClearParent",
+   "item_kevlar.SetParent",
+   "point_servercommand.Command",
+   "prop_physics.DisableMotion"
+  ],
+  "surfaces_opaque": [
+   "de_train/train_bombsite_arrow_02"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 1,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 2,
+  "classes_unmapped": 0,
+  "keys_unmapped": 7,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 6,
+  "surfaces_opaque": 1
+ }
+}

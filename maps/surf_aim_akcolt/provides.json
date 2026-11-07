@@ -1,0 +1,19 @@
+{
+    "schema": 1,
+    "title": "Surf Aim Akcolt",
+    "kinds": [
+        "map"
+    ],
+    "games": [
+        "gamemann/game-arena"
+    ],
+    "entries": [
+        {
+            "kind": "map",
+            "id": "surf_aim_akcolt",
+            "name": "Surf Aim Akcolt",
+            "scene": "surf_aim_akcolt.json",
+            "map_kind": "arena"
+        }
+    ]
+}

@@ -39,6 +39,7 @@ games:
         - gamemann/arena-surf-dm-maps-surf_110b_austinpowers
         - gamemann/arena-surf-dm-maps-surf_29_12_06
         - gamemann/arena-surf-dm-maps-surf_adverse
+        - gamemann/arena-surf-dm-maps-surf_aim_akcolt
         - gamemann/arena-surf-dm-maps-surf_akai_final
         - gamemann/arena-surf-dm-maps-surf_bathroom_final
         - gamemann/arena-surf-dm-maps-surf_buck_wild
@@ -55,12 +56,15 @@ games:
         - gamemann/arena-surf-dm-maps-surf_legends
         - gamemann/arena-surf-dm-maps-surf_machine2
         - gamemann/arena-surf-dm-maps-surf_machine_remix_final
+        - gamemann/arena-surf-dm-maps-surf_mai_redone_final2
         - gamemann/arena-surf-dm-maps-surf_mai_remix
         - gamemann/arena-surf-dm-maps-surf_matrix_v8
         - gamemann/arena-surf-dm-maps-surf_ny_advance
         - gamemann/arena-surf-dm-maps-surf_ny_bigloop_2008a
+        - gamemann/arena-surf-dm-maps-surf_ny_exploder_prime
         - gamemann/arena-surf-dm-maps-surf_parrot_selector
         - gamemann/arena-surf-dm-maps-surf_pavilion
+        - gamemann/arena-surf-dm-maps-surf_poolday
         - gamemann/arena-surf-dm-maps-surf_pox
         - gamemann/arena-surf-dm-maps-surf_rebel_resistance_final3
         - gamemann/arena-surf-dm-maps-surf_ski_2
@@ -86,6 +90,7 @@ A map is fetched the first time the server changes to it. Maps added here after 
 | `surf_110b_austinpowers` | TheInvoker | https://gamebanana.com/mods/121530 |
 | `surf_29_12_06` | matrix-hetman | https://gamebanana.com/mods/121540 |
 | `surf_adverse` | target practice, Archangel | https://gamebanana.com/mods/137677 |
+| `surf_aim_akcolt` | Lagged | https://gamebanana.com/mods/121593 |
 | `surf_akai_final` | akai | https://gamebanana.com/mods/121606 |
 | `surf_bathroom_final` | smooth | https://gamebanana.com/mods/121698 |
 | `surf_buck_wild` | buck nasty | https://gamebanana.com/mods/121787 |
@@ -102,12 +107,15 @@ A map is fetched the first time the server changes to it. Maps added here after 
 | `surf_legends` | SintaxError | https://gamebanana.com/mods/122424 |
 | `surf_machine2` | Z-machine | https://gamebanana.com/mods/122478 |
 | `surf_machine_remix_final` | paper-cut, z-machine(original) | https://gamebanana.com/mods/122497 |
+| `surf_mai_redone_final2` | AndYZ, Krusty | https://gamebanana.com/mods/122504 |
 | `surf_mai_remix` | Krusty | https://gamebanana.com/mods/122505 |
 | `surf_matrix_v8` | Flippi273 | https://gamebanana.com/mods/122520 |
 | `surf_ny_advance` | faj | https://gamebanana.com/mods/122641 |
 | `surf_ny_bigloop_2008a` | Paper-Cut, FAJ | https://gamebanana.com/mods/122644 |
+| `surf_ny_exploder_prime` | FAJ | https://gamebanana.com/mods/122646 |
 | `surf_parrot_selector` | ptad | https://gamebanana.com/mods/122709 |
 | `surf_pavilion` | Black Sheep | https://gamebanana.com/mods/122711 |
+| `surf_poolday` | iceeater | https://gamebanana.com/mods/122736 |
 | `surf_pox` | Krusty, Pariah, Karatekäfer, Korr | https://gamebanana.com/mods/122741 |
 | `surf_rebel_resistance_final3` | -)RR(-ArchAngel -)RR(-Lethalis | https://gamebanana.com/mods/122824 |
 | `surf_ski_2` | Massive Boredom and Mario | https://gamebanana.com/mods/122953 |
@@ -126,4 +134,12 @@ A map is fetched the first time the server changes to it. Maps added here after 
 `surf_snipers_island` is listed on its page as CC BY-NC-ND 4.0 with redistribution marked "ask", and the page's text does not forbid sharing or porting (checked 2026-10-20); it is credited to Loller Dan here and on screen, and if Loller Dan or anyone speaking for them wants it removed or credited differently, open an issue and it will be done.
 
 `surf_the_flow` is listed on its page as CC BY-NC-ND 4.0, and the page's text does not forbid sharing or porting (checked 2026-10-20); it is credited to G-Flow here and on screen, and if G-Flow or anyone speaking for them wants it removed or credited differently, open an issue and it will be done.
+
+`surf_poolday` is listed on its page as CC BY-NC-ND 4.0, and the page's text does not forbid sharing or porting (checked 2026-11-07); it is credited to iceeater here and on screen, and if iceeater or anyone speaking for them wants it removed or credited differently, open an issue and it will be done.
+
+`surf_ny_exploder_prime` is listed on its page as CC BY-NC-ND 4.0, and the page's text does not forbid sharing or porting (checked 2026-11-07); it is credited to FAJ here and on screen, and if FAJ or anyone speaking for them wants it removed or credited differently, open an issue and it will be done.
+
+`surf_mai_redone_final2` is listed on its page as CC BY-NC-ND 4.0, and the page's text does not forbid sharing or porting (checked 2026-11-07); it is credited to AndYZ, Krusty here and on screen, and if AndYZ or anyone speaking for them wants it removed or credited differently, open an issue and it will be done.
+
+`surf_aim_akcolt` is listed on its page as CC BY-NC-ND 4.0, and the page's text does not forbid sharing or porting (checked 2026-11-07); it is credited to Lagged here and on screen, and if Lagged or anyone speaking for them wants it removed or credited differently, open an issue and it will be done.
 
