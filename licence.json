@@ -56,6 +56,17 @@
   },
   {
     "paths": [
+      "maps/surf_aim_akcolt"
+    ],
+    "licence": "CC-BY-NC-ND-4.0",
+    "exception": "credited-community-map",
+    "title": "Surf Aim Akcolt",
+    "author": "Lagged",
+    "source_url": "https://gamebanana.com/mods/121593",
+    "removal_contact": "https://github.com/zees-games/arena-surf-dm-maps/issues"
+  },
+  {
+    "paths": [
       "maps/surf_akai_final"
     ],
     "licence": "none stated",
@@ -232,6 +243,17 @@
   },
   {
     "paths": [
+      "maps/surf_mai_redone_final2"
+    ],
+    "licence": "CC-BY-NC-ND-4.0",
+    "exception": "credited-community-map",
+    "title": "Surf Mai Redone Final2",
+    "author": "AndYZ, Krusty",
+    "source_url": "https://gamebanana.com/mods/122504",
+    "removal_contact": "https://github.com/zees-games/arena-surf-dm-maps/issues"
+  },
+  {
+    "paths": [
       "maps/surf_mai_remix"
     ],
     "licence": "none stated",
@@ -276,6 +298,17 @@
   },
   {
     "paths": [
+      "maps/surf_ny_exploder_prime"
+    ],
+    "licence": "CC-BY-NC-ND-4.0",
+    "exception": "credited-community-map",
+    "title": "Surf Ny Exploder Prime",
+    "author": "FAJ",
+    "source_url": "https://gamebanana.com/mods/122646",
+    "removal_contact": "https://github.com/zees-games/arena-surf-dm-maps/issues"
+  },
+  {
+    "paths": [
       "maps/surf_parrot_selector"
     ],
     "licence": "none stated",
@@ -294,6 +327,17 @@
     "title": "Surf Pavilion",
     "author": "Black Sheep",
     "source_url": "https://gamebanana.com/mods/122711",
+    "removal_contact": "https://github.com/zees-games/arena-surf-dm-maps/issues"
+  },
+  {
+    "paths": [
+      "maps/surf_poolday"
+    ],
+    "licence": "CC-BY-NC-ND-4.0",
+    "exception": "credited-community-map",
+    "title": "Surf Poolday",
+    "author": "iceeater",
+    "source_url": "https://gamebanana.com/mods/122736",
     "removal_contact": "https://github.com/zees-games/arena-surf-dm-maps/issues"
   },
   {

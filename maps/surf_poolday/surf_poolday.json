@@ -1,0 +1,2345 @@
+{
+ "id": "surf_poolday",
+ "source": "surf_poolday.bsp",
+ "units": "genre units (Source units), Godot axes; x metres = x * 0.01905",
+ "tier": 3,
+ "bounds": {
+  "min": [
+   -7904.0,
+   -12752.0,
+   15360.0
+  ],
+  "max": [
+   7920.0,
+   1360.0,
+   3808.0
+  ]
+ },
+ "lightmap": {
+  "file": "surf_poolday_lightmap.png",
+  "width": 1024,
+  "height": 2048
+ },
+ "lighting": {
+  "sun": {
+   "yaw_src": 0.0,
+   "pitch_src": -70.0,
+   "colour": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "brightness": 400.0,
+   "ambient_colour": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "ambient_brightness": 20.0
+  },
+  "sky_name": "sky_day02_03",
+  "baked_light_count": 23
+ },
+ "surfaces": [
+  {
+   "material": "brick/brickwall008d",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 0,
+   "vertex_count": 389,
+   "index_offset": 15560,
+   "index_count": 711,
+   "colour": [
+    0.3661,
+    0.2864,
+    0.2521
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "brick/brickwall008d",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 18404,
+   "vertex_count": 78,
+   "index_offset": 21524,
+   "index_count": 138,
+   "colour": [
+    0.3661,
+    0.2864,
+    0.2521
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "brick/brickwall019a",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 22076,
+   "vertex_count": 1041,
+   "index_offset": 63716,
+   "index_count": 1911,
+   "colour": [
+    0.6006,
+    0.5828,
+    0.573
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "brick/brickwall019a",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 71360,
+   "vertex_count": 104,
+   "index_offset": 75520,
+   "index_count": 192,
+   "colour": [
+    0.6006,
+    0.5828,
+    0.573
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "brick/brickwall019a",
+   "role": "RAMP",
+   "prototype": true,
+   "vertex_offset": 76288,
+   "vertex_count": 917,
+   "index_offset": 112968,
+   "index_count": 1695,
+   "colour": [
+    0.6006,
+    0.5828,
+    0.573
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "building_template/roof_template001a",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 119748,
+   "vertex_count": 342,
+   "index_offset": 133428,
+   "index_count": 594,
+   "colour": [
+    0.1743,
+    0.1743,
+    0.1923
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "building_template/roof_template001a",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 135804,
+   "vertex_count": 60,
+   "index_offset": 138204,
+   "index_count": 108,
+   "colour": [
+    0.1743,
+    0.1743,
+    0.1923
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "carpet/offflra",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 138636,
+   "vertex_count": 14,
+   "index_offset": 139196,
+   "index_count": 18,
+   "colour": [
+    0.6233,
+    0.5891,
+    0.5032
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "carpet/offflra",
+   "role": "RAMP",
+   "prototype": true,
+   "vertex_offset": 139268,
+   "vertex_count": 16,
+   "index_offset": 139908,
+   "index_count": 24,
+   "colour": [
+    0.6233,
+    0.5891,
+    0.5032
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "carpet/offflrb",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 140004,
+   "vertex_count": 76,
+   "index_offset": 143044,
+   "index_count": 132,
+   "colour": [
+    0.2386,
+    0.2877,
+    0.2977
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "carpet/offflrb",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 143572,
+   "vertex_count": 6,
+   "index_offset": 143812,
+   "index_count": 6,
+   "colour": [
+    0.2386,
+    0.2877,
+    0.2977
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "carpet/offflrb",
+   "role": "RAMP",
+   "prototype": true,
+   "vertex_offset": 143836,
+   "vertex_count": 154,
+   "index_offset": 149996,
+   "index_count": 270,
+   "colour": [
+    0.2386,
+    0.2877,
+    0.2977
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "concrete/concretefloor001a",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 151076,
+   "vertex_count": 39,
+   "index_offset": 152636,
+   "index_count": 63,
+   "colour": [
+    0.5572,
+    0.5557,
+    0.5353
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "concrete/concretefloor001a",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 152888,
+   "vertex_count": 30,
+   "index_offset": 154088,
+   "index_count": 54,
+   "colour": [
+    0.5572,
+    0.5557,
+    0.5353
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "cs_assault/pavement001a",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 154304,
+   "vertex_count": 337,
+   "index_offset": 167784,
+   "index_count": 609,
+   "colour": [
+    0.3675,
+    0.3542,
+    0.3423
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "cs_assault/pavement001a",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 170220,
+   "vertex_count": 129,
+   "index_offset": 175380,
+   "index_count": 255,
+   "colour": [
+    0.3675,
+    0.3542,
+    0.3423
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "cs_havana/white",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 176400,
+   "vertex_count": 20,
+   "index_offset": 177200,
+   "index_count": 30,
+   "colour": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "cs_havana/white",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 177320,
+   "vertex_count": 4,
+   "index_offset": 177480,
+   "index_count": 6,
+   "colour": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "cs_italy/pwood1",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 177504,
+   "vertex_count": 504,
+   "index_offset": 197664,
+   "index_count": 852,
+   "colour": [
+    0.4348,
+    0.3714,
+    0.3179
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "cs_italy/pwood1",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 201072,
+   "vertex_count": 84,
+   "index_offset": 204432,
+   "index_count": 132,
+   "colour": [
+    0.4348,
+    0.3714,
+    0.3179
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "cs_italy/pwood1",
+   "role": "RAMP",
+   "prototype": true,
+   "vertex_offset": 204960,
+   "vertex_count": 96,
+   "index_offset": 208800,
+   "index_count": 144,
+   "colour": [
+    0.4348,
+    0.3714,
+    0.3179
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "de_cbble/grounddirt",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 209376,
+   "vertex_count": 32,
+   "index_offset": 210656,
+   "index_count": 48,
+   "colour": [
+    0.2148,
+    0.1851,
+    0.1491
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "de_cbble/grounddirt",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 210848,
+   "vertex_count": 52,
+   "index_offset": 212928,
+   "index_count": 78,
+   "colour": [
+    0.2148,
+    0.1851,
+    0.1491
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "de_cbble/rooftile02",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 213240,
+   "vertex_count": 332,
+   "index_offset": 226520,
+   "index_count": 522,
+   "colour": [
+    0.5044,
+    0.3923,
+    0.3279
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "de_cbble/rooftile02",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 228608,
+   "vertex_count": 44,
+   "index_offset": 230368,
+   "index_count": 66,
+   "colour": [
+    0.5044,
+    0.3923,
+    0.3279
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "de_piranesi/marblefloor03",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 230632,
+   "vertex_count": 795,
+   "index_offset": 262432,
+   "index_count": 1335,
+   "colour": [
+    0.5212,
+    0.4864,
+    0.4507
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "de_piranesi/marblefloor03",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 267772,
+   "vertex_count": 447,
+   "index_offset": 285652,
+   "index_count": 855,
+   "colour": [
+    0.5212,
+    0.4864,
+    0.4507
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "de_piranesi/marblefloor14",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 289072,
+   "vertex_count": 16,
+   "index_offset": 289712,
+   "index_count": 24,
+   "colour": [
+    0.6497,
+    0.6508,
+    0.5893
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "de_prodigy/metal02",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 289808,
+   "vertex_count": 338,
+   "index_offset": 303328,
+   "index_count": 546,
+   "colour": [
+    0.373,
+    0.2475,
+    0.1756
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "de_prodigy/metal02",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 305512,
+   "vertex_count": 56,
+   "index_offset": 307752,
+   "index_count": 90,
+   "colour": [
+    0.373,
+    0.2475,
+    0.1756
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "dev/dev_brickwall012d",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 308112,
+   "vertex_count": 103,
+   "index_offset": 312232,
+   "index_count": 177,
+   "colour": [
+    0.4847,
+    0.359,
+    0.3309
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "dev/dev_brickwall012d",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 312940,
+   "vertex_count": 43,
+   "index_offset": 314660,
+   "index_count": 69,
+   "colour": [
+    0.4847,
+    0.359,
+    0.3309
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "dev/dev_brickwall012e",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 314936,
+   "vertex_count": 8,
+   "index_offset": 315256,
+   "index_count": 12,
+   "colour": [
+    0.4167,
+    0.3228,
+    0.2975
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "dev/dev_brickwall012e",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 315304,
+   "vertex_count": 8,
+   "index_offset": 315624,
+   "index_count": 12,
+   "colour": [
+    0.4167,
+    0.3228,
+    0.2975
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "dev/dev_water3",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 315672,
+   "vertex_count": 340,
+   "index_offset": 329272,
+   "index_count": 540,
+   "colour": [
+    0.4845,
+    0.4845,
+    0.4845
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "dev/dev_waterbeneath2",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 331432,
+   "vertex_count": 340,
+   "index_offset": 345032,
+   "index_count": 540,
+   "colour": [
+    0.4845,
+    0.4845,
+    0.4845
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "effects/com_shield003a",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 347192,
+   "vertex_count": 256,
+   "index_offset": 357432,
+   "index_count": 504,
+   "colour": [
+    0.2345,
+    0.236,
+    0.236
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "effects/com_shield003a",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 359448,
+   "vertex_count": 87,
+   "index_offset": 362928,
+   "index_count": 204,
+   "colour": [
+    0.2345,
+    0.236,
+    0.236
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "effects/e3_logodoor",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 363744,
+   "vertex_count": 40,
+   "index_offset": 365344,
+   "index_count": 60,
+   "colour": [
+    0.4589,
+    0.4489,
+    0.4309
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "effects/e3_logodoor",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 365584,
+   "vertex_count": 8,
+   "index_offset": 365904,
+   "index_count": 12,
+   "colour": [
+    0.4589,
+    0.4489,
+    0.4309
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "halflife/glassblue2",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 365952,
+   "vertex_count": 192,
+   "index_offset": 373632,
+   "index_count": 324,
+   "colour": [
+    0.3318,
+    0.4124,
+    0.4319
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "halflife/glassblue2",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 374928,
+   "vertex_count": 80,
+   "index_offset": 378128,
+   "index_count": 132,
+   "colour": [
+    0.3318,
+    0.4124,
+    0.4319
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "metal/metalfence001a",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 378656,
+   "vertex_count": 20,
+   "index_offset": 379456,
+   "index_count": 30,
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "metal/metalfence001a",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 379576,
+   "vertex_count": 4,
+   "index_offset": 379736,
+   "index_count": 6,
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "metal/metalfloor003a",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 379760,
+   "vertex_count": 1048,
+   "index_offset": 421680,
+   "index_count": 1722,
+   "colour": [
+    0.4064,
+    0.4008,
+    0.3909
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "metal/metalfloor003a",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 428568,
+   "vertex_count": 204,
+   "index_offset": 436728,
+   "index_count": 324,
+   "colour": [
+    0.4064,
+    0.4008,
+    0.3909
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "models/props_combine/citadel_cable",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 438024,
+   "vertex_count": 22,
+   "index_offset": 438904,
+   "index_count": 60,
+   "colour": [
+    0.2305,
+    0.232,
+    0.2722
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "models/props_combine/citadel_cable",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 439144,
+   "vertex_count": 42,
+   "index_offset": 440824,
+   "index_count": 132,
+   "colour": [
+    0.2305,
+    0.232,
+    0.2722
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "props/signcomputer001a",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 441352,
+   "vertex_count": 24,
+   "index_offset": 442312,
+   "index_count": 36,
+   "colour": [
+    0.6645,
+    0.5197,
+    0.5123
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "props/signcomputer001a",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 442456,
+   "vertex_count": 8,
+   "index_offset": 442776,
+   "index_count": 12,
+   "colour": [
+    0.6645,
+    0.5197,
+    0.5123
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "stone/infstairsatp",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 442824,
+   "vertex_count": 56,
+   "index_offset": 445064,
+   "index_count": 96,
+   "colour": [
+    0.4747,
+    0.4144,
+    0.3824
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "stone/infstairsatp",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 445448,
+   "vertex_count": 22,
+   "index_offset": 446328,
+   "index_count": 36,
+   "colour": [
+    0.4747,
+    0.4144,
+    0.3824
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "stone/stonecolumn001a",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 446472,
+   "vertex_count": 200,
+   "index_offset": 454472,
+   "index_count": 324,
+   "colour": [
+    0.7622,
+    0.7616,
+    0.7514
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "stone/stonecolumn001a",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 455768,
+   "vertex_count": 94,
+   "index_offset": 459528,
+   "index_count": 174,
+   "colour": [
+    0.7622,
+    0.7616,
+    0.7514
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "tile/ceilingtilea",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 460224,
+   "vertex_count": 1455,
+   "index_offset": 518424,
+   "index_count": 2307,
+   "colour": [
+    0.7708,
+    0.768,
+    0.7382
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "tile/ceilingtilea",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 527652,
+   "vertex_count": 506,
+   "index_offset": 547892,
+   "index_count": 846,
+   "colour": [
+    0.7708,
+    0.768,
+    0.7382
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "tile/prodceilingtilea",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 551276,
+   "vertex_count": 1551,
+   "index_offset": 613316,
+   "index_count": 2604,
+   "colour": [
+    0.638,
+    0.6231,
+    0.5726
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "tile/prodceilingtilea",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 623732,
+   "vertex_count": 124,
+   "index_offset": 628692,
+   "index_count": 180,
+   "colour": [
+    0.638,
+    0.6231,
+    0.5726
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "tile/prodceilingtilea",
+   "role": "RAMP",
+   "prototype": true,
+   "vertex_offset": 629412,
+   "vertex_count": 1730,
+   "index_offset": 698612,
+   "index_count": 2874,
+   "colour": [
+    0.638,
+    0.6231,
+    0.5726
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "tile/tilefloor001a",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 710108,
+   "vertex_count": 842,
+   "index_offset": 743788,
+   "index_count": 1410,
+   "colour": [
+    0.4456,
+    0.4044,
+    0.3326
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "tile/tilefloor001a",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 749428,
+   "vertex_count": 320,
+   "index_offset": 762228,
+   "index_count": 552,
+   "colour": [
+    0.4456,
+    0.4044,
+    0.3326
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "tile/tilefloor010a",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 764436,
+   "vertex_count": 972,
+   "index_offset": 803316,
+   "index_count": 1572,
+   "colour": [
+    0.6351,
+    0.5748,
+    0.474
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "tile/tilefloor010a",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 809604,
+   "vertex_count": 236,
+   "index_offset": 819044,
+   "index_count": 408,
+   "colour": [
+    0.6351,
+    0.5748,
+    0.474
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "tile/tilefloor011a",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 820676,
+   "vertex_count": 1081,
+   "index_offset": 863916,
+   "index_count": 1785,
+   "colour": [
+    0.7834,
+    0.7475,
+    0.6965
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "tile/tilefloor011a",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 871056,
+   "vertex_count": 424,
+   "index_offset": 888016,
+   "index_count": 744,
+   "colour": [
+    0.7834,
+    0.7475,
+    0.6965
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "tile/tilefloor019a",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 890992,
+   "vertex_count": 64,
+   "index_offset": 893552,
+   "index_count": 96,
+   "colour": [
+    0.3286,
+    0.352,
+    0.2914
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "tile/tilefloor019a",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 893936,
+   "vertex_count": 8,
+   "index_offset": 894256,
+   "index_count": 12,
+   "colour": [
+    0.3286,
+    0.352,
+    0.2914
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "tile/tilefloor021a",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 894304,
+   "vertex_count": 831,
+   "index_offset": 927544,
+   "index_count": 1323,
+   "colour": [
+    0.559,
+    0.534,
+    0.4997
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "tile/tilefloor021a",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 932836,
+   "vertex_count": 49,
+   "index_offset": 934796,
+   "index_count": 75,
+   "colour": [
+    0.559,
+    0.534,
+    0.4997
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "tile/tilefloor021a",
+   "role": "RAMP",
+   "prototype": true,
+   "vertex_offset": 935096,
+   "vertex_count": 474,
+   "index_offset": 954056,
+   "index_count": 786,
+   "colour": [
+    0.559,
+    0.534,
+    0.4997
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "wood/woodwall030a",
+   "role": "FLOOR",
+   "prototype": true,
+   "vertex_offset": 957200,
+   "vertex_count": 635,
+   "index_offset": 982600,
+   "index_count": 1095,
+   "colour": [
+    0.672,
+    0.6742,
+    0.6719
+   ],
+   "texture": null,
+   "translucent": false
+  },
+  {
+   "material": "wood/woodwall030a",
+   "role": "PLATFORM",
+   "prototype": true,
+   "vertex_offset": 986980,
+   "vertex_count": 326,
+   "index_offset": 1000020,
+   "index_count": 582,
+   "colour": [
+    0.672,
+    0.6742,
+    0.6719
+   ],
+   "texture": null,
+   "translucent": false
+  }
+ ],
+ "collision": {
+  "hull_count": 388,
+  "hull_offset": 1002348,
+  "displacement_vertex_offset": 1040188,
+  "displacement_vertex_count": 0,
+  "displacement_index_offset": 1040188,
+  "displacement_index_count": 0,
+  "playerclip_hulls": 0,
+  "prop_hulls": 0
+ },
+ "skybox": null,
+ "static_props": {
+  "placed": 23,
+  "drawn": 0,
+  "stock_models": 23,
+  "stock_standins": 0,
+  "stock_standins_estimated": 0,
+  "surfaces": 0,
+  "tinted": 0,
+  "open_sky_lit": 0
+ },
+ "brush_entities": {
+  "solid": 8,
+  "faces_drawn": 201
+ },
+ "units_per_square": 64.0,
+ "max_slope": 45.57,
+ "spawn": {
+  "origin": [
+   -160.0,
+   80.0,
+   14336.0
+  ],
+  "yaw": -90.0
+ },
+ "spawns": [
+  {
+   "origin": [
+    -160.0,
+    80.0,
+    14080.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -160.0,
+    80.0,
+    14464.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -160.0,
+    80.0,
+    14336.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -160.0,
+    80.0,
+    14208.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -256.0,
+    80.0,
+    14208.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -560.0,
+    80.0,
+    14592.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -560.0,
+    80.0,
+    14464.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -560.0,
+    80.0,
+    14336.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -560.0,
+    80.0,
+    14720.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -560.0,
+    80.0,
+    14208.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -384.0,
+    80.0,
+    14464.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -256.0,
+    80.0,
+    14464.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -256.0,
+    80.0,
+    14336.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -384.0,
+    80.0,
+    14336.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -384.0,
+    80.0,
+    14208.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    -160.0,
+    80.0,
+    13952.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    160.0,
+    80.0,
+    14464.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    160.0,
+    80.0,
+    14336.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    160.0,
+    80.0,
+    14208.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    160.0,
+    80.0,
+    14080.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    160.0,
+    80.0,
+    13952.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    256.0,
+    80.0,
+    14464.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    256.0,
+    80.0,
+    14336.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    256.0,
+    80.0,
+    14208.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    384.0,
+    80.0,
+    14208.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    384.0,
+    80.0,
+    14336.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    384.0,
+    80.0,
+    14464.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    560.0,
+    80.0,
+    14208.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    560.0,
+    80.0,
+    14336.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    560.0,
+    80.0,
+    14464.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    560.0,
+    80.0,
+    14592.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "origin": [
+    560.0,
+    80.0,
+    14720.0
+   ],
+   "yaw": -90.0
+  }
+ ],
+ "min_zone_thickness": 192.0,
+ "zones": [
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    -2036.0,
+    -3696.0,
+    5952.0
+   ],
+   "max": [
+    -1844.0,
+    -3456.0,
+    6336.0
+   ],
+   "inflated": true,
+   "destination": [
+    -240.0,
+    104.0,
+    14640.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    1844.0,
+    -3696.0,
+    5952.0
+   ],
+   "max": [
+    2036.0,
+    -3456.0,
+    6336.0
+   ],
+   "inflated": true,
+   "destination": [
+    240.0,
+    104.0,
+    14640.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    -3714.0,
+    -4552.0,
+    12192.0
+   ],
+   "max": [
+    -3522.0,
+    -4360.0,
+    12384.0
+   ],
+   "inflated": true,
+   "destination": [
+    0.0,
+    -4936.0,
+    10240.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    -3452.0,
+    -4127.5,
+    8080.0
+   ],
+   "max": [
+    -3260.0,
+    -3935.5,
+    8320.0
+   ],
+   "inflated": true,
+   "destination": [
+    0.0,
+    -4936.0,
+    10240.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    3522.0,
+    -4552.0,
+    12192.0
+   ],
+   "max": [
+    3714.0,
+    -4360.0,
+    12384.0
+   ],
+   "inflated": true,
+   "destination": [
+    0.0,
+    -4936.0,
+    10240.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    3260.0,
+    -4127.5,
+    8080.0
+   ],
+   "max": [
+    3452.0,
+    -3935.5,
+    8320.0
+   ],
+   "inflated": true,
+   "destination": [
+    0.0,
+    -4936.0,
+    10240.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    -480.0,
+    -10912.0,
+    10280.0
+   ],
+   "max": [
+    -224.0,
+    -10720.0,
+    10472.0
+   ],
+   "inflated": true,
+   "destination": [
+    0.0,
+    -4936.0,
+    10240.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    -96.0,
+    -2648.0,
+    6004.0
+   ],
+   "max": [
+    96.0,
+    -2456.0,
+    6036.0
+   ],
+   "inflated": true,
+   "destination": [
+    0.0,
+    -4936.0,
+    10240.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    -96.0,
+    -2647.3,
+    6036.0
+   ],
+   "max": [
+    96.0,
+    -2456.0,
+    6196.0
+   ],
+   "inflated": true,
+   "destination": [
+    0.0,
+    -4936.0,
+    10240.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    3460.0,
+    -4720.0,
+    11856.0
+   ],
+   "max": [
+    3652.0,
+    -4112.0,
+    12720.0
+   ],
+   "inflated": true,
+   "destination": [
+    0.0,
+    -4936.0,
+    10240.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    -3652.0,
+    -4720.0,
+    11856.0
+   ],
+   "max": [
+    -3460.0,
+    -4112.0,
+    12720.0
+   ],
+   "inflated": true,
+   "destination": [
+    0.0,
+    -4936.0,
+    10240.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    -1092.0,
+    -4992.0,
+    10560.0
+   ],
+   "max": [
+    -900.0,
+    -4752.0,
+    10944.0
+   ],
+   "inflated": true,
+   "destination": [
+    -240.0,
+    104.0,
+    14640.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    900.0,
+    -4992.0,
+    10560.0
+   ],
+   "max": [
+    1092.0,
+    -4752.0,
+    10944.0
+   ],
+   "inflated": true,
+   "destination": [
+    240.0,
+    104.0,
+    14640.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    -7712.0,
+    -12378.0,
+    3973.0
+   ],
+   "max": [
+    7727.0,
+    -12186.0,
+    15195.0
+   ],
+   "inflated": true,
+   "destination": [
+    0.0,
+    -10824.0,
+    7680.0
+   ],
+   "destination_yaw": -90.0
+  }
+ ],
+ "track_names": {
+  "0": "main"
+ },
+ "respawn_volumes": [
+  {
+   "min": [
+    -2036.0,
+    -6336.0,
+    -3696.0
+   ],
+   "max": [
+    -1844.0,
+    -5952.0,
+    -3456.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "stood": false,
+   "track": 0,
+   "original_min": [
+    -1944.0,
+    -6336.0,
+    -3696.0
+   ],
+   "original_max": [
+    -1936.0,
+    -5952.0,
+    -3456.0
+   ]
+  },
+  {
+   "min": [
+    1844.0,
+    -6336.0,
+    -3696.0
+   ],
+   "max": [
+    2036.0,
+    -5952.0,
+    -3456.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "stood": false,
+   "track": 0,
+   "original_min": [
+    1936.0,
+    -6336.0,
+    -3696.0
+   ],
+   "original_max": [
+    1944.0,
+    -5952.0,
+    -3456.0
+   ]
+  },
+  {
+   "min": [
+    -3714.0,
+    -12384.0,
+    -4552.0
+   ],
+   "max": [
+    -3522.0,
+    -12192.0,
+    -4360.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "stood": false,
+   "track": 0,
+   "original_min": [
+    -3620.0,
+    -12384.0,
+    -4480.0
+   ],
+   "original_max": [
+    -3616.0,
+    -12192.0,
+    -4360.0
+   ]
+  },
+  {
+   "min": [
+    -3452.0,
+    -8320.0,
+    -4127.5
+   ],
+   "max": [
+    -3260.0,
+    -8080.0,
+    -3935.5
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "stood": false,
+   "track": 0,
+   "original_min": [
+    -3360.0,
+    -8320.0,
+    -4095.0
+   ],
+   "original_max": [
+    -3352.0,
+    -8080.0,
+    -3968.0
+   ]
+  },
+  {
+   "min": [
+    3522.0,
+    -12384.0,
+    -4552.0
+   ],
+   "max": [
+    3714.0,
+    -12192.0,
+    -4360.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "stood": false,
+   "track": 0,
+   "original_min": [
+    3616.0,
+    -12384.0,
+    -4480.0
+   ],
+   "original_max": [
+    3620.0,
+    -12192.0,
+    -4360.0
+   ]
+  },
+  {
+   "min": [
+    3260.0,
+    -8320.0,
+    -4127.5
+   ],
+   "max": [
+    3452.0,
+    -8080.0,
+    -3935.5
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "stood": false,
+   "track": 0,
+   "original_min": [
+    3352.0,
+    -8320.0,
+    -4095.0
+   ],
+   "original_max": [
+    3360.0,
+    -8080.0,
+    -3968.0
+   ]
+  },
+  {
+   "min": [
+    -480.0,
+    -10472.0,
+    -10912.0
+   ],
+   "max": [
+    -224.0,
+    -10280.0,
+    -10720.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "stood": false,
+   "track": 0,
+   "original_min": [
+    -480.0,
+    -10384.0,
+    -10880.0
+   ],
+   "original_max": [
+    -224.0,
+    -10368.0,
+    -10752.0
+   ]
+  },
+  {
+   "min": [
+    -96.0,
+    -6036.0,
+    -2648.0
+   ],
+   "max": [
+    96.0,
+    -6004.0,
+    -2456.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "stood": true,
+   "track": 0,
+   "original_min": [
+    -96.0,
+    -6104.0,
+    -2640.0
+   ],
+   "original_max": [
+    96.0,
+    -6096.0,
+    -2464.0
+   ]
+  },
+  {
+   "min": [
+    -96.0,
+    -6196.0,
+    -2647.3
+   ],
+   "max": [
+    96.0,
+    -6036.0,
+    -2456.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "stood": true,
+   "track": 0,
+   "original_min": [
+    -96.0,
+    -6104.0,
+    -2640.0
+   ],
+   "original_max": [
+    96.0,
+    -6096.0,
+    -2464.0
+   ]
+  },
+  {
+   "min": [
+    3460.0,
+    -12720.0,
+    -4720.0
+   ],
+   "max": [
+    3652.0,
+    -11856.0,
+    -4112.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "stood": false,
+   "track": 0,
+   "original_min": [
+    3552.0,
+    -12720.0,
+    -4720.0
+   ],
+   "original_max": [
+    3560.0,
+    -11856.0,
+    -4112.0
+   ]
+  },
+  {
+   "min": [
+    -3652.0,
+    -12720.0,
+    -4720.0
+   ],
+   "max": [
+    -3460.0,
+    -11856.0,
+    -4112.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "stood": false,
+   "track": 0,
+   "original_min": [
+    -3560.0,
+    -12720.0,
+    -4720.0
+   ],
+   "original_max": [
+    -3552.0,
+    -11856.0,
+    -4112.0
+   ]
+  },
+  {
+   "min": [
+    -1092.0,
+    -10944.0,
+    -4992.0
+   ],
+   "max": [
+    -900.0,
+    -10560.0,
+    -4752.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "stood": false,
+   "track": 0,
+   "original_min": [
+    -1000.0,
+    -10944.0,
+    -4992.0
+   ],
+   "original_max": [
+    -992.0,
+    -10560.0,
+    -4752.0
+   ]
+  },
+  {
+   "min": [
+    900.0,
+    -10944.0,
+    -4992.0
+   ],
+   "max": [
+    1092.0,
+    -10560.0,
+    -4752.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "stood": false,
+   "track": 0,
+   "original_min": [
+    992.0,
+    -10944.0,
+    -4992.0
+   ],
+   "original_max": [
+    1000.0,
+    -10560.0,
+    -4752.0
+   ]
+  },
+  {
+   "min": [
+    -7712.0,
+    -15195.0,
+    -12378.0
+   ],
+   "max": [
+    7727.0,
+    -3973.0,
+    -12186.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "stood": false,
+   "track": 0,
+   "original_min": [
+    -7712.0,
+    -15195.0,
+    -12354.0
+   ],
+   "original_max": [
+    7727.0,
+    -3973.0,
+    -12210.0
+   ]
+  }
+ ],
+ "mechanics": {
+  "water": [
+   {
+    "min": [
+     96.0,
+     32.0,
+     14560.0
+    ],
+    "max": [
+     384.0,
+     56.0,
+     14720.0
+    ],
+    "from": "world"
+   },
+   {
+    "min": [
+     -384.0,
+     32.0,
+     14560.0
+    ],
+    "max": [
+     -96.0,
+     56.0,
+     14720.0
+    ],
+    "from": "world"
+   },
+   {
+    "min": [
+     -512.0,
+     -3747.0,
+     5760.0
+    ],
+    "max": [
+     512.0,
+     -3680.0,
+     6528.0
+    ],
+    "from": "world"
+   },
+   {
+    "min": [
+     -6912.0,
+     -4512.0,
+     11520.0
+    ],
+    "max": [
+     -5376.0,
+     -4496.0,
+     13056.0
+    ],
+    "from": "world"
+   },
+   {
+    "min": [
+     -2896.0,
+     -4128.0,
+     8096.0
+    ],
+    "max": [
+     -2720.0,
+     -4112.0,
+     8304.0
+    ],
+    "from": "world"
+   },
+   {
+    "min": [
+     5376.0,
+     -4512.0,
+     11520.0
+    ],
+    "max": [
+     6912.0,
+     -4496.0,
+     13056.0
+    ],
+    "from": "world"
+   },
+   {
+    "min": [
+     2720.0,
+     -4128.0,
+     8096.0
+    ],
+    "max": [
+     2896.0,
+     -4112.0,
+     8304.0
+    ],
+    "from": "world"
+   },
+   {
+    "min": [
+     -512.0,
+     -2723.3,
+     6208.0
+    ],
+    "max": [
+     512.0,
+     -2656.3,
+     6976.0
+    ],
+    "from": "world"
+   },
+   {
+    "min": [
+     -640.0,
+     -10208.0,
+     7296.0
+    ],
+    "max": [
+     640.0,
+     -10128.0,
+     8704.0
+    ],
+    "from": "world"
+   },
+   {
+    "min": [
+     -640.0,
+     -10976.0,
+     8512.0
+    ],
+    "max": [
+     640.0,
+     -10896.0,
+     9920.0
+    ],
+    "from": "world"
+   },
+   {
+    "min": [
+     -256.0,
+     -10896.0,
+     7424.0
+    ],
+    "max": [
+     256.0,
+     -10888.0,
+     7936.0
+    ],
+    "from": "world"
+   },
+   {
+    "min": [
+     -256.0,
+     -5024.0,
+     9984.0
+    ],
+    "max": [
+     256.0,
+     -5008.0,
+     10496.0
+    ],
+    "from": "world"
+   }
+  ],
+  "push": [],
+  "gravity": [],
+  "hurt": [],
+  "conveyors": [],
+  "ladders": [],
+  "blocks": []
+ },
+ "push_volumes": [],
+ "trigger_volumes": [],
+ "author": "iceeater",
+ "kind": "arena",
+ "notes": "Credit only, and deliberately no zones: combat surf. 16+16 team spawns, AWPs, rifles and a bomb target, buyzones; teleports are the map's pits. maps-conv-arena-surf-2. Not published."
+}

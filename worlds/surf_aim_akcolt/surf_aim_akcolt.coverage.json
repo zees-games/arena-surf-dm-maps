@@ -1,0 +1,79 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "surf_aim_akcolt",
+ "sha256": "887eb50aed456d7bfe7a58e63b9e7b50f3c9e08c50d3746eb4285c005fb9d23a",
+ "textures": {
+  "looked_up": 11,
+  "drawn": 11,
+  "by_tier": {
+   "addon": 4,
+   "default": 7
+  },
+  "free_by_tier": {
+   "addon": 11
+  },
+  "nearest_photo": [
+   "building_template/building_template005a",
+   "building_template/building_trainstation_truss_template001f",
+   "cs_havana/dirtfloor006a",
+   "cs_italy/boxsides_t01",
+   "stone/stonewall051b"
+  ]
+ },
+ "models": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "sounds": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "classes": {
+  "distinct": 14,
+  "entities": 154,
+  "by_tier": {
+   "default": 14
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "game_player_equip": [
+    "item_assaultsuit",
+    "weapon_knife"
+   ]
+  }
+ },
+ "links": {
+  "total": 9,
+  "unresolved": 0
+ },
+ "lists": {
+  "textures_unmapped": [],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "game_player_equip.item_assaultsuit",
+   "game_player_equip.weapon_knife"
+  ],
+  "links_unresolved": [],
+  "inputs_unimplemented": [
+   "point_servercommand.Command"
+  ],
+  "surfaces_opaque": []
+ },
+ "counts": {
+  "textures_unmapped": 0,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 2,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 1,
+  "surfaces_opaque": 0
+ }
+}
