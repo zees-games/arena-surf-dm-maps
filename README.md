@@ -44,6 +44,7 @@ games:
         - gamemann/arena-surf-dm-maps-surf_bathroom_final
         - gamemann/arena-surf-dm-maps-surf_buck_wild
         - gamemann/arena-surf-dm-maps-surf_dust2_2008_final
+        - gamemann/arena-surf-dm-maps-surf_fastspiral_retro
         - gamemann/arena-surf-dm-maps-surf_forbidden_ways_2nd
         - gamemann/arena-surf-dm-maps-surf_forbidden_ways_reloaded
         - gamemann/arena-surf-dm-maps-surf_fruits
@@ -95,6 +96,7 @@ A map is fetched the first time the server changes to it. Maps added here after 
 | `surf_bathroom_final` | smooth | https://gamebanana.com/mods/121698 |
 | `surf_buck_wild` | buck nasty | https://gamebanana.com/mods/121787 |
 | `surf_dust2_2008_final` | Matrix Hetman, Karatekäfer | https://gamebanana.com/mods/121962 |
+| `surf_fastspiral_retro` | qdg, eintagsfliege (original) | https://gamebanana.com/mods/122039 |
 | `surf_forbidden_ways_2nd` | krusty | https://gamebanana.com/mods/122075 |
 | `surf_forbidden_ways_reloaded` | Krusty, sky by Karatekäfer | https://gamebanana.com/mods/122076 |
 | `surf_fruits` | Sangre, Hellraisedsurfer, Robsonfire, Machine, Jaden, Komaokc, Icecreamlock, Shahzam, SKAR, JackTheStripper (copy-mark), Linus | https://gamebanana.com/mods/122092 |
@@ -142,4 +144,6 @@ A map is fetched the first time the server changes to it. Maps added here after 
 `surf_mai_redone_final2` is listed on its page as CC BY-NC-ND 4.0, and the page's text does not forbid sharing or porting (checked 2026-11-07); it is credited to AndYZ, Krusty here and on screen, and if AndYZ or anyone speaking for them wants it removed or credited differently, open an issue and it will be done.
 
 `surf_aim_akcolt` is listed on its page as CC BY-NC-ND 4.0, and the page's text does not forbid sharing or porting (checked 2026-11-07); it is credited to Lagged here and on screen, and if Lagged or anyone speaking for them wants it removed or credited differently, open an issue and it will be done.
+
+`surf_fastspiral_retro` is listed on its page as CC BY-NC-ND 4.0, and the page's text does not forbid sharing or porting (checked 2026-11-08); it is credited to qdg and to eintagsfliege (author of the original surf_fastspiral) here and on screen, and if either of them or anyone speaking for them wants it removed or credited differently, open an issue and it will be done.
 
