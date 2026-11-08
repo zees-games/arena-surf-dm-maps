@@ -690,13 +690,144 @@
   "displacement_index_offset": 1432424,
   "displacement_index_count": 0,
   "playerclip_hulls": 8,
-  "prop_hulls": 0
+  "prop_hulls": 0,
+  "hull_kinds": {
+   "glass": [
+    0,
+    64,
+    65,
+    74,
+    75,
+    78,
+    79,
+    80,
+    82,
+    83,
+    84,
+    85,
+    94,
+    95,
+    113,
+    115,
+    138,
+    139,
+    143,
+    144,
+    145,
+    293,
+    601,
+    602,
+    603,
+    604,
+    605,
+    606,
+    607,
+    608,
+    609,
+    610,
+    611,
+    612,
+    613,
+    614,
+    615,
+    616,
+    617,
+    618,
+    619,
+    620,
+    621,
+    622,
+    623,
+    624,
+    625,
+    626,
+    627,
+    628,
+    629,
+    630,
+    631,
+    632,
+    633,
+    634,
+    635,
+    636,
+    637,
+    638,
+    639,
+    640,
+    641,
+    642,
+    643,
+    644,
+    645,
+    646,
+    647,
+    648,
+    649,
+    650,
+    651,
+    652,
+    653,
+    654,
+    655,
+    656,
+    663,
+    664,
+    726,
+    837,
+    842,
+    843,
+    844,
+    845,
+    846,
+    847,
+    848,
+    849,
+    850,
+    851,
+    852
+   ],
+   "clip": [
+    5,
+    8,
+    100,
+    105,
+    106,
+    141,
+    142,
+    294,
+    301,
+    308,
+    818,
+    819,
+    820,
+    821
+   ],
+   "sky": [
+    50,
+    56,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223
+   ]
+  }
  },
  "skybox": null,
  "static_props": {
   "placed": 14,
   "drawn": 0,
   "stock_models": 14,
+  "stock_standins": 0,
+  "stock_standins_estimated": 0,
   "surfaces": 0,
   "tinted": 0,
   "open_sky_lit": 0
@@ -1483,7 +1614,7 @@
    "track": 0,
    "min": [
     7800.0,
-    -2123.0,
+    -2099.0,
     -160.0
    ],
    "max": [
@@ -1582,90 +1713,6 @@
     -2.4816e-11
    ],
    "destination_yaw": 90.0
-  },
-  {
-   "kind": "RESPAWN",
-   "track": 0,
-   "min": [
-    2645.0,
-    -6953.0,
-    -226.0
-   ],
-   "max": [
-    9981.0,
-    -6561.0,
-    5073.0
-   ],
-   "inflated": false,
-   "destination": [
-    7648.0,
-    -2280.0,
-    -0.0
-   ],
-   "destination_yaw": -90.0
-  },
-  {
-   "kind": "RESPAWN",
-   "track": 0,
-   "min": [
-    2645.0,
-    -6953.0,
-    -5525.0
-   ],
-   "max": [
-    9981.0,
-    -6561.0,
-    -226.0
-   ],
-   "inflated": false,
-   "destination": [
-    7715.0,
-    -2280.0,
-    -0.0
-   ],
-   "destination_yaw": -90.0
-  },
-  {
-   "kind": "RESPAWN",
-   "track": 0,
-   "min": [
-    -4692.0,
-    -6953.0,
-    -5525.0
-   ],
-   "max": [
-    2645.0,
-    -6561.0,
-    -226.0
-   ],
-   "inflated": false,
-   "destination": [
-    7568.0,
-    -2280.0,
-    -0.0
-   ],
-   "destination_yaw": -90.0
-  },
-  {
-   "kind": "RESPAWN",
-   "track": 0,
-   "min": [
-    -4692.0,
-    -6953.0,
-    -226.0
-   ],
-   "max": [
-    2645.0,
-    -6561.0,
-    5073.0
-   ],
-   "inflated": false,
-   "destination": [
-    7472.0,
-    -2280.0,
-    -0.0
-   ],
-   "destination_yaw": -90.0
   }
  ],
  "track_names": {
@@ -1687,6 +1734,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     1840.0,
@@ -1714,6 +1762,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -10552.0,
@@ -1741,6 +1790,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -9600.0,
@@ -1768,6 +1818,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     3856.0,
@@ -1795,6 +1846,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     4177.0,
@@ -1822,6 +1874,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     4177.0,
@@ -1849,6 +1902,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     9600.0,
@@ -1876,6 +1930,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -5936.0,
@@ -1903,6 +1958,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -5936.0,
@@ -1930,6 +1986,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -5936.0,
@@ -1957,6 +2014,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -10336.0,
@@ -1973,7 +2031,7 @@
    "min": [
     7800.0,
     -160.0,
-    -2123.0
+    -2099.0
    ],
    "max": [
     7992.0,
@@ -1984,6 +2042,7 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": true,
    "track": 0,
    "original_min": [
     7888.0,
@@ -2011,6 +2070,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     7864.0,
@@ -2038,6 +2098,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     7680.0,
@@ -2065,6 +2126,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     3146.0,
@@ -2092,6 +2154,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     7869.0,
@@ -2102,114 +2165,6 @@
     7924.0,
     -37.0,
     -372.0
-   ]
-  },
-  {
-   "min": [
-    2645.0,
-    -5073.0,
-    -6953.0
-   ],
-   "max": [
-    9981.0,
-    226.0,
-    -6561.0
-   ],
-   "inflated": false,
-   "hung": false,
-   "cleared": false,
-   "trimmed": false,
-   "track": 0,
-   "original_min": [
-    2645.0,
-    -5073.0,
-    -6953.0
-   ],
-   "original_max": [
-    9981.0,
-    226.0,
-    -6561.0
-   ]
-  },
-  {
-   "min": [
-    2645.0,
-    226.0,
-    -6953.0
-   ],
-   "max": [
-    9981.0,
-    5525.0,
-    -6561.0
-   ],
-   "inflated": false,
-   "hung": false,
-   "cleared": false,
-   "trimmed": false,
-   "track": 0,
-   "original_min": [
-    2645.0,
-    226.0,
-    -6953.0
-   ],
-   "original_max": [
-    9981.0,
-    5525.0,
-    -6561.0
-   ]
-  },
-  {
-   "min": [
-    -4692.0,
-    226.0,
-    -6953.0
-   ],
-   "max": [
-    2645.0,
-    5525.0,
-    -6561.0
-   ],
-   "inflated": false,
-   "hung": false,
-   "cleared": false,
-   "trimmed": false,
-   "track": 0,
-   "original_min": [
-    -4692.0,
-    226.0,
-    -6953.0
-   ],
-   "original_max": [
-    2645.0,
-    5525.0,
-    -6561.0
-   ]
-  },
-  {
-   "min": [
-    -4692.0,
-    -5073.0,
-    -6953.0
-   ],
-   "max": [
-    2645.0,
-    226.0,
-    -6561.0
-   ],
-   "inflated": false,
-   "hung": false,
-   "cleared": false,
-   "trimmed": false,
-   "track": 0,
-   "original_min": [
-    -4692.0,
-    -5073.0,
-    -6953.0
-   ],
-   "original_max": [
-    2645.0,
-    226.0,
-    -6561.0
    ]
   }
  ],
@@ -2832,6 +2787,51 @@
    ],
    "targetname": "",
    "filtername": ""
+  }
+ ],
+ "train_movers": [
+  {
+   "name": "train_1",
+   "model": "*102",
+   "origin": [
+    1664.0,
+    1872.0,
+    -6001.0
+   ],
+   "min": [
+    -64.0,
+    -68.0,
+    -50.0
+   ],
+   "max": [
+    64.0,
+    68.0,
+    157.0
+   ],
+   "speed": 0.0,
+   "start_speed": 320.0,
+   "damage": 0.0,
+   "solid": true,
+   "loop": false,
+   "path": [
+    {
+     "name": "track_a1",
+     "origin": [
+      1664.0,
+      1872.0,
+      -6008.0
+     ]
+    },
+    {
+     "name": "track_a2",
+     "origin": [
+      1664.0,
+      408.0,
+      -6008.0
+     ],
+     "speed": 70.0
+    }
+   ]
   }
  ],
  "author": "paper-cut, z-machine(original)",
