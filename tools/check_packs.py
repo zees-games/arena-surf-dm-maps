@@ -11,7 +11,14 @@ party or Valve art with no mapping, so it must never be published. The rules, al
   1. no `textures/` directory at the pack root, and no .vtf/.vmt/.mdl/.vtx/.vvd/.bsp/.vpk/.wav/.mp3/.ogg anywhere;
   2. no file anywhere whose normalised name equals an entry of the world's coverage lists `textures_unmapped`,
      `textures_flat` or `textures.nearest_photo` (`CS_ITALY/ORANGE` -> `cs_italy_orange`), unless it is an fb_/gen_ file;
-  3. the pack is not hollow: <id>.json, <id>.bin, provides.json, licence.json and worlds/<id>/<id>.json all exist.
+  3. the pack is not hollow: <id>.json, <id>.bin, provides.json, licence.json and worlds/<id>/<id>.json all exist;
+  4. no `.import` marker: a marker redirects every `load()` of its source to `res://.godot/imported/<hash>.ctex`, which a
+     published pack does not carry (the importing project's cache), so the texture loads as null and the surface draws as a
+     flat colour (crackhouse 1.0.4 on prod, 2026-11-08). A pack ships raw .webp/.png, which `Image.load_from_file` reads;
+  5. every material resolves: each `pbr:` / `generated` key the world's surfaces draw has a row in the manifest's
+     `licence.textures` whose pack file (`fallback_file` for a PBR set, `file` for a generated one) is in the pack, because
+     a shared PBR store is not mounted for a delivered pack and that file is all the surface has; a key with no such file
+     draws as a flat colour.
 
 Exit 1 with one line per offence. Standard library only.
 """
@@ -49,6 +56,35 @@ def stem(fname):
     return s
 
 
+def material_offences(root, pid):
+    """Rule 5: the surfaces of worlds/<id>/<id>.json whose texture file the pack does not carry (a flat colour in game)."""
+    path = os.path.join(root, "worlds", pid, pid + ".json")
+    if not os.path.isfile(path):
+        return []
+    with open(path, encoding="utf-8") as f:
+        world = json.load(f)
+    base = os.path.dirname(path)
+    rows = {}
+    for t in world.get("licence", {}).get("textures", []):
+        rows[str(t.get("key", ""))] = t
+    bad = []
+    seen = set()
+    for rec in world.get("surfaces", []):
+        for field in ("free", "free2"):
+            key = str(rec.get(field, "") or "")
+            if key in seen or not (key.startswith("pbr:") or key in rows):
+                continue  # a plain kind name ("concrete") is drawn from the game's own surfaces folder
+            seen.add(key)
+            row = rows.get(key)
+            if row is None:
+                bad.append("%s: surface texture %s has no row in licence.textures (draws flat)" % (pid, key))
+                continue
+            rel = row.get("fallback_file") if row.get("kind") == "pbr" else row.get("file")
+            if not rel or not os.path.isfile(os.path.join(base, rel)):
+                bad.append("%s: surface texture %s: file %s is not in the pack (draws flat)" % (pid, key, rel))
+    return bad
+
+
 def check_pack(root, pid):
     """Offences (list of strings) for the staged pack at root."""
     bad = []
@@ -64,9 +100,12 @@ def check_pack(root, pid):
     if os.path.isfile(cov):
         with open(cov, encoding="utf-8") as f:
             unmapped = unmapped_names(json.load(f))
+    bad += material_offences(root, pid)
     for d, _, files in os.walk(root):
         for fn in files:
             rel = os.path.relpath(os.path.join(d, fn), root)
+            if fn.endswith(".import"):
+                bad.append("%s: %s is an import marker; its .ctex is not in the pack, so the texture would load as null" % (pid, rel))
             if os.path.splitext(fn)[1].lower() in BANNED_EXT:
                 bad.append("%s: %s is a source-engine or sound file" % (pid, rel))
                 continue

@@ -69,6 +69,26 @@ class CheckPacks(unittest.TestCase):
         put(os.path.join(self.root, "boom.wav"))
         self.assertEqual(len(check_packs.check_pack(self.root, "m1")), 2)
 
+    def test_import_marker_fails(self):
+        put(os.path.join(self.root, "worlds", "m1", "textures", "fb_Concrete044D.webp.import"))
+        self.assertTrue(any("import marker" in b for b in check_packs.check_pack(self.root, "m1")))
+
+    def _world(self, surfaces, textures):
+        put(os.path.join(self.root, "worlds", "m1", "m1.json"), json.dumps({"surfaces": surfaces, "licence": {"textures": textures}}))
+
+    def test_resolving_materials_pass(self):
+        self._world([{"free": "pbr:a"}, {"free": "pbr:a", "free2": "gen:g"}, {"free": "concrete"}],
+                    [{"key": "pbr:a", "kind": "pbr", "fallback_file": "textures/fb_Concrete044D.webp"},
+                     {"key": "gen:g", "kind": "generated", "file": "textures/gen_flat.png"}])
+        self.assertEqual(check_packs.check_pack(self.root, "m1"), [])
+
+    def test_material_without_a_file_fails(self):
+        self._world([{"free": "pbr:a"}, {"free": "pbr:b"}, {"free": "gen:g"}],
+                    [{"key": "pbr:a", "kind": "pbr", "fallback_file": "textures/fb_missing.webp"},
+                     {"key": "gen:g", "kind": "generated", "file": "textures/gen_missing.png"}])
+        bad = [b for b in check_packs.check_pack(self.root, "m1") if "draws flat" in b]
+        self.assertEqual(len(bad), 3, bad)  # a: file missing, b: no row, g: file missing
+
     def test_hollow_pack_fails(self):
         os.remove(os.path.join(self.root, "m1.bin"))
         self.assertTrue(any("hollow" in b for b in check_packs.check_pack(self.root, "m1")))
@@ -91,6 +111,8 @@ class StagePacks(unittest.TestCase):
             put(os.path.join(repo, "worlds", "m1", "m1.json"), "{}")
             put(os.path.join(repo, "worlds", "m1", "m1.coverage.json"), json.dumps(COVERAGE))
             put(os.path.join(repo, "worlds", "m1", "textures", "fb_Grass004.webp"))
+            put(os.path.join(repo, "worlds", "m1", "textures", "fb_Grass004.webp.import"))
+            put(os.path.join(repo, "maps", "m1", "m1_lightmap.png.import"))
             conv = os.path.join(tmp, "convert")  # stub of dot-map-convert: `bsp.py bundle WORLD --out OUT --strict` copies the folder
             put(os.path.join(conv, "bsp.py"),
                 "import shutil, sys, os\nw = sys.argv[2]\nout = sys.argv[sys.argv.index('--out') + 1]\n"
@@ -101,6 +123,8 @@ class StagePacks(unittest.TestCase):
             self.assertEqual(r.returncode, 0, r.stderr)
             self.assertFalse(os.path.exists(os.path.join(out, "m1", "textures")))
             self.assertTrue(os.path.isfile(os.path.join(out, "m1", "m1.bin")))
+            self.assertFalse(os.path.exists(os.path.join(out, "m1", "m1_lightmap.png.import")))
+            self.assertFalse(os.path.exists(os.path.join(out, "m1", "worlds", "m1", "textures", "fb_Grass004.webp.import")))
             self.assertTrue(os.path.isfile(os.path.join(out, "m1", "worlds", "m1", "textures", "fb_Grass004.webp")))
             self.assertEqual(check_packs.check_pack(os.path.join(out, "m1"), "m1"), [])
         finally:

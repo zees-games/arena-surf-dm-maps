@@ -18,6 +18,8 @@ for id in "${IDS[@]}"; do
     rm -rf "${OUT:?}/$id"; mkdir -p "$OUT/$id/worlds"
     [ -d "$HERE/maps/$id" ] && (cd "$HERE/maps/$id" && tar cf - --exclude=./textures .) | tar xf - -C "$OUT/$id"
     ${DOT_PY:-python3 -I} "$CONVERT/bsp.py" bundle "$HERE/worlds/$id" --out "$OUT/$id/worlds" --strict
+    # An `.import` marker names the importing project's .godot cache, absent from a delivered pack: its texture would load null.
+    find "$OUT/$id" -name '*.import' -delete
     STAGED+=("$id")
 done
 [ ${#STAGED[@]} -eq 0 ] || python3 -I "$HERE/tools/check_packs.py" "$OUT" "${STAGED[@]}"
