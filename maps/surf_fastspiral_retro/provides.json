@@ -1,0 +1,19 @@
+{
+    "schema": 1,
+    "title": "Surf Fastspiral Retro",
+    "kinds": [
+        "map"
+    ],
+    "games": [
+        "gamemann/game-arena"
+    ],
+    "entries": [
+        {
+            "kind": "map",
+            "id": "surf_fastspiral_retro",
+            "name": "Surf Fastspiral Retro",
+            "scene": "surf_fastspiral_retro.json",
+            "map_kind": "arena"
+        }
+    ]
+}
