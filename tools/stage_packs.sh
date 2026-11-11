@@ -1,6 +1,6 @@
 #!/bin/bash
 # stage_packs.sh OUT [id...] : one directory per map = maps/<id>/ plus worlds/<id>/ (with the library models it draws in models/), the layout a per-map CDN pack is published from.
-# game-arena's ArenaBspMap.world_prefix reads a delivered map's world from <mount>/worlds/<id>/.
+# game-fatal-contact's ArenaBspMap.world_prefix reads a delivered map's world from <mount>/worlds/<id>/.
 #
 # PUBLISH RULE (owner policy: licensed textures must be mapped to free/open/own assets): maps/<id>/textures/ is the importer's
 # decode of the textures in the SOURCE map's pakfile (third-party or Valve art, no mapping) and is NEVER copied into a pack.
