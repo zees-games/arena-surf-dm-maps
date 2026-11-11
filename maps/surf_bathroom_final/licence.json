@@ -5,8 +5,8 @@
     ],
     "licence": "MIT",
     "author": "TMC",
-    "url": "https://github.com/zees-games/arena-surf-dm-maps",
-    "title": "arena-surf-dm-maps (original content)"
+    "url": "https://github.com/zees-games/fc-surf-dm-maps",
+    "title": "fc-surf-dm-maps (original content)"
   },
   {
     "paths": [
@@ -19,6 +19,6 @@
     "title": "Surf Bathroom Final",
     "author": "smooth",
     "source_url": "https://gamebanana.com/mods/121698",
-    "removal_contact": "https://github.com/zees-games/arena-surf-dm-maps/issues"
+    "removal_contact": "https://github.com/zees-games/fc-surf-dm-maps/issues"
   }
 ]

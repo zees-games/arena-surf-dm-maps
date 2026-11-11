@@ -16,6 +16,6 @@ jobs:
         permissions:
             contents: write
         with:
-            game: zees-games/game-arena
+            game: zees-games/game-fatal-contact
         secrets:
             DEPS_TOKEN: ${{ secrets.DOT_DEPS_TOKEN }}

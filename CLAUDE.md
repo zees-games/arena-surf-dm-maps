@@ -10,7 +10,7 @@ The combat surf maps game-arena plays, as their own repository. Read `../../CLAU
 
 **The importer is still game-g2gfast's.** A re-import or a new combat surf map is produced there (it writes the manifest, copying `"kind": "arena"` from the game's `maps/zones/<id>.json`, where the credits live too) and the map directory is then moved here. `maps.json` is the list with credits; keep it in step by hand when a map is added or removed, and add the README's credits row.
 
-**Releasing is a tag**: `.github/workflows/release.yml` calls dot-ci's `release-maps.yml` with `game: zees-games/game-arena`. The repository needs the `DOT_DEPS_TOKEN` secret, like g2gfast-maps.
+**Releasing is a tag**: `.github/workflows/release.yml` calls dot-ci's `release-maps.yml` with `game: zees-games/game-fatal-contact`. The repository needs the `DOT_DEPS_TOKEN` secret, like g2gfast-maps.
 
 **Credits are mandatory**: every map in `maps.json` has an author and a source page, and the README's table says the same.
 
