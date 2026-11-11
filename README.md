@@ -1,6 +1,6 @@
 # arena-surf-dm-maps
 
-The combat surf maps [game-arena](https://github.com/zees-games/game-arena) plays as a deathmatch, as a repository of their own: the imported maps in `maps/` and the list of them with their authors in `maps.json`.
+The combat surf maps Zee's Fatal Contact ([game-arena](https://github.com/zees-games/game-arena)) plays as a deathmatch, as a repository of their own: the imported maps in `maps/` and the list of them with their authors in `maps.json`.
 
 These are maps from the surf genre that are not courses: small maps with buy zones, weapons on the floor and teleports back to a spawn, built to fight on. Each manifest says `"kind": "arena"`, and that is what game-arena looks for; a map that says otherwise is skipped.
 
