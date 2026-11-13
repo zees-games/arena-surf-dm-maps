@@ -23,3 +23,21 @@ jobs:
               env:
                   DOT_MAP_CONVERT_PATH: dot-map-convert-src
             - run: python3 tools/test_check_packs.py
+
+    # Every spawn and teleport destination lands in playable space: not in a solid, not out
+    # of bounds, over a floor, not in a pit; failures the importer has not fixed yet are held
+    # by count in tools/playable_known.json.
+    playable-check:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - uses: actions/checkout@v4
+              with:
+                  repository: modcommunity/dot-map-convert
+                  path: dot-map-convert-src
+            - uses: actions/setup-python@v5
+              with:
+                  python-version: '3.12'
+            - run: python3 tools/check_playable.py
+              env:
+                  DOT_MAP_CONVERT_PATH: dot-map-convert-src
