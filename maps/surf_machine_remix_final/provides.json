@@ -15,5 +15,6 @@
             "scene": "surf_machine_remix_final.json",
             "map_kind": "arena"
         }
-    ]
+    ],
+    "collection": "fc-surf-dm-maps"
 }

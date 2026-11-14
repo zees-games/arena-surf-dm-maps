@@ -15,5 +15,6 @@
             "scene": "surf_aim_akcolt.json",
             "map_kind": "arena"
         }
-    ]
+    ],
+    "collection": "fc-surf-dm-maps"
 }

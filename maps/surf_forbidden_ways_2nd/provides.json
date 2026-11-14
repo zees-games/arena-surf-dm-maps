@@ -15,5 +15,6 @@
             "scene": "surf_forbidden_ways_2nd.json",
             "map_kind": "arena"
         }
-    ]
+    ],
+    "collection": "fc-surf-dm-maps"
 }

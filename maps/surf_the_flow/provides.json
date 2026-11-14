@@ -15,5 +15,6 @@
             "scene": "surf_the_flow.json",
             "map_kind": "arena"
         }
-    ]
+    ],
+    "collection": "fc-surf-dm-maps"
 }

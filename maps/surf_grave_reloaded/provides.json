@@ -15,5 +15,6 @@
             "scene": "surf_grave_reloaded.json",
             "map_kind": "arena"
         }
-    ]
+    ],
+    "collection": "fc-surf-dm-maps"
 }

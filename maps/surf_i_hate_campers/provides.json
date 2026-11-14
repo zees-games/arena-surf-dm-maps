@@ -15,5 +15,6 @@
             "scene": "surf_i_hate_campers.json",
             "map_kind": "arena"
         }
-    ]
+    ],
+    "collection": "fc-surf-dm-maps"
 }

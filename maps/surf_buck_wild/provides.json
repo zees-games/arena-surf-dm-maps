@@ -15,5 +15,6 @@
             "scene": "surf_buck_wild.json",
             "map_kind": "arena"
         }
-    ]
+    ],
+    "collection": "fc-surf-dm-maps"
 }

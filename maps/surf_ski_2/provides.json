@@ -15,5 +15,6 @@
             "scene": "surf_ski_2.json",
             "map_kind": "arena"
         }
-    ]
+    ],
+    "collection": "fc-surf-dm-maps"
 }

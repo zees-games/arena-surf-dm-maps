@@ -15,5 +15,6 @@
             "scene": "surf_ny_bigloop_2008a.json",
             "map_kind": "arena"
         }
-    ]
+    ],
+    "collection": "fc-surf-dm-maps"
 }

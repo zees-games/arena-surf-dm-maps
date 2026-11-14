@@ -15,5 +15,6 @@
             "scene": "surf_rebel_resistance_final3.json",
             "map_kind": "arena"
         }
-    ]
+    ],
+    "collection": "fc-surf-dm-maps"
 }

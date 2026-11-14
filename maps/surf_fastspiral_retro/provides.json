@@ -15,5 +15,6 @@
             "scene": "surf_fastspiral_retro.json",
             "map_kind": "arena"
         }
-    ]
+    ],
+    "collection": "fc-surf-dm-maps"
 }

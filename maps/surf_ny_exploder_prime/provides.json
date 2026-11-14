@@ -15,5 +15,6 @@
             "scene": "surf_ny_exploder_prime.json",
             "map_kind": "arena"
         }
-    ]
+    ],
+    "collection": "fc-surf-dm-maps"
 }

@@ -15,5 +15,6 @@
             "scene": "surf_110b_austinpowers.json",
             "map_kind": "arena"
         }
-    ]
+    ],
+    "collection": "fc-surf-dm-maps"
 }

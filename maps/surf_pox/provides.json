@@ -15,5 +15,6 @@
             "scene": "surf_pox.json",
             "map_kind": "arena"
         }
-    ]
+    ],
+    "collection": "fc-surf-dm-maps"
 }

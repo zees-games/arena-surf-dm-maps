@@ -15,5 +15,6 @@
             "scene": "surf_matrix_v8.json",
             "map_kind": "arena"
         }
-    ]
+    ],
+    "collection": "fc-surf-dm-maps"
 }

@@ -15,5 +15,6 @@
             "scene": "surf_xiv_v2a.json",
             "map_kind": "arena"
         }
-    ]
+    ],
+    "collection": "fc-surf-dm-maps"
 }

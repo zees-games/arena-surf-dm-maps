@@ -15,5 +15,6 @@
             "scene": "surf_dust2_2008_final.json",
             "map_kind": "arena"
         }
-    ]
+    ],
+    "collection": "fc-surf-dm-maps"
 }
