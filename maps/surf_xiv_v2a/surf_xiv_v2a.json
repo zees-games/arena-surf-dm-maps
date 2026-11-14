@@ -4737,7 +4737,7 @@
    ],
    "inflated": true,
    "destination": [
-    0.0,
+    -16.0,
     488.0,
     -0.842272
    ],
@@ -4800,7 +4800,7 @@
    ],
    "inflated": true,
    "destination": [
-    14168.0,
+    14152.0,
     6944.0,
     14800.0
    ],
@@ -4821,7 +4821,7 @@
    ],
    "inflated": true,
    "destination": [
-    14168.0,
+    14152.0,
     6944.0,
     14800.0
    ],
@@ -4842,7 +4842,7 @@
    ],
    "inflated": true,
    "destination": [
-    14168.0,
+    14152.0,
     6944.0,
     14800.0
    ],
@@ -4863,7 +4863,7 @@
    ],
    "inflated": true,
    "destination": [
-    14168.0,
+    14152.0,
     6944.0,
     14800.0
    ],
@@ -4884,7 +4884,7 @@
    ],
    "inflated": true,
    "destination": [
-    14168.0,
+    14152.0,
     6944.0,
     14800.0
    ],
@@ -4905,7 +4905,7 @@
    ],
    "inflated": true,
    "destination": [
-    14168.0,
+    14152.0,
     6944.0,
     14800.0
    ],
@@ -4926,7 +4926,7 @@
    ],
    "inflated": true,
    "destination": [
-    14168.0,
+    14152.0,
     6944.0,
     14800.0
    ],
@@ -4947,7 +4947,7 @@
    ],
    "inflated": true,
    "destination": [
-    14168.0,
+    14152.0,
     6944.0,
     14800.0
    ],
@@ -4968,7 +4968,7 @@
    ],
    "inflated": true,
    "destination": [
-    14168.0,
+    14152.0,
     6944.0,
     14800.0
    ],
@@ -4989,7 +4989,7 @@
    ],
    "inflated": true,
    "destination": [
-    14168.0,
+    14152.0,
     6944.0,
     14800.0
    ],
@@ -5010,7 +5010,7 @@
    ],
    "inflated": true,
    "destination": [
-    14168.0,
+    14152.0,
     6944.0,
     14800.0
    ],
@@ -5031,7 +5031,7 @@
    ],
    "inflated": true,
    "destination": [
-    14168.0,
+    14152.0,
     6944.0,
     14800.0
    ],
@@ -5052,7 +5052,7 @@
    ],
    "inflated": true,
    "destination": [
-    14168.0,
+    14152.0,
     6944.0,
     14800.0
    ],
@@ -5073,7 +5073,7 @@
    ],
    "inflated": true,
    "destination": [
-    14168.0,
+    14152.0,
     6944.0,
     14800.0
    ],
@@ -5094,7 +5094,7 @@
    ],
    "inflated": true,
    "destination": [
-    14168.0,
+    14152.0,
     6944.0,
     14800.0
    ],
@@ -5115,7 +5115,7 @@
    ],
    "inflated": true,
    "destination": [
-    14168.0,
+    14152.0,
     6944.0,
     14800.0
    ],
@@ -5136,7 +5136,7 @@
    ],
    "inflated": false,
    "destination": [
-    14168.0,
+    14152.0,
     6944.0,
     14800.0
    ],
@@ -5157,7 +5157,7 @@
    ],
    "inflated": false,
    "destination": [
-    14168.0,
+    14152.0,
     6944.0,
     15792.0
    ],
@@ -20655,7 +20655,7 @@
    ],
    "inflated": true,
    "destination": [
-    14168.0,
+    14152.0,
     6944.0,
     14800.0
    ],
@@ -20676,7 +20676,7 @@
    ],
    "inflated": false,
    "destination": [
-    14168.0,
+    14152.0,
     6944.0,
     14800.0
    ],
@@ -20697,7 +20697,7 @@
    ],
    "inflated": false,
    "destination": [
-    14168.0,
+    14152.0,
     6944.0,
     15792.0
    ],
@@ -20718,7 +20718,7 @@
    ],
    "inflated": false,
    "destination": [
-    14168.0,
+    14152.0,
     6944.0,
     14800.0
    ],
@@ -20739,7 +20739,7 @@
    ],
    "inflated": false,
    "destination": [
-    14168.0,
+    14152.0,
     6944.0,
     15792.0
    ],
@@ -20760,7 +20760,7 @@
    ],
    "inflated": true,
    "destination": [
-    14168.0,
+    14152.0,
     6944.0,
     14800.0
    ],
@@ -20781,7 +20781,7 @@
    ],
    "inflated": true,
    "destination": [
-    14168.0,
+    14152.0,
     6944.0,
     14800.0
    ],
@@ -20802,7 +20802,7 @@
    ],
    "inflated": true,
    "destination": [
-    14168.0,
+    14152.0,
     6944.0,
     14800.0
    ],
@@ -20816,35 +20816,9 @@
   "teleports": 123,
   "pits": 93,
   "claimed": 30,
-  "authored_solid": 6,
   "filter_stack": 4,
   "drawn_overlap": 8,
-  "broken": [
-   {
-    "entity": 195,
-    "targetname": "",
-    "target": "tele_dest_rockettop_ct",
-    "problem": "in_solid"
-   },
-   {
-    "entity": 199,
-    "targetname": "",
-    "target": "tele_dest_rockettop_t",
-    "problem": "in_solid"
-   },
-   {
-    "entity": 975,
-    "targetname": "",
-    "target": "tele_dest_rocketfinalstage",
-    "problem": "in_solid"
-   },
-   {
-    "entity": 1153,
-    "targetname": "",
-    "target": "tele_dest_rocketstage2",
-    "problem": "in_solid"
-   }
-  ]
+  "broken": []
  },
  "respawn_volumes": [
   {
