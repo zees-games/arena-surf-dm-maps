@@ -22,20 +22,21 @@
  },
  "lighting": {
   "sun": {
-   "yaw_src": 0.0,
-   "pitch_src": 0.0,
+   "yaw_src": 215.0,
+   "pitch_src": -14.0,
    "colour": [
     1.0,
-    1.0,
-    1.0
+    0.58,
+    0.32
    ],
-   "brightness": 200.0,
+   "brightness": 90.0,
    "ambient_colour": [
-    1.0,
-    1.0,
-    1.0
+    0.34,
+    0.31,
+    0.42
    ],
-   "ambient_brightness": 20.0
+   "ambient_brightness": 20.0,
+   "editor_default": true
   },
   "fog": {
    "start": 0.0,
@@ -56,7 +57,12 @@
    ],
    "scale": 16.0
   },
-  "baked_light_count": 0
+  "baked_light_count": 0,
+  "sky_top": [
+   0.2,
+   0.2,
+   0.38
+  ]
  },
  "surfaces": [
   {
@@ -443,14 +449,605 @@
   }
  ],
  "collision": {
-  "hull_count": 2384,
+  "hull_count": 2387,
   "hull_offset": 3554812,
-  "displacement_vertex_offset": 3809292,
+  "displacement_vertex_offset": 3809424,
   "displacement_vertex_count": 0,
-  "displacement_index_offset": 3809292,
+  "displacement_index_offset": 3809424,
   "displacement_index_count": 0,
   "playerclip_hulls": 19,
-  "prop_hulls": 0
+  "prop_hulls": 0,
+  "hull_kinds": {
+   "clip": [
+    4,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    69,
+    78,
+    79,
+    133,
+    134,
+    249,
+    250,
+    251,
+    272,
+    273,
+    274,
+    275,
+    276,
+    1029,
+    1030,
+    1031,
+    1032,
+    1033,
+    1287,
+    1455,
+    1456,
+    1555,
+    1560,
+    1621,
+    1622,
+    1644,
+    1682,
+    1706,
+    1708,
+    1709,
+    1711,
+    1713,
+    1714,
+    1715,
+    1717,
+    1718,
+    1720,
+    1721,
+    1722,
+    1723,
+    1724,
+    1733,
+    1735,
+    1741,
+    1746,
+    1747,
+    1749,
+    1750,
+    1751,
+    1752,
+    1753,
+    1756,
+    1760,
+    1762,
+    1763,
+    1765,
+    1766,
+    1767,
+    1769,
+    1770,
+    1771,
+    1772,
+    1773,
+    1786,
+    1787,
+    1788,
+    1789,
+    1790,
+    1803,
+    1811,
+    1816,
+    1819,
+    1820,
+    1821,
+    1822,
+    1823,
+    1838,
+    1839,
+    1840,
+    1851,
+    1868,
+    1869,
+    1870,
+    1871,
+    1872,
+    1873,
+    1874,
+    2198,
+    2199,
+    2305,
+    2306
+   ],
+   "sky": [
+    16,
+    26,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    85,
+    109,
+    125,
+    132,
+    168,
+    199
+   ],
+   "glass": [
+    380,
+    381,
+    382,
+    383,
+    384,
+    385,
+    386,
+    387,
+    388,
+    389,
+    391,
+    392,
+    393,
+    394,
+    395,
+    396,
+    397,
+    398,
+    399,
+    413,
+    414,
+    415,
+    416,
+    417,
+    418,
+    419,
+    420,
+    421,
+    422,
+    424,
+    425,
+    426,
+    427,
+    428,
+    429,
+    430,
+    431,
+    432,
+    446,
+    447,
+    448,
+    449,
+    450,
+    451,
+    452,
+    453,
+    454,
+    455,
+    457,
+    458,
+    459,
+    460,
+    461,
+    462,
+    463,
+    464,
+    465,
+    479,
+    480,
+    481,
+    482,
+    483,
+    484,
+    485,
+    486,
+    487,
+    488,
+    490,
+    491,
+    492,
+    493,
+    494,
+    495,
+    496,
+    497,
+    498,
+    511,
+    512,
+    513,
+    514,
+    515,
+    516,
+    517,
+    518,
+    519,
+    520,
+    522,
+    523,
+    524,
+    525,
+    526,
+    527,
+    528,
+    529,
+    530,
+    545,
+    546,
+    547,
+    548,
+    549,
+    550,
+    551,
+    552,
+    553,
+    554,
+    556,
+    557,
+    558,
+    559,
+    560,
+    561,
+    562,
+    563,
+    564,
+    578,
+    579,
+    580,
+    581,
+    582,
+    583,
+    584,
+    585,
+    586,
+    587,
+    589,
+    590,
+    591,
+    592,
+    593,
+    594,
+    595,
+    596,
+    597,
+    611,
+    612,
+    613,
+    614,
+    615,
+    616,
+    617,
+    618,
+    619,
+    620,
+    622,
+    623,
+    624,
+    625,
+    626,
+    627,
+    628,
+    629,
+    630,
+    644,
+    645,
+    646,
+    647,
+    648,
+    649,
+    650,
+    651,
+    652,
+    653,
+    655,
+    656,
+    657,
+    658,
+    659,
+    660,
+    661,
+    662,
+    663,
+    677,
+    678,
+    679,
+    680,
+    681,
+    682,
+    683,
+    684,
+    685,
+    686,
+    688,
+    689,
+    690,
+    691,
+    692,
+    693,
+    694,
+    695,
+    696,
+    710,
+    711,
+    712,
+    713,
+    714,
+    715,
+    716,
+    717,
+    718,
+    719,
+    721,
+    722,
+    723,
+    724,
+    725,
+    726,
+    727,
+    728,
+    729,
+    743,
+    744,
+    745,
+    746,
+    747,
+    748,
+    749,
+    750,
+    751,
+    752,
+    754,
+    755,
+    756,
+    757,
+    758,
+    759,
+    760,
+    761,
+    762,
+    776,
+    777,
+    778,
+    779,
+    780,
+    781,
+    782,
+    783,
+    784,
+    785,
+    787,
+    788,
+    789,
+    790,
+    791,
+    792,
+    793,
+    794,
+    795,
+    809,
+    810,
+    811,
+    812,
+    813,
+    814,
+    815,
+    816,
+    817,
+    818,
+    820,
+    821,
+    822,
+    823,
+    824,
+    825,
+    826,
+    827,
+    828,
+    842,
+    843,
+    844,
+    845,
+    846,
+    847,
+    848,
+    849,
+    850,
+    851,
+    853,
+    854,
+    855,
+    856,
+    857,
+    858,
+    859,
+    860,
+    861,
+    875,
+    876,
+    877,
+    878,
+    879,
+    880,
+    881,
+    882,
+    883,
+    884,
+    886,
+    887,
+    888,
+    889,
+    890,
+    891,
+    892,
+    893,
+    894,
+    908,
+    909,
+    910,
+    911,
+    912,
+    913,
+    914,
+    915,
+    916,
+    917,
+    919,
+    920,
+    921,
+    922,
+    923,
+    924,
+    925,
+    926,
+    927,
+    941,
+    942,
+    943,
+    944,
+    945,
+    946,
+    947,
+    948,
+    949,
+    950,
+    952,
+    953,
+    954,
+    955,
+    956,
+    957,
+    958,
+    959,
+    960,
+    974,
+    975,
+    976,
+    977,
+    978,
+    979,
+    980,
+    981,
+    982,
+    983,
+    985,
+    986,
+    987,
+    988,
+    989,
+    990,
+    991,
+    992,
+    993,
+    1007,
+    1008,
+    1009,
+    1010,
+    1011,
+    1012,
+    1013,
+    1014,
+    1015,
+    1016,
+    1018,
+    1019,
+    1020,
+    1021,
+    1022,
+    1023,
+    1024,
+    1025,
+    1026,
+    1027,
+    1028,
+    1468,
+    1469,
+    1522,
+    1523,
+    1553,
+    1554,
+    1636,
+    1852,
+    1853,
+    1854,
+    1855,
+    1856,
+    1857,
+    1858,
+    1859,
+    1860,
+    1861,
+    1891,
+    1892,
+    1893,
+    1894,
+    2049,
+    2050,
+    2051,
+    2052,
+    2053,
+    2054,
+    2055,
+    2056,
+    2057,
+    2058,
+    2059,
+    2060,
+    2061,
+    2062,
+    2063,
+    2064,
+    2077,
+    2078,
+    2079,
+    2080,
+    2081,
+    2082,
+    2083,
+    2084,
+    2085,
+    2086,
+    2087,
+    2088,
+    2089,
+    2090,
+    2091,
+    2092,
+    2103,
+    2104,
+    2105,
+    2106,
+    2107,
+    2108,
+    2109,
+    2110,
+    2111,
+    2112,
+    2113,
+    2114,
+    2115,
+    2116,
+    2117,
+    2118,
+    2133,
+    2134,
+    2135,
+    2136,
+    2137,
+    2138,
+    2139,
+    2140,
+    2141,
+    2142,
+    2143,
+    2144,
+    2145,
+    2146,
+    2147,
+    2148,
+    2200,
+    2213
+   ]
+  }
  },
  "skybox": {
   "camera": [
@@ -472,6 +1069,8 @@
   "placed": 6,
   "drawn": 0,
   "stock_models": 6,
+  "stock_standins": 0,
+  "stock_standins_estimated": 0,
   "surfaces": 0,
   "tinted": 0,
   "open_sky_lit": 0
@@ -1250,7 +1849,7 @@
    "track": 0,
    "min": [
     14099.5,
-    1623.0,
+    1632.5,
     -12159.5
    ],
    "max": [
@@ -1796,7 +2395,7 @@
    "track": 0,
    "min": [
     264.0,
-    -548.0,
+    -532.0,
     2704.0
    ],
    "max": [
@@ -1816,12 +2415,33 @@
    "kind": "RESPAWN",
    "track": 0,
    "min": [
-    1576.0,
+    1704.0,
     -544.0,
     2766.0
    ],
    "max": [
     1768.0,
+    -352.0,
+    2958.0
+   ],
+   "inflated": true,
+   "destination": [
+    2960.0,
+    -5017.0,
+    1415.0
+   ],
+   "destination_yaw": 0.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    1576.0,
+    -532.0,
+    2766.0
+   ],
+   "max": [
+    1704.0,
     -352.0,
     2958.0
    ],
@@ -2089,7 +2709,7 @@
    "kind": "RESPAWN",
    "track": 0,
    "min": [
-    3088.0,
+    3248.0,
     -4947.399937830481,
     -131.66666666666669
    ],
@@ -2111,6 +2731,27 @@
    "track": 0,
    "min": [
     3088.0,
+    -4835.0,
+    -131.66666666666669
+   ],
+   "max": [
+    3248.0,
+    -4755.399937830481,
+    -65.0
+   ],
+   "inflated": true,
+   "destination": [
+    -11375.0,
+    -3326.0,
+    -8056.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    3248.0,
     -4897.0,
     -198.33333333333334
    ],
@@ -2132,11 +2773,53 @@
    "track": 0,
    "min": [
     3088.0,
+    -4835.0,
+    -198.33333333333334
+   ],
+   "max": [
+    3248.0,
+    -4705.0,
+    -131.66666666666669
+   ],
+   "inflated": true,
+   "destination": [
+    -11375.0,
+    -3326.0,
+    -8056.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    3248.0,
     -4948.569871867333,
     -265.0
    ],
    "max": [
     3280.0,
+    -4756.569871867333,
+    -198.33333333333334
+   ],
+   "inflated": true,
+   "destination": [
+    -11375.0,
+    -3326.0,
+    -8056.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    3088.0,
+    -4835.0,
+    -265.0
+   ],
+   "max": [
+    3248.0,
     -4756.569871867333,
     -198.33333333333334
    ],
@@ -2300,7 +2983,7 @@
    "track": 0,
    "min": [
     1103.0,
-    -4794.0,
+    -4638.5,
     -1700.5
    ],
    "max": [
@@ -2341,6 +3024,13 @@
  "track_names": {
   "0": "main"
  },
+ "teleport_audit": {
+  "teleports": 57,
+  "pits": 57,
+  "drawn_overlap": 2,
+  "landmark": 2,
+  "broken": []
+ },
  "respawn_volumes": [
   {
    "min": [
@@ -2357,6 +3047,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -864.0,
@@ -2384,6 +3075,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -1476.0,
@@ -2411,6 +3103,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -11456.0,
@@ -2438,6 +3131,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -10944.0,
@@ -2465,6 +3159,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -6752.0,
@@ -2492,6 +3187,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -1476.0,
@@ -2519,6 +3215,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -12447.0,
@@ -2546,6 +3243,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     5456.0,
@@ -2573,6 +3271,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     5456.0,
@@ -2600,6 +3299,7 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -9136.0,
@@ -2627,6 +3327,7 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     14113.0,
@@ -2643,7 +3344,7 @@
    "min": [
     14099.5,
     11967.5,
-    1623.0
+    1632.5
    ],
    "max": [
     14291.5,
@@ -2654,6 +3355,7 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     14113.0,
@@ -2681,6 +3383,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -11456.0,
@@ -2708,6 +3411,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -11456.0,
@@ -2735,6 +3439,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     9982.0,
@@ -2762,6 +3467,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     5456.0,
@@ -2789,6 +3495,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -11456.0,
@@ -2816,6 +3523,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -11456.0,
@@ -2843,6 +3551,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -11456.0,
@@ -2870,6 +3579,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     1190.0,
@@ -2897,6 +3607,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -10688.0,
@@ -2924,6 +3635,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -10944.0,
@@ -2951,6 +3663,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -10944.0,
@@ -2978,6 +3691,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -10080.0,
@@ -3005,6 +3719,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -7680.0,
@@ -3032,6 +3747,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -10944.0,
@@ -3059,6 +3775,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -12148.0,
@@ -3086,6 +3803,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -12736.0,
@@ -3113,6 +3831,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     2548.0,
@@ -3140,6 +3859,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     1249.0,
@@ -3167,6 +3887,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -7648.0,
@@ -3194,6 +3915,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     2784.0,
@@ -3221,6 +3943,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     3372.0,
@@ -3248,6 +3971,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     2016.0,
@@ -3275,6 +3999,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     1632.0,
@@ -3302,6 +4027,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     256.0,
@@ -3329,6 +4055,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -10688.0,
@@ -3345,7 +4072,7 @@
    "min": [
     264.0,
     -3024.0,
-    -548.0
+    -532.0
    ],
    "max": [
     496.0,
@@ -3356,6 +4083,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": true,
    "track": 0,
    "original_min": [
     264.0,
@@ -3370,7 +4098,7 @@
   },
   {
    "min": [
-    1576.0,
+    1704.0,
     -2958.0,
     -544.0
    ],
@@ -3383,6 +4111,35 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": true,
+   "track": 0,
+   "original_min": [
+    1664.0,
+    -2908.0,
+    -470.0
+   ],
+   "original_max": [
+    1680.0,
+    -2816.0,
+    -352.0
+   ]
+  },
+  {
+   "min": [
+    1576.0,
+    -2958.0,
+    -532.0
+   ],
+   "max": [
+    1704.0,
+    -2766.0,
+    -352.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "stood": true,
    "track": 0,
    "original_min": [
     1664.0,
@@ -3410,6 +4167,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -640.0,
@@ -3437,6 +4195,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -5408.0,
@@ -3464,6 +4223,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -5408.0,
@@ -3491,6 +4251,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -3184.0,
@@ -3518,6 +4279,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -5408.0,
@@ -3545,6 +4307,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -10016.0,
@@ -3572,6 +4335,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -10688.0,
@@ -3599,6 +4363,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -10688.0,
@@ -3626,6 +4391,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -2040.0,
@@ -3653,6 +4419,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     8530.0,
@@ -3680,6 +4447,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     8530.0,
@@ -3707,6 +4475,7 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     8012.0,
@@ -3721,7 +4490,7 @@
   },
   {
    "min": [
-    3088.0,
+    3248.0,
     65.0,
     -4947.399937830481
    ],
@@ -3734,6 +4503,7 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": true,
    "track": 0,
    "original_min": [
     3167.0,
@@ -3749,6 +4519,34 @@
   {
    "min": [
     3088.0,
+    65.0,
+    -4835.0
+   ],
+   "max": [
+    3248.0,
+    131.66666666666669,
+    -4755.399937830481
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "stood": true,
+   "track": 0,
+   "original_min": [
+    3167.0,
+    65.0,
+    -4814.0
+   ],
+   "original_max": [
+    3201.0,
+    131.66666666666669,
+    -4755.399937830481
+   ]
+  },
+  {
+   "min": [
+    3248.0,
     131.66666666666669,
     -4897.0
    ],
@@ -3761,6 +4559,7 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": true,
    "track": 0,
    "original_min": [
     3167.0,
@@ -3776,6 +4575,34 @@
   {
    "min": [
     3088.0,
+    131.66666666666669,
+    -4835.0
+   ],
+   "max": [
+    3248.0,
+    198.33333333333334,
+    -4705.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "stood": true,
+   "track": 0,
+   "original_min": [
+    3167.0,
+    131.66666666666669,
+    -4814.0
+   ],
+   "original_max": [
+    3201.0,
+    198.33333333333334,
+    -4705.0
+   ]
+  },
+  {
+   "min": [
+    3248.0,
     198.33333333333334,
     -4948.569871867333
    ],
@@ -3788,6 +4615,35 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": true,
+   "track": 0,
+   "original_min": [
+    3167.0,
+    198.33333333333334,
+    -4814.0
+   ],
+   "original_max": [
+    3201.0,
+    265.0,
+    -4756.569871867333
+   ]
+  },
+  {
+   "min": [
+    3088.0,
+    198.33333333333334,
+    -4835.0
+   ],
+   "max": [
+    3248.0,
+    265.0,
+    -4756.569871867333
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "stood": true,
    "track": 0,
    "original_min": [
     3167.0,
@@ -3815,6 +4671,7 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     3163.0,
@@ -3842,6 +4699,7 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     8225.0,
@@ -3869,6 +4727,7 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     8642.0,
@@ -3896,6 +4755,7 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     9045.0,
@@ -3923,6 +4783,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -10688.0,
@@ -3950,6 +4811,7 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     2732.0,
@@ -3977,6 +4839,7 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     8851.0,
@@ -3993,7 +4856,7 @@
    "min": [
     1103.0,
     1508.5,
-    -4794.0
+    -4638.5
    ],
    "max": [
     1295.0,
@@ -4004,6 +4867,7 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     1190.0,
@@ -4031,6 +4895,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     1890.0,

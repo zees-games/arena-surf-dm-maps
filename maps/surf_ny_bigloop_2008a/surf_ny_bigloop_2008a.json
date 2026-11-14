@@ -290,13 +290,55 @@
   "displacement_index_offset": 2026292,
   "displacement_index_count": 0,
   "playerclip_hulls": 0,
-  "prop_hulls": 0
+  "prop_hulls": 0,
+  "hull_kinds": {
+   "sky": [
+    8,
+    26,
+    27,
+    28,
+    29,
+    30
+   ],
+   "clip": [
+    9,
+    10,
+    17,
+    21
+   ],
+   "glass": [
+    630,
+    631,
+    632,
+    633,
+    634,
+    635,
+    636,
+    637,
+    638,
+    639,
+    640,
+    641,
+    642,
+    643,
+    644,
+    645,
+    1007,
+    1012,
+    1024,
+    1033,
+    1038,
+    1047
+   ]
+  }
  },
  "skybox": null,
  "static_props": {
   "placed": 0,
   "drawn": 0,
   "stock_models": 0,
+  "stock_standins": 0,
+  "stock_standins_estimated": 0,
   "surfaces": 0,
   "tinted": 0,
   "open_sky_lit": 0
@@ -735,6 +777,11 @@
  "track_names": {
   "0": "main"
  },
+ "teleport_audit": {
+  "teleports": 4,
+  "pits": 4,
+  "broken": []
+ },
  "respawn_volumes": [
   {
    "min": [
@@ -751,6 +798,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     3020.0,
@@ -778,6 +826,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     3020.0,
@@ -805,6 +854,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -1588.0,
@@ -832,6 +882,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -1588.0,

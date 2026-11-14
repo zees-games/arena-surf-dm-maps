@@ -1635,7 +1635,7 @@
    "track": 0,
    "min": [
     7776.5,
-    -1946.0,
+    -1913.0,
     -157.0
    ],
    "max": [
@@ -1713,10 +1713,99 @@
     -2.4816e-11
    ],
    "destination_yaw": 90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    2645.0,
+    -6953.0,
+    -226.0
+   ],
+   "max": [
+    9981.0,
+    -6561.0,
+    5073.0
+   ],
+   "inflated": false,
+   "destination": [
+    7648.0,
+    -2280.0,
+    -0.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    2645.0,
+    -6953.0,
+    -5525.0
+   ],
+   "max": [
+    9981.0,
+    -6561.0,
+    -226.0
+   ],
+   "inflated": false,
+   "destination": [
+    7715.0,
+    -2280.0,
+    -0.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    -4692.0,
+    -6953.0,
+    -5525.0
+   ],
+   "max": [
+    2645.0,
+    -6561.0,
+    -226.0
+   ],
+   "inflated": false,
+   "destination": [
+    7568.0,
+    -2280.0,
+    -0.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    -4692.0,
+    -6953.0,
+    -226.0
+   ],
+   "max": [
+    2645.0,
+    -6561.0,
+    5073.0
+   ],
+   "inflated": false,
+   "destination": [
+    7472.0,
+    -2280.0,
+    -0.0
+   ],
+   "destination_yaw": -90.0
   }
  ],
  "track_names": {
   "0": "main"
+ },
+ "teleport_audit": {
+  "teleports": 20,
+  "pits": 20,
+  "broken": []
  },
  "respawn_volumes": [
   {
@@ -2059,7 +2148,7 @@
    "min": [
     7776.5,
     -156.0,
-    -1946.0
+    -1913.0
    ],
    "max": [
     7968.5,
@@ -2165,6 +2254,118 @@
     7924.0,
     -37.0,
     -372.0
+   ]
+  },
+  {
+   "min": [
+    2645.0,
+    -5073.0,
+    -6953.0
+   ],
+   "max": [
+    9981.0,
+    226.0,
+    -6561.0
+   ],
+   "inflated": false,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "stood": false,
+   "track": 0,
+   "original_min": [
+    2645.0,
+    -5073.0,
+    -6953.0
+   ],
+   "original_max": [
+    9981.0,
+    226.0,
+    -6561.0
+   ]
+  },
+  {
+   "min": [
+    2645.0,
+    226.0,
+    -6953.0
+   ],
+   "max": [
+    9981.0,
+    5525.0,
+    -6561.0
+   ],
+   "inflated": false,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "stood": false,
+   "track": 0,
+   "original_min": [
+    2645.0,
+    226.0,
+    -6953.0
+   ],
+   "original_max": [
+    9981.0,
+    5525.0,
+    -6561.0
+   ]
+  },
+  {
+   "min": [
+    -4692.0,
+    226.0,
+    -6953.0
+   ],
+   "max": [
+    2645.0,
+    5525.0,
+    -6561.0
+   ],
+   "inflated": false,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "stood": false,
+   "track": 0,
+   "original_min": [
+    -4692.0,
+    226.0,
+    -6953.0
+   ],
+   "original_max": [
+    2645.0,
+    5525.0,
+    -6561.0
+   ]
+  },
+  {
+   "min": [
+    -4692.0,
+    -5073.0,
+    -6953.0
+   ],
+   "max": [
+    2645.0,
+    226.0,
+    -6561.0
+   ],
+   "inflated": false,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "stood": false,
+   "track": 0,
+   "original_min": [
+    -4692.0,
+    -5073.0,
+    -6953.0
+   ],
+   "original_max": [
+    2645.0,
+    226.0,
+    -6561.0
    ]
   }
  ],

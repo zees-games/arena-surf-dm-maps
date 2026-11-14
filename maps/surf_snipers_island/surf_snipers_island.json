@@ -551,7 +551,32 @@
   "displacement_index_offset": 1067596,
   "displacement_index_count": 39168,
   "playerclip_hulls": 3,
-  "prop_hulls": 8
+  "prop_hulls": 8,
+  "hull_kinds": {
+   "sky": [
+    0,
+    1,
+    2,
+    3,
+    31,
+    32,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47
+   ],
+   "clip": [
+    4,
+    5,
+    6,
+    33,
+    34,
+    35,
+    40
+   ]
+  }
  },
  "skybox": {
   "camera": [
@@ -1131,6 +1156,11 @@
  ],
  "track_names": {
   "0": "main"
+ },
+ "teleport_audit": {
+  "teleports": 7,
+  "pits": 7,
+  "broken": []
  },
  "respawn_volumes": [
   {

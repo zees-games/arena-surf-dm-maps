@@ -1555,7 +1555,7 @@
   {
    "material": "smooth/river_flow",
    "role": "FLOOR",
-   "prototype": true,
+   "prototype": false,
    "vertex_offset": 1654824,
    "vertex_count": 24,
    "index_offset": 1655784,
@@ -1565,13 +1565,13 @@
     0.157,
     0.1496
    ],
-   "texture": null,
-   "translucent": false
+   "texture": "smooth_river_flow.png",
+   "translucent": true
   },
   {
    "material": "smooth/river_flow",
    "role": "PLATFORM",
-   "prototype": true,
+   "prototype": false,
    "vertex_offset": 1655928,
    "vertex_count": 24,
    "index_offset": 1656888,
@@ -1581,13 +1581,13 @@
     0.157,
     0.1496
    ],
-   "texture": null,
-   "translucent": false
+   "texture": "smooth_river_flow.png",
+   "translucent": true
   },
   {
    "material": "smooth/river_flow",
    "role": "RAMP",
-   "prototype": true,
+   "prototype": false,
    "vertex_offset": 1657032,
    "vertex_count": 20,
    "index_offset": 1657832,
@@ -1597,8 +1597,8 @@
     0.157,
     0.1496
    ],
-   "texture": null,
-   "translucent": false
+   "texture": "smooth_river_flow.png",
+   "translucent": true
   },
   {
    "material": "smooth/rubber",
@@ -2898,14 +2898,283 @@
   }
  ],
  "collision": {
-  "hull_count": 2556,
+  "hull_count": 2569,
   "hull_offset": 3414004,
-  "displacement_vertex_offset": 3724192,
+  "displacement_vertex_offset": 3724964,
   "displacement_vertex_count": 81,
-  "displacement_index_offset": 3725164,
+  "displacement_index_offset": 3725936,
   "displacement_index_count": 384,
   "playerclip_hulls": 27,
-  "prop_hulls": 0
+  "prop_hulls": 0,
+  "hull_kinds": {
+   "clip": [
+    1,
+    3,
+    12,
+    16,
+    125,
+    157,
+    158,
+    159,
+    160,
+    167,
+    169,
+    170,
+    175,
+    183,
+    184,
+    187,
+    188,
+    189,
+    190,
+    197,
+    198,
+    208,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    242,
+    246,
+    286,
+    287,
+    291,
+    292,
+    317,
+    328,
+    341,
+    343,
+    348,
+    349,
+    350,
+    351,
+    352,
+    353,
+    354,
+    355,
+    356,
+    357,
+    358,
+    359,
+    360,
+    361,
+    362,
+    363,
+    364,
+    365,
+    366,
+    367,
+    368,
+    369,
+    370,
+    371,
+    372,
+    378,
+    380,
+    382,
+    384,
+    387,
+    388,
+    389,
+    390,
+    391,
+    392,
+    393,
+    394,
+    395,
+    396,
+    397,
+    398,
+    399,
+    400,
+    401,
+    406,
+    407,
+    408,
+    409,
+    410,
+    432,
+    597,
+    598,
+    599,
+    609,
+    611,
+    612,
+    706,
+    708,
+    709,
+    724,
+    725,
+    726,
+    754,
+    756,
+    787,
+    789,
+    2480,
+    2483,
+    2484,
+    2485,
+    2486,
+    2487,
+    2488,
+    2489,
+    2567
+   ],
+   "glass": [
+    32,
+    253,
+    254,
+    438,
+    439,
+    440,
+    441,
+    442,
+    443,
+    444,
+    692,
+    693,
+    694,
+    838,
+    859,
+    860,
+    861,
+    862,
+    863,
+    864,
+    865,
+    866,
+    867,
+    868,
+    869,
+    870,
+    871,
+    874,
+    875,
+    876,
+    877,
+    878,
+    879,
+    880,
+    881,
+    882,
+    883,
+    884,
+    885,
+    886,
+    887,
+    888,
+    889,
+    890,
+    893,
+    894,
+    895,
+    896,
+    897,
+    898,
+    899,
+    900,
+    901,
+    902,
+    903,
+    904,
+    905,
+    906,
+    907,
+    910,
+    911,
+    912,
+    1948,
+    1949,
+    1950,
+    1951,
+    2205,
+    2206,
+    2231,
+    2232,
+    2233,
+    2234,
+    2235,
+    2236,
+    2237,
+    2238,
+    2239,
+    2240,
+    2241,
+    2242,
+    2243,
+    2246,
+    2247,
+    2248,
+    2430,
+    2431,
+    2432,
+    2433,
+    2434,
+    2435,
+    2475,
+    2477,
+    2490,
+    2491,
+    2492,
+    2493,
+    2494,
+    2495,
+    2496,
+    2497,
+    2498,
+    2499,
+    2500,
+    2501,
+    2502,
+    2503,
+    2504,
+    2505,
+    2506,
+    2507,
+    2508,
+    2509,
+    2510,
+    2511,
+    2512,
+    2513,
+    2514,
+    2515,
+    2516,
+    2517,
+    2532,
+    2533,
+    2534,
+    2535,
+    2536
+   ],
+   "sky": [
+    515,
+    516,
+    517,
+    518,
+    519,
+    520,
+    521,
+    522,
+    523,
+    524,
+    525,
+    526,
+    527,
+    528
+   ],
+   "fence": [
+    1763,
+    1807
+   ]
+  }
  },
  "skybox": {
   "camera": [
@@ -2927,6 +3196,8 @@
   "placed": 14,
   "drawn": 0,
   "stock_models": 14,
+  "stock_standins": 0,
+  "stock_standins_estimated": 0,
   "surfaces": 0,
   "tinted": 0,
   "open_sky_lit": 0
@@ -3874,7 +4145,7 @@
    "track": 0,
    "min": [
     -4047.0,
-    -273.5,
+    -113.5,
     -203.0
    ],
    "max": [
@@ -3937,7 +4208,7 @@
    "track": 0,
    "min": [
     -5955.0,
-    686.5,
+    846.5,
     5341.0
    ],
    "max": [
@@ -3958,7 +4229,7 @@
    "track": 0,
    "min": [
     -4569.0,
-    686.5,
+    846.5,
     5341.0
    ],
    "max": [
@@ -4069,7 +4340,7 @@
    "max": [
     -1017.0,
     3578.5,
-    2234.5
+    2186.5
    ],
    "inflated": true,
    "destination": [
@@ -4085,12 +4356,12 @@
    "min": [
     -1132.5,
     3386.5,
-    2173.0
+    2186.5
    ],
    "max": [
     -940.5,
     3578.5,
-    2365.0
+    2353.0
    ],
    "inflated": true,
    "destination": [
@@ -4106,7 +4377,7 @@
    "min": [
     -1209.0,
     3386.5,
-    2306.5
+    2353.0
    ],
    "max": [
     -1017.0,
@@ -4130,6 +4401,27 @@
     -1412.0
    ],
    "max": [
+    -3085.5,
+    3476.5,
+    -1252.0
+   ],
+   "inflated": true,
+   "destination": [
+    -1281.0,
+    3824.5,
+    4847.5
+   ],
+   "destination_yaw": 90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    -3253.5,
+    3306.5,
+    -1252.0
+   ],
+   "max": [
     -3061.5,
     3476.5,
     -1220.0
@@ -4146,9 +4438,30 @@
    "kind": "RESPAWN",
    "track": 0,
    "min": [
-    -2893.5,
+    -2871.0,
     3284.5,
     -1412.0
+   ],
+   "max": [
+    -2701.5,
+    3476.5,
+    -1252.0
+   ],
+   "inflated": true,
+   "destination": [
+    -8691.0,
+    3824.5,
+    -1128.5
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    -2893.5,
+    3306.5,
+    -1252.0
    ],
    "max": [
     -2701.5,
@@ -4377,12 +4690,33 @@
    "kind": "RESPAWN",
    "track": 0,
    "min": [
-    -3399.0,
-    -197.50661948592142,
+    -3303.0,
+    -107.5,
     3916.3450000000003
    ],
    "max": [
     -3207.0,
+    -5.506619485921423,
+    4108.345
+   ],
+   "inflated": true,
+   "destination": [
+    -3171.0,
+    218.5,
+    3880.0
+   ],
+   "destination_yaw": 0.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    -3399.0,
+    -98.63999999999999,
+    3916.3450000000003
+   ],
+   "max": [
+    -3303.0,
     -5.506619485921423,
     4108.345
    ],
@@ -4420,7 +4754,7 @@
    "track": 0,
    "min": [
     -2028.085,
-    251.58999999999997,
+    342.5,
     2157.441
    ],
    "max": [
@@ -4440,6 +4774,13 @@
  "track_names": {
   "0": "main"
  },
+ "teleport_audit": {
+  "teleports": 43,
+  "pits": 43,
+  "drawn_overlap": 15,
+  "landmark": 4,
+  "broken": []
+ },
  "respawn_volumes": [
   {
    "min": [
@@ -4456,6 +4797,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -4400.0,
@@ -4483,6 +4825,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -4400.0,
@@ -4510,6 +4853,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -4400.0,
@@ -4537,6 +4881,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -4400.0,
@@ -4564,6 +4909,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -4400.0,
@@ -4591,6 +4937,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -4400.0,
@@ -4618,6 +4965,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -4400.0,
@@ -4645,6 +4993,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -4400.0,
@@ -4672,6 +5021,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -4400.0,
@@ -4699,6 +5049,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -4400.0,
@@ -4726,6 +5077,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -4400.0,
@@ -4753,6 +5105,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -4400.0,
@@ -4780,6 +5133,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -4400.0,
@@ -4807,6 +5161,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -4400.0,
@@ -4834,6 +5189,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -4400.0,
@@ -4861,6 +5217,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -4400.0,
@@ -4877,7 +5234,7 @@
    "min": [
     -4047.0,
     11.0,
-    -273.5
+    -113.5
    ],
    "max": [
     -3855.0,
@@ -4888,6 +5245,7 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": true,
    "track": 0,
    "original_min": [
     -4011.0,
@@ -4915,6 +5273,7 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -7635.0,
@@ -4942,6 +5301,7 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -8115.0,
@@ -4958,7 +5318,7 @@
    "min": [
     -5955.0,
     -5533.0,
-    686.5
+    846.5
    ],
    "max": [
     -5763.0,
@@ -4969,6 +5329,7 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": true,
    "track": 0,
    "original_min": [
     -5895.0,
@@ -4985,7 +5346,7 @@
    "min": [
     -4569.0,
     -5533.0,
-    686.5
+    846.5
    ],
    "max": [
     -4377.0,
@@ -4996,6 +5357,7 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": true,
    "track": 0,
    "original_min": [
     -4509.0,
@@ -5023,6 +5385,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -9111.0,
@@ -5050,6 +5413,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -8928.0,
@@ -5077,6 +5441,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -8928.0,
@@ -5104,6 +5469,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -1503.0,
@@ -5119,7 +5485,7 @@
   {
    "min": [
     -1209.0,
-    -2234.5,
+    -2186.5,
     3386.5
    ],
    "max": [
@@ -5131,6 +5497,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -1140.0,
@@ -5146,18 +5513,19 @@
   {
    "min": [
     -1132.5,
-    -2365.0,
+    -2353.0,
     3386.5
    ],
    "max": [
     -940.5,
-    -2173.0,
+    -2186.5,
     3578.5
    ],
    "inflated": true,
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -1038.0,
@@ -5178,13 +5546,14 @@
    ],
    "max": [
     -1017.0,
-    -2306.5,
+    -2353.0,
     3578.5
    ],
    "inflated": true,
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -1140.0,
@@ -5200,11 +5569,11 @@
   {
    "min": [
     -3253.5,
-    1220.0,
+    1252.0,
     3284.5
    ],
    "max": [
-    -3061.5,
+    -3085.5,
     1412.0,
     3476.5
    ],
@@ -5212,6 +5581,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": true,
    "track": 0,
    "original_min": [
     -3159.0,
@@ -5226,8 +5596,36 @@
   },
   {
    "min": [
-    -2893.5,
+    -3253.5,
     1220.0,
+    3306.5
+   ],
+   "max": [
+    -3061.5,
+    1252.0,
+    3476.5
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "stood": true,
+   "track": 0,
+   "original_min": [
+    -3159.0,
+    1289.0,
+    3308.5
+   ],
+   "original_max": [
+    -3156.0,
+    1343.0,
+    3452.5
+   ]
+  },
+  {
+   "min": [
+    -2871.0,
+    1252.0,
     3284.5
    ],
    "max": [
@@ -5239,6 +5637,35 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": true,
+   "track": 0,
+   "original_min": [
+    -2799.0,
+    1289.0,
+    3308.5
+   ],
+   "original_max": [
+    -2796.0,
+    1343.0,
+    3452.5
+   ]
+  },
+  {
+   "min": [
+    -2893.5,
+    1220.0,
+    3306.5
+   ],
+   "max": [
+    -2701.5,
+    1252.0,
+    3476.5
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "stood": true,
    "track": 0,
    "original_min": [
     -2799.0,
@@ -5266,6 +5693,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -3015.0,
@@ -5293,6 +5721,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -6861.0,
@@ -5320,6 +5749,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -8715.0,
@@ -5347,6 +5777,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -2448.0,
@@ -5374,6 +5805,7 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -8704.756,
@@ -5401,6 +5833,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -5193.0,
@@ -5428,6 +5861,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -8313.0,
@@ -5455,6 +5889,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -6099.0,
@@ -5482,6 +5917,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -4417.06,
@@ -5509,6 +5945,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -1335.0,
@@ -5523,9 +5960,9 @@
   },
   {
    "min": [
-    -3399.0,
+    -3303.0,
     -4108.345,
-    -197.50661948592142
+    -107.5
    ],
    "max": [
     -3207.0,
@@ -5536,6 +5973,35 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": true,
+   "track": 0,
+   "original_min": [
+    -3304.5,
+    -4092.0,
+    -53.20849857144215
+   ],
+   "original_max": [
+    -3301.5,
+    -3932.69,
+    -5.506619485921423
+   ]
+  },
+  {
+   "min": [
+    -3399.0,
+    -4108.345,
+    -98.63999999999999
+   ],
+   "max": [
+    -3303.0,
+    -3916.3450000000003,
+    -5.506619485921423
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "stood": true,
    "track": 0,
    "original_min": [
     -3304.5,
@@ -5563,6 +6029,7 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -5376.0,
@@ -5579,7 +6046,7 @@
    "min": [
     -2028.085,
     -2349.441,
-    251.58999999999997
+    342.5
    ],
    "max": [
     -1836.085,
@@ -5590,6 +6057,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": true,
    "track": 0,
    "original_min": [
     -1968.07,

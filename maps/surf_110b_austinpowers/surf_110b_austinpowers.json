@@ -1187,25 +1187,208 @@
    ],
    "texture": null,
    "translucent": false
+  },
+  {
+   "material": "metal/standin_fence",
+   "role": "FLOOR",
+   "prototype": true,
+   "prop": true,
+   "vertex_offset": 2879836,
+   "vertex_count": 192,
+   "index_offset": 2887516,
+   "index_count": 288,
+   "colour": [
+    0.5205,
+    0.4982,
+    0.5131
+   ],
+   "texture": null,
+   "translucent": false
   }
  ],
  "collision": {
-  "hull_count": 1348,
-  "hull_offset": 2879836,
-  "displacement_vertex_offset": 3015380,
+  "hull_count": 1371,
+  "hull_offset": 2888668,
+  "displacement_vertex_offset": 3025792,
   "displacement_vertex_count": 0,
-  "displacement_index_offset": 3015380,
+  "displacement_index_offset": 3025792,
   "displacement_index_count": 0,
   "playerclip_hulls": 0,
-  "prop_hulls": 0
+  "prop_hulls": 8,
+  "hull_kinds": {
+   "clip": [
+    2,
+    3,
+    200,
+    222,
+    238,
+    239,
+    240,
+    251,
+    252,
+    253,
+    264,
+    265,
+    308,
+    320,
+    321,
+    333,
+    334,
+    418,
+    465,
+    513,
+    532,
+    560,
+    561,
+    576,
+    577,
+    578,
+    579,
+    1154,
+    1155,
+    1213,
+    1328,
+    1329,
+    1330,
+    1331,
+    1332
+   ],
+   "glass": [
+    352,
+    353,
+    354,
+    355,
+    1070,
+    1071,
+    1072,
+    1073,
+    1074,
+    1075,
+    1076,
+    1077,
+    1078,
+    1079,
+    1080,
+    1081,
+    1082,
+    1083,
+    1084,
+    1085,
+    1094,
+    1095,
+    1096,
+    1097,
+    1098,
+    1099,
+    1100,
+    1101,
+    1102,
+    1103,
+    1104,
+    1105,
+    1106,
+    1107,
+    1108,
+    1109,
+    1110,
+    1111,
+    1112,
+    1113,
+    1114,
+    1115,
+    1116,
+    1117,
+    1118,
+    1119,
+    1120,
+    1121,
+    1122,
+    1123,
+    1124,
+    1125,
+    1126,
+    1127,
+    1128,
+    1129,
+    1130,
+    1131,
+    1132,
+    1133,
+    1134,
+    1135,
+    1136,
+    1137,
+    1138,
+    1139,
+    1140,
+    1141,
+    1142,
+    1143,
+    1144,
+    1145,
+    1146,
+    1147,
+    1148,
+    1149,
+    1150,
+    1151,
+    1157,
+    1158,
+    1161,
+    1184,
+    1185,
+    1187,
+    1189,
+    1198,
+    1200,
+    1202,
+    1203,
+    1208,
+    1209,
+    1210,
+    1211,
+    1218,
+    1219,
+    1220,
+    1221,
+    1222,
+    1223,
+    1224,
+    1225,
+    1278,
+    1280,
+    1282,
+    1283,
+    1284,
+    1286,
+    1287,
+    1289,
+    1323,
+    1324,
+    1325,
+    1326,
+    1333,
+    1335,
+    1336,
+    1338,
+    1347,
+    1349,
+    1351,
+    1356,
+    1361,
+    1362
+   ]
+  }
  },
  "skybox": null,
  "static_props": {
   "placed": 54,
-  "drawn": 0,
+  "drawn": 8,
   "stock_models": 54,
-  "surfaces": 0,
-  "tinted": 0,
+  "stock_standins": 8,
+  "stock_standins_estimated": 8,
+  "surfaces": 1,
+  "tinted": 1,
   "open_sky_lit": 0
  },
  "brush_entities": {
@@ -2054,7 +2237,7 @@
    "track": 0,
    "min": [
     6661.0,
-    9611.0,
+    9678.0,
     2740.0
    ],
    "max": [
@@ -2159,7 +2342,7 @@
    "track": 0,
    "min": [
     6657.0,
-    9611.16,
+    9678.16,
     -7496.0
    ],
    "max": [
@@ -2391,12 +2574,54 @@
    "min": [
     6661.0,
     9611.0,
-    -2726.66
+    -2664.34
+   ],
+   "max": [
+    10960.0,
+    9803.0,
+    2679.66
+   ],
+   "inflated": true,
+   "destination": [
+    -7293.0,
+    2934.0,
+    -2278.0
+   ],
+   "destination_yaw": 0.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    6661.0,
+    9678.0,
+    2679.66
    ],
    "max": [
     10960.0,
     9803.0,
     2711.66
+   ],
+   "inflated": true,
+   "destination": [
+    -7293.0,
+    2934.0,
+    -2278.0
+   ],
+   "destination_yaw": 0.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    6661.0,
+    9678.0,
+    -2726.66
+   ],
+   "max": [
+    10960.0,
+    9803.0,
+    -2664.34
    ],
    "inflated": true,
    "destination": [
@@ -3124,6 +3349,11 @@
  "track_names": {
   "0": "main"
  },
+ "teleport_audit": {
+  "teleports": 78,
+  "pits": 78,
+  "broken": []
+ },
  "respawn_volumes": [
   {
    "min": [
@@ -3140,6 +3370,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -6332.01,
@@ -3167,6 +3398,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -8305.01,
@@ -3194,6 +3426,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -8008.5,
@@ -3221,6 +3454,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -6636.49,
@@ -3248,6 +3482,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     11021.0,
@@ -3275,6 +3510,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     10992.0,
@@ -3302,6 +3538,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     12911.0,
@@ -3329,6 +3566,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     11049.0,
@@ -3356,6 +3594,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     10146.0,
@@ -3383,6 +3622,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     10192.0,
@@ -3410,6 +3650,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     11021.0,
@@ -3437,6 +3678,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     10992.0,
@@ -3464,6 +3706,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     12911.0,
@@ -3491,6 +3734,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     11049.0,
@@ -3518,6 +3762,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     10146.0,
@@ -3545,6 +3790,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     10192.0,
@@ -3572,6 +3818,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -5145.5,
@@ -3599,6 +3846,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -5145.5,
@@ -3626,6 +3874,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -5145.81,
@@ -3653,6 +3902,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -5145.81,
@@ -3680,6 +3930,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -4011.49,
@@ -3707,6 +3958,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -4011.49,
@@ -3734,6 +3986,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -4011.49,
@@ -3761,6 +4014,7 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -5968.0,
@@ -3788,6 +4042,7 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -5756.0,
@@ -3815,6 +4070,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -572.5,
@@ -3842,6 +4098,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -260.48,
@@ -3858,7 +4115,7 @@
    "min": [
     6661.0,
     -7481.0,
-    9611.0
+    9678.0
    ],
    "max": [
     10960.0,
@@ -3869,6 +4126,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": true,
    "track": 0,
    "original_min": [
     6661.0,
@@ -3896,6 +4154,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -56.0,
@@ -3923,6 +4182,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -6167.0,
@@ -3950,6 +4210,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -576.5,
@@ -3977,6 +4238,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -264.48,
@@ -3993,7 +4255,7 @@
    "min": [
     6657.0,
     2755.0,
-    9611.16
+    9678.16
    ],
    "max": [
     10956.0,
@@ -4004,6 +4266,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": true,
    "track": 0,
    "original_min": [
     6657.0,
@@ -4031,6 +4294,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     4465.0,
@@ -4058,6 +4322,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     2326.0,
@@ -4085,6 +4350,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     2326.0,
@@ -4112,6 +4378,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     3060.0,
@@ -4139,6 +4406,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     4300.0,
@@ -4166,6 +4434,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     3060.0,
@@ -4193,6 +4462,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -60.0,
@@ -4220,6 +4490,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -6171.0,
@@ -4247,6 +4518,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -2530.0,
@@ -4274,6 +4546,7 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     10996.0,
@@ -4289,8 +4562,64 @@
   {
    "min": [
     6661.0,
-    -2711.66,
+    -2679.66,
     9611.0
+   ],
+   "max": [
+    10960.0,
+    2664.34,
+    9803.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "stood": true,
+   "track": 0,
+   "original_min": [
+    6661.0,
+    -2711.66,
+    9678.0
+   ],
+   "original_max": [
+    10960.0,
+    2726.66,
+    9736.0
+   ]
+  },
+  {
+   "min": [
+    6661.0,
+    -2711.66,
+    9678.0
+   ],
+   "max": [
+    10960.0,
+    -2679.66,
+    9803.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "stood": true,
+   "track": 0,
+   "original_min": [
+    6661.0,
+    -2711.66,
+    9678.0
+   ],
+   "original_max": [
+    10960.0,
+    2726.66,
+    9736.0
+   ]
+  },
+  {
+   "min": [
+    6661.0,
+    2664.34,
+    9678.0
    ],
    "max": [
     10960.0,
@@ -4301,6 +4630,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": true,
    "track": 0,
    "original_min": [
     6661.0,
@@ -4328,6 +4658,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     2043.0,
@@ -4355,6 +4686,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -3760.0,
@@ -4382,6 +4714,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -3760.0,
@@ -4409,6 +4742,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -7338.99,
@@ -4436,6 +4770,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -2529.0,
@@ -4463,6 +4798,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -2526.0,
@@ -4490,6 +4826,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -2525.0,
@@ -4517,6 +4854,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     2330.0,
@@ -4544,6 +4882,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     3064.0,
@@ -4571,6 +4910,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     4304.0,
@@ -4598,6 +4938,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     2330.0,
@@ -4625,6 +4966,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     4469.0,
@@ -4652,6 +4994,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -525.0,
@@ -4679,6 +5022,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -4018.0,
@@ -4706,6 +5050,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -4012.0,
@@ -4733,6 +5078,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -4018.0,
@@ -4760,6 +5106,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -4014.0,
@@ -4787,6 +5134,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -6174.0,
@@ -4814,6 +5162,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -6174.0,
@@ -4841,6 +5190,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -6174.0,
@@ -4868,6 +5218,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -6174.0,
@@ -4895,6 +5246,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -6175.0,
@@ -4922,6 +5274,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -6177.0,
@@ -4949,6 +5302,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -6176.0,
@@ -4976,6 +5330,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -6176.0,
@@ -5003,6 +5358,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -6176.0,
@@ -5030,6 +5386,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -6176.0,
@@ -5057,6 +5414,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -4016.0,
@@ -5084,6 +5442,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -4014.0,
@@ -5111,6 +5470,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -4020.0,
@@ -5138,6 +5498,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -4020.0,
@@ -5165,6 +5526,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -527.0,
@@ -5192,6 +5554,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -5618.0,
@@ -5219,6 +5582,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     3064.0,
@@ -6591,6 +6955,92 @@
    ],
    "targetname": "",
    "filtername": ""
+  }
+ ],
+ "train_movers": [
+  {
+   "name": "Beam02train",
+   "model": "*122",
+   "origin": [
+    -5463.0,
+    -300.54,
+    -1708.18
+   ],
+   "min": [
+    -3.1904296875,
+    -0.545989990234375,
+    -3.18994140625
+   ],
+   "max": [
+    3.18994140625,
+    0.540008544921875,
+    3.1800537109375
+   ],
+   "speed": 60.0,
+   "start_speed": 60.0,
+   "damage": 0.0,
+   "solid": false,
+   "loop": true,
+   "path": [
+    {
+     "name": "Beam02path01",
+     "origin": [
+      -5463.0,
+      -301.0,
+      -1708.0
+     ]
+    },
+    {
+     "name": "Beam02path02",
+     "origin": [
+      -5463.0,
+      -301.0,
+      -1781.0
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Beam01train",
+   "model": "*123",
+   "origin": [
+    -5602.81,
+    -300.45,
+    -1708.19
+   ],
+   "min": [
+    -3.1904296875,
+    -0.545989990234375,
+    -3.18994140625
+   ],
+   "max": [
+    3.18994140625,
+    0.540008544921875,
+    3.1800537109375
+   ],
+   "speed": 60.0,
+   "start_speed": 60.0,
+   "damage": 0.0,
+   "solid": false,
+   "loop": true,
+   "path": [
+    {
+     "name": "Beam01path01",
+     "origin": [
+      -5604.0,
+      -301.0,
+      -1708.0
+     ]
+    },
+    {
+     "name": "Beam01path02",
+     "origin": [
+      -5604.0,
+      -301.0,
+      -1781.0
+     ]
+    }
+   ]
   }
  ],
  "author": "TheInvoker",

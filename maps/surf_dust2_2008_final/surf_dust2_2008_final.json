@@ -1538,7 +1538,7 @@
    "translucent": false
   },
   {
-   "material": "concrete/standin_block",
+   "material": "metal/standin_car",
    "role": "FLOOR",
    "prototype": true,
    "prop": true,
@@ -1553,60 +1553,64 @@
    ],
    "texture": null,
    "translucent": false
-  },
-  {
-   "material": "wood/standin_basket",
-   "role": "FLOOR",
-   "prototype": true,
-   "prop": true,
-   "vertex_offset": 2254540,
-   "vertex_count": 240,
-   "index_offset": 2264140,
-   "index_count": 360,
-   "colour": [
-    0.626,
-    0.5715,
-    0.4853
-   ],
-   "texture": null,
-   "translucent": false
-  },
-  {
-   "material": "wood/standin_crate",
-   "role": "FLOOR",
-   "prototype": true,
-   "prop": true,
-   "vertex_offset": 2265580,
-   "vertex_count": 480,
-   "index_offset": 2284780,
-   "index_count": 720,
-   "colour": [
-    0.626,
-    0.5715,
-    0.4853
-   ],
-   "texture": null,
-   "translucent": false
   }
  ],
  "collision": {
-  "hull_count": 769,
-  "hull_offset": 2287660,
-  "displacement_vertex_offset": 2378252,
+  "hull_count": 778,
+  "hull_offset": 2254540,
+  "displacement_vertex_offset": 2344352,
   "displacement_vertex_count": 19679,
-  "displacement_index_offset": 2614400,
+  "displacement_index_offset": 2580500,
   "displacement_index_count": 112128,
   "playerclip_hulls": 2,
-  "prop_hulls": 32
+  "prop_hulls": 2,
+  "hull_kinds": {
+   "clip": [
+    0,
+    12,
+    59,
+    65,
+    66,
+    80,
+    82,
+    88,
+    98,
+    101,
+    102,
+    103,
+    111,
+    112,
+    113,
+    114,
+    115,
+    117,
+    119,
+    150,
+    242,
+    263,
+    326,
+    774,
+    775
+   ],
+   "sky": [
+    320,
+    321,
+    322,
+    323,
+    324,
+    325
+   ]
+  }
  },
  "skybox": null,
  "static_props": {
   "placed": 133,
-  "drawn": 32,
+  "drawn": 2,
   "stock_models": 133,
-  "stock_standins": 32,
-  "surfaces": 3,
-  "tinted": 3,
+  "stock_standins": 2,
+  "stock_standins_estimated": 2,
+  "surfaces": 1,
+  "tinted": 1,
   "open_sky_lit": 0
  },
  "brush_entities": {
@@ -1888,7 +1892,7 @@
    "track": 0,
    "min": [
     -48.0,
-    -960.0,
+    -928.0,
     3088.0
    ],
    "max": [
@@ -1909,7 +1913,7 @@
    "track": 0,
    "min": [
     -352.0,
-    -960.0,
+    -928.0,
     3088.0
    ],
    "max": [
@@ -1930,7 +1934,7 @@
    "track": 0,
    "min": [
     -672.0,
-    -960.0,
+    -928.0,
     3088.0
    ],
    "max": [
@@ -1951,7 +1955,7 @@
    "track": 0,
    "min": [
     -976.0,
-    -960.0,
+    -928.0,
     3088.0
    ],
    "max": [
@@ -2019,7 +2023,7 @@
    ],
    "max": [
     4608.0,
-    -912.0,
+    -928.0,
     3520.0
    ],
    "inflated": true,
@@ -2036,6 +2040,27 @@
    "min": [
     -1644.0,
     448.0,
+    -712.0
+   ],
+   "max": [
+    -1580.0,
+    640.0,
+    -376.0
+   ],
+   "inflated": true,
+   "destination": [
+    -420.549,
+    1249.0,
+    -2259.29
+   ],
+   "destination_yaw": 180.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    -1580.0,
+    528.0,
     -712.0
    ],
    "max": [
@@ -2060,6 +2085,27 @@
     -712.0
    ],
    "max": [
+    -1580.0,
+    640.0,
+    -376.0
+   ],
+   "inflated": true,
+   "destination": [
+    -409.0,
+    1801.0,
+    2076.0
+   ],
+   "destination_yaw": 0.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    -1580.0,
+    528.0,
+    -712.0
+   ],
+   "max": [
     -1452.0,
     640.0,
     -376.0
@@ -2076,12 +2122,18 @@
  "track_names": {
   "0": "main"
  },
+ "teleport_audit": {
+  "teleports": 9,
+  "pits": 9,
+  "filter_stack": 1,
+  "broken": []
+ },
  "respawn_volumes": [
   {
    "min": [
     -48.0,
     -3280.0,
-    -960.0
+    -928.0
    ],
    "max": [
     144.0,
@@ -2092,6 +2144,7 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     0.0,
@@ -2108,7 +2161,7 @@
    "min": [
     -352.0,
     -3280.0,
-    -960.0
+    -928.0
    ],
    "max": [
     -160.0,
@@ -2119,6 +2172,7 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -304.0,
@@ -2135,7 +2189,7 @@
    "min": [
     -672.0,
     -3280.0,
-    -960.0
+    -928.0
    ],
    "max": [
     -480.0,
@@ -2146,6 +2200,7 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -624.0,
@@ -2162,7 +2217,7 @@
    "min": [
     -976.0,
     -3280.0,
-    -960.0
+    -928.0
    ],
    "max": [
     -784.0,
@@ -2173,6 +2228,7 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -928.0,
@@ -2200,6 +2256,7 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -320.0,
@@ -2227,6 +2284,7 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -320.0,
@@ -2248,12 +2306,13 @@
    "max": [
     4608.0,
     2528.0,
-    -912.0
+    -928.0
    ],
    "inflated": true,
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -5152.0,
@@ -2273,6 +2332,34 @@
     448.0
    ],
    "max": [
+    -1580.0,
+    712.0,
+    640.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "stood": true,
+   "track": 0,
+   "original_min": [
+    -1560.0,
+    376.0,
+    536.0
+   ],
+   "original_max": [
+    -1536.0,
+    712.0,
+    552.0
+   ]
+  },
+  {
+   "min": [
+    -1580.0,
+    376.0,
+    528.0
+   ],
+   "max": [
     -1452.0,
     712.0,
     640.0
@@ -2281,6 +2368,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": true,
    "track": 0,
    "original_min": [
     -1560.0,
@@ -2300,6 +2388,34 @@
     448.0
    ],
    "max": [
+    -1580.0,
+    712.0,
+    640.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "stood": true,
+   "track": 0,
+   "original_min": [
+    -1560.0,
+    376.0,
+    536.0
+   ],
+   "original_max": [
+    -1536.0,
+    712.0,
+    552.0
+   ]
+  },
+  {
+   "min": [
+    -1580.0,
+    376.0,
+    528.0
+   ],
+   "max": [
     -1452.0,
     712.0,
     640.0
@@ -2308,6 +2424,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": true,
    "track": 0,
    "original_min": [
     -1560.0,

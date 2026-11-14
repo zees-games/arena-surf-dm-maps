@@ -402,7 +402,20 @@
   "displacement_index_offset": 641160,
   "displacement_index_count": 0,
   "playerclip_hulls": 0,
-  "prop_hulls": 0
+  "prop_hulls": 0,
+  "hull_kinds": {
+   "fence": [
+    12,
+    13,
+    14,
+    15
+   ],
+   "glass": [
+    28,
+    29,
+    30
+   ]
+  }
  },
  "skybox": null,
  "static_props": {
@@ -1000,6 +1013,11 @@
  ],
  "track_names": {
   "0": "main"
+ },
+ "teleport_audit": {
+  "teleports": 4,
+  "pits": 4,
+  "broken": []
  },
  "respawn_volumes": [
   {

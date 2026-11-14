@@ -1511,13 +1511,91 @@
   "displacement_index_offset": 2611372,
   "displacement_index_count": 45600,
   "playerclip_hulls": 7,
-  "prop_hulls": 0
+  "prop_hulls": 0,
+  "hull_kinds": {
+   "glass": [
+    51,
+    58,
+    60,
+    192,
+    221,
+    251,
+    252,
+    258,
+    272
+   ],
+   "clip": [
+    53,
+    56,
+    57,
+    91,
+    92,
+    93,
+    242,
+    243,
+    245,
+    248,
+    250,
+    307,
+    586,
+    587,
+    588,
+    594,
+    595,
+    596,
+    602,
+    603,
+    604,
+    610,
+    611,
+    612,
+    613,
+    614,
+    615,
+    616,
+    622,
+    623,
+    624,
+    630,
+    631,
+    632,
+    656,
+    678
+   ],
+   "fence": [
+    71,
+    139,
+    241,
+    244,
+    246,
+    247,
+    249,
+    365,
+    409,
+    453,
+    498
+   ],
+   "sky": [
+    571,
+    572,
+    573,
+    574,
+    575,
+    576,
+    577,
+    578,
+    579,
+    580
+   ]
+  }
  },
  "skybox": null,
  "static_props": {
   "placed": 22,
   "drawn": 0,
   "stock_models": 22,
+  "stock_standins": 0,
+  "stock_standins_estimated": 0,
   "surfaces": 0,
   "tinted": 0,
   "open_sky_lit": 0
@@ -2056,12 +2134,33 @@
    "kind": "RESPAWN",
    "track": 0,
    "min": [
-    -236.0,
+    -172.0,
     -1244.0,
     3648.0
    ],
    "max": [
     -44.0,
+    -1052.0,
+    3840.0
+   ],
+   "inflated": true,
+   "destination": [
+    -400.0,
+    32.0,
+    -144.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    -236.0,
+    -1236.0,
+    3648.0
+   ],
+   "max": [
+    -172.0,
     -1052.0,
     3840.0
    ],
@@ -2145,6 +2244,27 @@
     3648.0
    ],
    "max": [
+    172.0,
+    -1052.0,
+    3840.0
+   ],
+   "inflated": true,
+   "destination": [
+    448.0,
+    32.0,
+    -144.0
+   ],
+   "destination_yaw": -90.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    172.0,
+    -1236.0,
+    3648.0
+   ],
+   "max": [
     236.0,
     -1052.0,
     3840.0
@@ -2224,10 +2344,15 @@
  "track_names": {
   "0": "main"
  },
+ "teleport_audit": {
+  "teleports": 8,
+  "pits": 8,
+  "broken": []
+ },
  "respawn_volumes": [
   {
    "min": [
-    -236.0,
+    -172.0,
     -3840.0,
     -1244.0
    ],
@@ -2240,6 +2365,35 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": true,
+   "track": 0,
+   "original_min": [
+    -160.0,
+    -3776.0,
+    -1208.0
+   ],
+   "original_max": [
+    -120.0,
+    -3712.0,
+    -1088.0
+   ]
+  },
+  {
+   "min": [
+    -236.0,
+    -3840.0,
+    -1236.0
+   ],
+   "max": [
+    -172.0,
+    -3648.0,
+    -1052.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "stood": true,
    "track": 0,
    "original_min": [
     -160.0,
@@ -2267,6 +2421,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -2048.0,
@@ -2294,6 +2449,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -576.0,
@@ -2321,6 +2477,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -512.0,
@@ -2340,6 +2497,34 @@
     -1244.0
    ],
    "max": [
+    172.0,
+    -3648.0,
+    -1052.0
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "stood": true,
+   "track": 0,
+   "original_min": [
+    120.0,
+    -3776.0,
+    -1208.0
+   ],
+   "original_max": [
+    160.0,
+    -3712.0,
+    -1088.0
+   ]
+  },
+  {
+   "min": [
+    172.0,
+    -3840.0,
+    -1236.0
+   ],
+   "max": [
     236.0,
     -3648.0,
     -1052.0
@@ -2348,6 +2533,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": true,
    "track": 0,
    "original_min": [
     120.0,
@@ -2375,6 +2561,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     6608.0,
@@ -2402,6 +2589,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     6608.0,
@@ -2429,6 +2617,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     6208.0,

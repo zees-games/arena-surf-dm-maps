@@ -834,13 +834,142 @@
   "displacement_index_offset": 2087284,
   "displacement_index_count": 0,
   "playerclip_hulls": 0,
-  "prop_hulls": 0
+  "prop_hulls": 0,
+  "hull_kinds": {
+   "sky": [
+    72,
+    73,
+    74,
+    75,
+    76,
+    93,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    135,
+    136,
+    137,
+    138,
+    206,
+    207,
+    208,
+    209,
+    210
+   ],
+   "glass": [
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    84,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    149,
+    150,
+    151,
+    290,
+    291,
+    292,
+    293,
+    294,
+    295,
+    296,
+    297,
+    298,
+    299,
+    300,
+    301,
+    302,
+    303,
+    304,
+    943,
+    944,
+    945,
+    946,
+    948,
+    949,
+    950,
+    951,
+    952,
+    953,
+    954,
+    955,
+    1020,
+    1021,
+    1022,
+    1023,
+    1024,
+    1025,
+    1026,
+    1027,
+    1028
+   ],
+   "fence": [
+    119,
+    120,
+    121,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    139,
+    140,
+    211,
+    261,
+    262,
+    263,
+    264,
+    265,
+    281,
+    282,
+    283,
+    284,
+    285,
+    305
+   ],
+   "clip": [
+    239,
+    240,
+    947,
+    983,
+    1029
+   ]
+  }
  },
  "skybox": null,
  "static_props": {
   "placed": 0,
   "drawn": 0,
   "stock_models": 0,
+  "stock_standins": 0,
+  "stock_standins_estimated": 0,
   "surfaces": 0,
   "tinted": 0,
   "open_sky_lit": 0
@@ -1318,7 +1447,7 @@
    "min": [
     -865.0,
     -13827.0,
-    -13277.0
+    -13245.0
    ],
    "max": [
     -673.0,
@@ -1365,7 +1494,7 @@
    "max": [
     -345.0,
     -8813.0,
-    -2904.0
+    -2935.5
    ],
    "inflated": true,
    "destination": [
@@ -1381,12 +1510,12 @@
    "min": [
     -537.0,
     -9005.0,
-    -2967.0
+    -2935.5
    ],
    "max": [
     -345.0,
     -8813.0,
-    -2775.0
+    -2807.0
    ],
    "inflated": true,
    "destination": [
@@ -1402,7 +1531,7 @@
    "min": [
     -537.0,
     -8956.0,
-    -2839.0
+    -2807.0
    ],
    "max": [
     -345.0,
@@ -1505,9 +1634,72 @@
    "kind": "RESPAWN",
    "track": 0,
    "min": [
+    -3679.0,
+    -5513.5,
+    -1715.0
+   ],
+   "max": [
+    3681.0,
+    -5321.5,
+    2445.0
+   ],
+   "inflated": true,
+   "destination": [
+    -6503.0,
+    -3180.0,
+    -1022.0
+   ],
+   "destination_yaw": 0.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
     -3711.0,
     -5513.5,
     -4006.0
+   ],
+   "max": [
+    3714.0,
+    -5321.5,
+    -1715.0
+   ],
+   "inflated": true,
+   "destination": [
+    -6503.0,
+    -3180.0,
+    -1022.0
+   ],
+   "destination_yaw": 0.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    -3711.0,
+    -5477.0,
+    -1715.0
+   ],
+   "max": [
+    -3679.0,
+    -5321.5,
+    2445.0
+   ],
+   "inflated": true,
+   "destination": [
+    -6503.0,
+    -3180.0,
+    -1022.0
+   ],
+   "destination_yaw": 0.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    3681.0,
+    -5477.0,
+    -1715.0
    ],
    "max": [
     3714.0,
@@ -1596,7 +1788,7 @@
    "max": [
     -673.0,
     -13635.0,
-    -13470.0
+    -13501.5
    ],
    "inflated": true,
    "destination": [
@@ -1612,12 +1804,12 @@
    "min": [
     -865.0,
     -13827.0,
-    -13533.0
+    -13501.5
    ],
    "max": [
     -673.0,
     -13635.0,
-    -13341.0
+    -13373.0
    ],
    "inflated": true,
    "destination": [
@@ -1633,12 +1825,12 @@
    "min": [
     -865.0,
     -13778.0,
-    -13405.0
+    -13373.0
    ],
    "max": [
     -673.0,
     -13586.0,
-    -13213.0
+    -13245.0
    ],
    "inflated": true,
    "destination": [
@@ -1654,7 +1846,7 @@
    "min": [
     864.0,
     -13827.0,
-    -13405.0
+    -13373.0
    ],
    "max": [
     1056.0,
@@ -1680,7 +1872,7 @@
    "max": [
     1056.0,
     -13635.0,
-    -13341.0
+    -13373.0
    ],
    "inflated": true,
    "destination": [
@@ -1693,6 +1885,11 @@
  ],
  "track_names": {
   "0": "main"
+ },
+ "teleport_audit": {
+  "teleports": 23,
+  "pits": 23,
+  "broken": []
  },
  "respawn_volumes": [
   {
@@ -1710,6 +1907,7 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -6038.51,
@@ -1737,6 +1935,7 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -7368.0,
@@ -1764,6 +1963,7 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -6061.469999999999,
@@ -1791,6 +1991,7 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -7340.360000000001,
@@ -1818,6 +2019,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -5915.74,
@@ -1838,13 +2040,14 @@
    ],
    "max": [
     -673.0,
-    13277.0,
+    13245.0,
     -13635.0
    ],
    "inflated": true,
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -788.0,
@@ -1872,6 +2075,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -6705.74,
@@ -1887,7 +2091,7 @@
   {
    "min": [
     -537.0,
-    2904.0,
+    2935.5,
     -9005.0
    ],
    "max": [
@@ -1899,6 +2103,7 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -460.0,
@@ -1914,18 +2119,19 @@
   {
    "min": [
     -537.0,
-    2775.0,
+    2807.0,
     -9005.0
    ],
    "max": [
     -345.0,
-    2967.0,
+    2935.5,
     -8813.0
    ],
    "inflated": true,
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -460.0,
@@ -1946,13 +2152,14 @@
    ],
    "max": [
     -345.0,
-    2839.0,
+    2807.0,
     -8764.0
    ],
    "inflated": true,
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -460.0,
@@ -1980,6 +2187,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -9693.0,
@@ -2007,6 +2215,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     3723.0,
@@ -2034,6 +2243,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -3711.0,
@@ -2061,6 +2271,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -9693.0,
@@ -2075,8 +2286,36 @@
   },
   {
    "min": [
+    -3679.0,
+    -2445.0,
+    -5513.5
+   ],
+   "max": [
+    3681.0,
+    1715.0,
+    -5321.5
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "stood": true,
+   "track": 0,
+   "original_min": [
     -3711.0,
     -2445.0,
+    -5455.0
+   ],
+   "original_max": [
+    3714.0,
+    4006.0,
+    -5380.0
+   ]
+  },
+  {
+   "min": [
+    -3711.0,
+    1715.0,
     -5513.5
    ],
    "max": [
@@ -2088,6 +2327,63 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": true,
+   "track": 0,
+   "original_min": [
+    -3711.0,
+    -2445.0,
+    -5455.0
+   ],
+   "original_max": [
+    3714.0,
+    4006.0,
+    -5380.0
+   ]
+  },
+  {
+   "min": [
+    -3711.0,
+    -2445.0,
+    -5477.0
+   ],
+   "max": [
+    -3679.0,
+    1715.0,
+    -5321.5
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "stood": true,
+   "track": 0,
+   "original_min": [
+    -3711.0,
+    -2445.0,
+    -5455.0
+   ],
+   "original_max": [
+    3714.0,
+    4006.0,
+    -5380.0
+   ]
+  },
+  {
+   "min": [
+    3681.0,
+    -2445.0,
+    -5477.0
+   ],
+   "max": [
+    3714.0,
+    1715.0,
+    -5321.5
+   ],
+   "inflated": true,
+   "hung": false,
+   "cleared": false,
+   "trimmed": false,
+   "stood": true,
    "track": 0,
    "original_min": [
     -3711.0,
@@ -2115,6 +2411,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -2240.0,
@@ -2142,6 +2439,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -3711.0,
@@ -2169,6 +2467,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -3711.0,
@@ -2184,7 +2483,7 @@
   {
    "min": [
     -865.0,
-    13470.0,
+    13501.5,
     -13827.0
    ],
    "max": [
@@ -2196,6 +2495,7 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -788.0,
@@ -2211,18 +2511,19 @@
   {
    "min": [
     -865.0,
-    13341.0,
+    13373.0,
     -13827.0
    ],
    "max": [
     -673.0,
-    13533.0,
+    13501.5,
     -13635.0
    ],
    "inflated": true,
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -788.0,
@@ -2238,18 +2539,19 @@
   {
    "min": [
     -865.0,
-    13213.0,
+    13245.0,
     -13778.0
    ],
    "max": [
     -673.0,
-    13405.0,
+    13373.0,
     -13586.0
    ],
    "inflated": true,
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -788.0,
@@ -2270,13 +2572,14 @@
    ],
    "max": [
     1056.0,
-    13405.0,
+    13373.0,
     -13635.0
    ],
    "inflated": true,
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     941.0,
@@ -2292,7 +2595,7 @@
   {
    "min": [
     864.0,
-    13341.0,
+    13373.0,
     -13827.0
    ],
    "max": [
@@ -2304,6 +2607,7 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     941.0,

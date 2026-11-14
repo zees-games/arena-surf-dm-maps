@@ -390,20 +390,64 @@
   }
  ],
  "collision": {
-  "hull_count": 750,
+  "hull_count": 767,
   "hull_offset": 1843040,
-  "displacement_vertex_offset": 1924676,
+  "displacement_vertex_offset": 1925560,
   "displacement_vertex_count": 0,
-  "displacement_index_offset": 1924676,
+  "displacement_index_offset": 1925560,
   "displacement_index_count": 0,
   "playerclip_hulls": 10,
-  "prop_hulls": 0
+  "prop_hulls": 0,
+  "hull_kinds": {
+   "clip": [
+    2,
+    194,
+    195,
+    228,
+    232,
+    234,
+    235,
+    275,
+    341,
+    343,
+    356,
+    386,
+    404,
+    405,
+    406,
+    407,
+    408,
+    409,
+    421,
+    621,
+    622,
+    623,
+    624,
+    625,
+    763,
+    764,
+    766
+   ],
+   "glass": [
+    436,
+    438,
+    439,
+    627,
+    629,
+    630,
+    743,
+    744,
+    745
+   ]
+  }
  },
  "skybox": null,
  "static_props": {
   "placed": 27,
   "drawn": 0,
   "stock_models": 27,
+  "stock_standins": 0,
+  "stock_standins_estimated": 0,
   "surfaces": 0,
   "tinted": 0,
   "open_sky_lit": 0
@@ -1137,7 +1181,7 @@
    "track": 0,
    "min": [
     3473.0,
-    -311.0,
+    -272.0,
     -881.0
    ],
    "max": [
@@ -1288,7 +1332,7 @@
     -4172.0
    ],
    "max": [
-    -7325.5,
+    -7414.0,
     -4724.5,
     -3980.0
    ],
@@ -1305,7 +1349,7 @@
    "track": 0,
    "min": [
     -6593.0,
-    11048.5,
+    11111.0,
     15149.0
    ],
    "max": [
@@ -1330,7 +1374,7 @@
     -359.5
    ],
    "max": [
-    -1764.5,
+    -1777.0,
     3964.65,
     -167.5
    ],
@@ -1346,12 +1390,12 @@
    "kind": "RESPAWN",
    "track": 0,
    "min": [
-    -1789.5,
+    -1777.0,
     3772.65,
     -359.5
    ],
    "max": [
-    -1597.5,
+    -1608.5,
     3964.65,
     -167.5
    ],
@@ -1367,7 +1411,7 @@
    "kind": "RESPAWN",
    "track": 0,
    "min": [
-    -1453.5,
+    -1440.5,
     3772.65,
     -359.5
    ],
@@ -1388,12 +1432,12 @@
    "kind": "RESPAWN",
    "track": 0,
    "min": [
-    -1619.5,
+    -1608.5,
     3772.65,
     -359.5
    ],
    "max": [
-    -1427.5,
+    -1440.5,
     3964.65,
     -167.5
    ],
@@ -1411,12 +1455,12 @@
    "min": [
     -9060.5,
     -4942.351000000001,
-    -4746.5
+    -4733.5
    ],
    "max": [
     -8868.5,
     -4750.351000000001,
-    -4554.5
+    -4565.5
    ],
    "inflated": true,
    "destination": [
@@ -1437,7 +1481,7 @@
    "max": [
     -8868.5,
     -4750.35,
-    -4720.5
+    -4733.5
    ],
    "inflated": true,
    "destination": [
@@ -1453,12 +1497,12 @@
    "min": [
     -9060.5,
     -4942.351000000001,
-    -4576.5
+    -4565.5
    ],
    "max": [
     -8868.5,
     -4750.351000000001,
-    -4384.5
+    -4397.0
    ],
    "inflated": true,
    "destination": [
@@ -1474,7 +1518,7 @@
    "min": [
     -9060.5,
     -4942.351000000001,
-    -4409.5
+    -4397.0
    ],
    "max": [
     -8868.5,
@@ -1562,7 +1606,7 @@
    ],
    "max": [
     -8376.0,
-    -4935.0,
+    -4957.0,
     -5036.0
    ],
    "inflated": true,
@@ -1599,7 +1643,7 @@
    "track": 0,
    "min": [
     -8524.0,
-    -5117.0,
+    -4957.0,
     -5299.0
    ],
    "max": [
@@ -1620,7 +1664,7 @@
    "track": 0,
    "min": [
     -9584.0,
-    10890.0,
+    11010.0,
     9764.0
    ],
    "max": [
@@ -1641,7 +1685,7 @@
    "track": 0,
    "min": [
     5017.0,
-    10890.0,
+    11010.0,
     9764.0
    ],
    "max": [
@@ -1662,7 +1706,7 @@
    "track": 0,
    "min": [
     6237.0,
-    11048.5,
+    11111.0,
     14735.0
    ],
    "max": [
@@ -1682,6 +1726,11 @@
  "track_names": {
   "0": "main"
  },
+ "teleport_audit": {
+  "teleports": 39,
+  "pits": 39,
+  "broken": []
+ },
  "respawn_volumes": [
   {
    "min": [
@@ -1698,6 +1747,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     2976.0,
@@ -1725,6 +1775,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -6552.0,
@@ -1752,6 +1803,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     2558.0,
@@ -1779,6 +1831,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -2556.0,
@@ -1806,6 +1859,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -7704.0,
@@ -1833,6 +1887,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -7705.0,
@@ -1860,6 +1915,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -3110.0,
@@ -1887,6 +1943,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     2977.0,
@@ -1914,6 +1971,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -3097.0,
@@ -1941,6 +1999,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     132.0,
@@ -1968,6 +2027,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -1003.0,
@@ -1995,6 +2055,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -11561.0,
@@ -2022,6 +2083,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -11561.0,
@@ -2049,6 +2111,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     3457.0,
@@ -2076,6 +2139,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     2219.0,
@@ -2103,6 +2167,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     3457.0,
@@ -2130,6 +2195,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -9354.0,
@@ -2157,6 +2223,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     3473.0,
@@ -2173,7 +2240,7 @@
    "min": [
     3473.0,
     -158.0,
-    -311.0
+    -272.0
    ],
    "max": [
     7579.0,
@@ -2184,6 +2251,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": true,
    "track": 0,
    "original_min": [
     3473.0,
@@ -2211,6 +2279,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     3473.0,
@@ -2238,6 +2307,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     4473.0,
@@ -2265,6 +2335,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -7414.0,
@@ -2292,6 +2363,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -5250.0,
@@ -2319,6 +2391,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -8358.0,
@@ -2346,6 +2419,7 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -9547.0,
@@ -2365,7 +2439,7 @@
     -4916.5
    ],
    "max": [
-    -7325.5,
+    -7414.0,
     4172.0,
     -4724.5
    ],
@@ -2373,6 +2447,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -7429.0,
@@ -2389,7 +2464,7 @@
    "min": [
     -6593.0,
     -15341.0,
-    11048.5
+    11111.0
    ],
    "max": [
     -6401.0,
@@ -2400,6 +2475,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -6561.0,
@@ -2419,7 +2495,7 @@
     3772.65
    ],
    "max": [
-    -1764.5,
+    -1777.0,
     359.5,
     3964.65
    ],
@@ -2427,6 +2503,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -1881.0,
@@ -2441,12 +2518,12 @@
   },
   {
    "min": [
-    -1789.5,
+    -1777.0,
     167.5,
     3772.65
    ],
    "max": [
-    -1597.5,
+    -1608.5,
     359.5,
     3964.65
    ],
@@ -2454,6 +2531,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -1714.0,
@@ -2468,7 +2546,7 @@
   },
   {
    "min": [
-    -1453.5,
+    -1440.5,
     167.5,
     3772.65
    ],
@@ -2481,6 +2559,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -1378.0,
@@ -2495,12 +2574,12 @@
   },
   {
    "min": [
-    -1619.5,
+    -1608.5,
     167.5,
     3772.65
    ],
    "max": [
-    -1427.5,
+    -1440.5,
     359.5,
     3964.65
    ],
@@ -2508,6 +2587,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -1544.0,
@@ -2523,18 +2603,19 @@
   {
    "min": [
     -9060.5,
-    4554.5,
+    4565.5,
     -4942.351000000001
    ],
    "max": [
     -8868.5,
-    4746.5,
+    4733.5,
     -4750.351000000001
    ],
    "inflated": true,
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -8982.0,
@@ -2550,7 +2631,7 @@
   {
    "min": [
     -9060.5,
-    4720.5,
+    4733.5,
     -4942.35
    ],
    "max": [
@@ -2562,6 +2643,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -8982.0,
@@ -2577,18 +2659,19 @@
   {
    "min": [
     -9060.5,
-    4384.5,
+    4397.0,
     -4942.351000000001
    ],
    "max": [
     -8868.5,
-    4576.5,
+    4565.5,
     -4750.351000000001
    ],
    "inflated": true,
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -8982.0,
@@ -2609,13 +2692,14 @@
    ],
    "max": [
     -8868.5,
-    4409.5,
+    4397.0,
     -4750.351000000001
    ],
    "inflated": true,
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -8982.0,
@@ -2643,6 +2727,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -11853.0,
@@ -2670,6 +2755,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -9786.0,
@@ -2697,6 +2783,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -9453.0,
@@ -2718,12 +2805,13 @@
    "max": [
     -8376.0,
     5811.0,
-    -4935.0
+    -4957.0
    ],
    "inflated": true,
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -8834.0,
@@ -2751,6 +2839,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -10810.0,
@@ -2767,7 +2856,7 @@
    "min": [
     -8524.0,
     5107.0,
-    -5117.0
+    -4957.0
    ],
    "max": [
     -8332.0,
@@ -2778,6 +2867,7 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     -8480.0,
@@ -2794,7 +2884,7 @@
    "min": [
     -9584.0,
     -15438.0,
-    10890.0
+    11010.0
    ],
    "max": [
     -5098.0,
@@ -2805,6 +2895,7 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": true,
    "track": 0,
    "original_min": [
     -9584.0,
@@ -2821,7 +2912,7 @@
    "min": [
     5017.0,
     -15438.0,
-    10890.0
+    11010.0
    ],
    "max": [
     9503.0,
@@ -2832,6 +2923,7 @@
    "hung": true,
    "cleared": false,
    "trimmed": false,
+   "stood": true,
    "track": 0,
    "original_min": [
     5017.0,
@@ -2848,7 +2940,7 @@
    "min": [
     6237.0,
     -14927.0,
-    11048.5
+    11111.0
    ],
    "max": [
     6429.0,
@@ -2859,6 +2951,7 @@
    "hung": false,
    "cleared": false,
    "trimmed": false,
+   "stood": false,
    "track": 0,
    "original_min": [
     6269.0,
@@ -4009,6 +4102,308 @@
    ],
    "targetname": "",
    "filtername": ""
+  }
+ ],
+ "train_movers": [
+  {
+   "name": "laser01train01",
+   "model": "*3",
+   "origin": [
+    -11617.0,
+    3876.0,
+    -4930.0
+   ],
+   "min": [
+    -3.9997501373291016,
+    -4.000821590423584,
+    -4.000261306762695
+   ],
+   "max": [
+    3.9996185302734375,
+    4.000599384307861,
+    4.000412940979004
+   ],
+   "speed": 0.0,
+   "start_speed": 100.0,
+   "damage": 0.0,
+   "solid": false,
+   "loop": true,
+   "path": [
+    {
+     "name": "laser01path01",
+     "origin": [
+      -11617.0,
+      3876.0,
+      -4930.0
+     ]
+    },
+    {
+     "name": "laser01path02",
+     "origin": [
+      -11617.0,
+      5182.0,
+      -4930.0
+     ]
+    }
+   ]
+  },
+  {
+   "name": "laser02train01",
+   "model": "*4",
+   "origin": [
+    -9970.0,
+    3876.0,
+    -4930.0
+   ],
+   "min": [
+    -3.9997501373291016,
+    -4.000821590423584,
+    -4.000261306762695
+   ],
+   "max": [
+    4.000925540924072,
+    4.000586986541748,
+    4.000412940979004
+   ],
+   "speed": 0.0,
+   "start_speed": 100.0,
+   "damage": 0.0,
+   "solid": false,
+   "loop": true,
+   "path": [
+    {
+     "name": "laser02path01",
+     "origin": [
+      -9970.0,
+      3876.0,
+      -4930.0
+     ]
+    },
+    {
+     "name": "laser02path02",
+     "origin": [
+      -9970.0,
+      5182.0,
+      -4930.0
+     ]
+    }
+   ]
+  },
+  {
+   "name": "laser11train01",
+   "model": "*5",
+   "origin": [
+    -11617.0,
+    3876.0,
+    -4967.0
+   ],
+   "min": [
+    -3.9997501373291016,
+    -4.000821590423584,
+    -4.000261306762695
+   ],
+   "max": [
+    4.00039005279541,
+    4.000586986541748,
+    4.000412940979004
+   ],
+   "speed": 70.0,
+   "start_speed": 100.0,
+   "damage": 0.0,
+   "solid": false,
+   "loop": true,
+   "path": [
+    {
+     "name": "laser11path01",
+     "origin": [
+      -11617.0,
+      3876.0,
+      -4967.0
+     ]
+    },
+    {
+     "name": "laser11path02",
+     "origin": [
+      -11617.0,
+      5182.0,
+      -4967.0
+     ]
+    }
+   ]
+  },
+  {
+   "name": "laser22train01",
+   "model": "*6",
+   "origin": [
+    -9970.0,
+    3876.0,
+    -4967.0
+   ],
+   "min": [
+    -3.9997501373291016,
+    -4.000778675079346,
+    -4.000261306762695
+   ],
+   "max": [
+    3.9996490478515625,
+    4.000599384307861,
+    4.000412940979004
+   ],
+   "speed": 0.0,
+   "start_speed": 100.0,
+   "damage": 0.0,
+   "solid": false,
+   "loop": true,
+   "path": [
+    {
+     "name": "laser22path01",
+     "origin": [
+      -9970.0,
+      3876.0,
+      -4967.0
+     ]
+    },
+    {
+     "name": "laser22path02",
+     "origin": [
+      -9970.0,
+      5182.0,
+      -4967.0
+     ]
+    }
+   ]
+  },
+  {
+   "name": "train_1",
+   "model": "*69",
+   "origin": [
+    -8778.5,
+    5202.5,
+    -4868.0
+   ],
+   "min": [
+    -55.5,
+    -55.5,
+    -1.0
+   ],
+   "max": [
+    55.5,
+    55.5,
+    1.0
+   ],
+   "speed": 70.0,
+   "start_speed": 100.0,
+   "damage": 0.0,
+   "solid": true,
+   "loop": true,
+   "path": [
+    {
+     "name": "track_a1",
+     "origin": [
+      -8778.5,
+      5202.5,
+      -4877.0
+     ],
+     "speed": 70.0
+    },
+    {
+     "name": "track_a2",
+     "origin": [
+      -8431.5,
+      5202.5,
+      -4877.0
+     ],
+     "speed": 70.0
+    }
+   ]
+  },
+  {
+   "name": "train_2",
+   "model": "*70",
+   "origin": [
+    -8431.5,
+    5424.5,
+    -4868.0
+   ],
+   "min": [
+    -55.5,
+    -55.5,
+    -1.0
+   ],
+   "max": [
+    55.5,
+    55.5,
+    1.0
+   ],
+   "speed": 110.0,
+   "start_speed": 110.0,
+   "damage": 0.0,
+   "solid": true,
+   "loop": true,
+   "path": [
+    {
+     "name": "track_b2",
+     "origin": [
+      -8431.5,
+      5424.5,
+      -4877.0
+     ],
+     "speed": 110.0
+    },
+    {
+     "name": "track_b1",
+     "origin": [
+      -8778.5,
+      5424.5,
+      -4877.0
+     ],
+     "speed": 110.0
+    }
+   ]
+  },
+  {
+   "name": "train_3",
+   "model": "*71",
+   "origin": [
+    -8431.5,
+    5644.5,
+    -4868.0
+   ],
+   "min": [
+    -55.5,
+    -55.5,
+    -1.0
+   ],
+   "max": [
+    55.5,
+    55.5,
+    1.0
+   ],
+   "speed": 70.0,
+   "start_speed": 100.0,
+   "damage": 0.0,
+   "solid": true,
+   "loop": true,
+   "path": [
+    {
+     "name": "track_c1",
+     "origin": [
+      -8778.5,
+      5645.0,
+      -4877.0
+     ],
+     "speed": 70.0
+    },
+    {
+     "name": "track_c2",
+     "origin": [
+      -8431.5,
+      5645.0,
+      -4877.0
+     ],
+     "speed": 70.0
+    }
+   ]
   }
  ],
  "author": "-)RR(-ArchAngel -)RR(-Lethalis",
